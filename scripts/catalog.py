@@ -12,6 +12,8 @@ CATEGORY_MAP = {c['id']: c for c in CATEGORIES}
 VALID_CATEGORIES = set(CATEGORY_MAP)
 USERNAME = re.compile(r'@[A-Za-z][A-Za-z0-9_]{3,31}\Z')
 ID = re.compile(r'[a-z0-9_]{1,64}\Z')
+START_PAYLOAD = re.compile(r'[A-Za-z0-9_-]{1,64}\Z')
+REFERRAL_DISCLOSURE = '通过此入口使用，站长可能获得邀请奖励。'
 
 
 def load_site():
@@ -27,18 +29,31 @@ def display_name(bot):
     return bot.get('name') or (bot.get('fetch') or {}).get('title') or bot['username'].lstrip('@')
 
 
+def referral_start(bot):
+    """An optional, explicit Telegram payload, never a URL or query string."""
+    payload = bot.get('referralStart', '')
+    if not isinstance(payload, str) or (payload and not START_PAYLOAD.fullmatch(payload)):
+        raise ValueError('referralStart must be empty or 1-64 characters: A-Z, a-z, 0-9, _ and -')
+    return payload
+
+
 def telegram_url(bot, site=None, channel=None):
     """Build the destination from a validated username, never an arbitrary href."""
     username = bot.get('username', '')
     if not isinstance(username, str) or not USERNAME.fullmatch(username):
         raise ValueError('Invalid Telegram username')
     url = 'https://t.me/' + username[1:]
-    if site and channel and bot['id'] == site.get('primaryBotId') and site.get('trackingEnabled'):
+    payload = referral_start(bot)
+    owned = site and bot['id'] == site.get('primaryBotId')
+    if owned and payload:
+        raise ValueError('The primary bot must use site.channels, not referralStart')
+    if owned and channel and site.get('trackingEnabled'):
         if not site.get('startCompatibilityConfirmed'):
             raise ValueError('Confirm start compatibility before enabling tracking')
         payload = site.get('channels', {}).get(channel)
-        if not isinstance(payload, str) or not re.fullmatch(r'nav_v1_[a-z0-9_]{1,57}', payload) or len(payload) > 64:
+        if not isinstance(payload, str) or not START_PAYLOAD.fullmatch(payload):
             raise ValueError('Invalid channel payload')
+    if payload:
         url += '?start=' + payload
     return url
 
@@ -88,7 +103,13 @@ def seed_errors(data):
                     errors.append(f'{label} duplicate username {username}')
                 usernames.add(key)
                 if bot.get('url') != 'https://t.me/' + username[1:]:
-                    errors.append(f'{label} url must match username and use https://t.me/')
+                    errors.append(f'{label} url must match username and use https://t.me/; put the invitation payload in referralStart, not url')
+        try:
+            payload = referral_start(bot)
+            if placeholder and payload:
+                errors.append(f'{label} referralStart requires a Telegram username and url')
+        except ValueError as exc:
+            errors.append(f'{label} {exc}')
         if not isinstance(bot.get('category'), str) or bot['category'] not in VALID_CATEGORIES:
             errors.append(f'{label} invalid category')
         sub = bot.get('subsection')
@@ -158,6 +179,8 @@ def site_errors(site, data, production=False):
     primary = next((b for b in data.get('bots', []) if b.get('id') == site.get('primaryBotId')), None)
     if not primary or is_hidden(primary) or not primary.get('url'):
         errors.append('primaryBotId must reference a visible bot')
+    elif primary.get('referralStart'):
+        errors.append('The primary bot must use site.channels, not referralStart')
     for field in ('trackingEnabled', 'startCompatibilityConfirmed'):
         if not isinstance(site.get(field), bool):
             errors.append(f'{field} must be boolean')
@@ -169,8 +192,7 @@ def site_errors(site, data, production=False):
         errors.append('Missing channel mappings')
     else:
         values = list(channels.values())
-        if any(not isinstance(v, str) or len(v) > 64 or not re.fullmatch(r'nav_v1_[a-z0-9_]+', v) for v in values):
+        if any(not isinstance(v, str) or not START_PAYLOAD.fullmatch(v) for v in values):
             errors.append('Invalid start channel payload')
-        elif len(values) != len(set(values)):
-            errors.append('Channel payloads must be unique')
+        # Several placements may intentionally share one backend source code.
     return errors

@@ -702,6 +702,18 @@ a:hover {
   flex:1;
 }
 
+.card-badge.badge-referral {
+  color:#805222;
+  background:#fff2dd;
+}
+
+.referral-note {
+  color:#805222;
+  font-size:11px;
+  line-height:1.8;
+  margin:-5px 0 13px;
+}
+
 .card-tags {
   display:flex;
   flex-wrap:wrap;

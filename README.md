@@ -11,7 +11,7 @@
 ## 站长推荐
 
 <!-- AUTO:bots-primary:start -->
-**站长开发：DK 搜索机器人** [@dk_searcha_bot](https://t.me/dk_searcha_bot)
+**站长开发：DK 资源搜索机器人** [@dk_searcha_bot](https://t.me/dk_searcha_bot?start=nav_0)
 
 通过关键词搜索 Telegram 群组、频道及相关资源，也支持按特定口令提取或搜索内容。
 
@@ -29,11 +29,13 @@
 
 以下条目覆盖常用场景，不是质量或安全性排名。精选同时保留在所属分类中。
 
+标注「邀请推广」的入口可能为站长带来邀请奖励，实际是否结算取决于对应机器人的规则；点击不等于有效邀请。
+
 <!-- AUTO:bots-featured:start -->
 | 名称 | 链接 | 一句话用途 | 月活 |
 |------|------|------------|------|
 | BotFather（Telegram 认证） | [@BotFather](https://t.me/BotFather) | 官方入口：创建和管理你自己的机器人 | 约 755.3 万/月 |
-| 极搜🔍中文搜索@JISO | [@jiso](https://t.me/jiso) | 搜索群、频道、视频、音乐、电影、新闻，综合能力强 | 约 37.2 万/月 |
+| GroupHelpBot | [@GroupHelpBot](https://t.me/GroupHelpBot) | 最全面的机器人，可帮助你轻松、安全地管理群组！ | 约 236.3 万/月 |
 | Combot | [@combot](https://t.me/combot) | 功能全面的群管理机器人 | 约 80.8 万/月 |
 | RSS屋 | [@RSSWBot](https://t.me/RSSWBot) | 全文 RSS 订阅 + 关键词过滤 | — |
 | 多平台解析下载机器人 | [@freedlvideo_bot](https://t.me/freedlvideo_bot) | 支持 X（Twitter）、YouTube、B站、抖音、小红书、Instagram 等 | — |
@@ -48,21 +50,12 @@
 <!-- AUTO:bots-category:search:start -->
 | 名称 | 链接 | 核心功能 | 月活 |
 |------|------|----------|------|
-| 极搜🔍中文搜索@JISO | [@jiso](https://t.me/jiso) | 搜索群、频道、视频、音乐、电影、新闻，综合能力强 | 约 37.2 万/月 |
-| SOSO搜搜 | [@soso](https://t.me/soso) | 关键词搜索群组、频道、视频 | 约 98.0 万/月 |
+| DK 资源搜索机器人 | [@dk_searcha_bot](https://t.me/dk_searcha_bot?start=nav_0) | 通过关键词搜索 Telegram 群组、频道及相关资源，也支持按特定口令提取或搜索内容。 | — |
+| SOSO搜搜 | [@soso](https://t.me/soso?start=a_5666684493)（邀请推广，站长可能获得邀请奖励） | 关键词搜索群组、频道、视频 | 约 98.0 万/月 |
 | 一起搜电影 | [@sotv](https://t.me/sotv) | 影视搜索神器，支持群内使用 | 约 6.3 万/月 |
 | 阿里云盘搜索机器人🤖️ | [@aliyunshare_bot](https://t.me/aliyunshare_bot) | 阿里云盘资源搜索与投稿 | — |
 | 阿里云盘资源 Bot | [@AliYunPanBot](https://t.me/AliYunPanBot) | 阿里云盘资源搜索与投稿 | — |
 | Video Search for YouTube | [@youtube](https://t.me/youtube) | YouTube 搜索 | 约 22.5 万/月 |
-| 🐴 神马搜索 🔍 | [@smss](https://t.me/smss) | 发送关键词即可搜索关联群组与频道资源，适合中文用户发现兴趣社区和内容聚合。 | 约 60.9 万/月 |
-| 🔍超级索引 @CJSY | [@CJSY](https://t.me/CJSY) | 超级索引支持多维度搜索群组频道与媒体，适用于中文用户高效发现 Telegram 资源。 | 约 87.8 万/月 |
-| 搜啦🔍资源搜索机器人 @soula | [@soula](https://t.me/soula) | 搜啦机器人通过关键词检索群和频道内容，帮助用户快速找到感兴趣的中文社区。 | 约 2.4 万/月 |
-| i快搜-🔍强大的搜索引擎 | [@ikuaisobot](https://t.me/ikuaisobot) | 快搜索引机器人专注中文群组发现，输入关键词即可定位相关 Telegram 资源入口。 | — |
-| aiso中文搜索🔍 | [@aiso](https://t.me/aiso) | 简易搜索入口，支持发送词语查找群组与公开内容，适合新手用户快速上手。 | 约 1.6 万/月 |
-| SE-索引秘书 | [@zh_secretary_bot](https://t.me/zh_secretary_bot) | 中文秘书类搜索工具，协助索引和发现各类 Telegram 群组与频道资源。 | — |
-| 群组大全\_Bot | [@qunzudaquan_bot](https://t.me/qunzudaquan_bot) | 群组大全索引机器人，提供大量中文群组目录搜索，方便用户按需加入社群。 | — |
-| TGCN-群组频道狐🦊(不是猫) | [@zh_groups_bot](https://t.me/zh_groups_bot) | 中文群组搜索机器人，专注于推荐和发现各类主题的 Telegram 群聊资源。 | — |
-| DK 搜索机器人 | [@dk_searcha_bot](https://t.me/dk_searcha_bot) | 通过关键词搜索 Telegram 群组、频道及相关资源，也支持按特定口令提取或搜索内容。 | — |
 <!-- AUTO:bots-category:search:end -->
 
 ### Telegram 群组管理机器人
@@ -100,6 +93,7 @@
 
 | 名称 | 链接 | 核心功能 | 月活 |
 |------|------|----------|------|
+| GroupHelpBot | [@GroupHelpBot](https://t.me/GroupHelpBot) | 最全面的机器人，可帮助你轻松、安全地管理群组！ | 约 236.3 万/月 |
 | Combot | [@combot](https://t.me/combot) | 功能全面的群管理机器人 | 约 80.8 万/月 |
 | 统计秘书 | [@FengStatsBot](https://t.me/FengStatsBot) | 发言统计、活跃度分析 | — |
 | SangMata | [@SangMata_BOT](https://t.me/SangMata_BOT) | 记录群内用户改名历史 | 约 14.8 万/月 |
@@ -242,7 +236,7 @@ python -m http.server 8000 --directory docs --bind 127.0.0.1
 
 机器人数据统一维护于 `data/bots.json`，请勿直接手改生成的表格和网站。新增或修改后运行生成与校验命令。字段和收录规则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
-自有机器人入口由 `data/site.json` 指定。当前不启用渠道 start 参数；兼容口令逻辑后再启用，避免影响提取功能。导航站与机器人后端相互独立。
+自有机器人入口由 `data/site.json` 指定，已按站长提供的后台格式使用 `start=nav_0` 统计导航站来源。第三方邀请参数填写在条目的 `referralStart` 字段，并标注「邀请推广」。导航站与机器人后端相互独立。
 
 ## 来源和许可证
 

@@ -30,8 +30,8 @@ python -m http.server 8000 --directory docs --bind 127.0.0.1
 | `publicUrl` | 当前留空；填写正式 HTTPS 地址，必须以 `/` 结束 |
 | `repositoryUrl` | 当前留空；填写自己的 GitHub 仓库，网站才显示代码与反馈入口 |
 | `primaryBotId` | `dk_searcha_bot`，关联目录中的同一条数据 |
-| `trackingEnabled` | 当前为 false，普通链接不附加 start 参数 |
-| `startCompatibilityConfirmed` | 当前为 false，确认机器人兼容性后才能开启渠道参数 |
+| `trackingEnabled` | 当前为 true，自有机器人入口附加后台支持的 start 来源码 |
+| `startCompatibilityConfirmed` | 当前为 true，依据站长提供的 `nav_0` 格式配置 |
 
 `publicUrl` 留空时构建本地预览：页面 noindex、robots 禁止抓取、sitemap 为空；不会把原站或虚构域名写成 canonical。正式部署必须使用 `--production`，它会拒绝空地址。不要在公开上线后继续保留空配置。
 
@@ -73,9 +73,27 @@ node --test tests/search.test.cjs
 
 ## 渠道参数和效果统计
 
-已预留 `nav_v1_home_featured`（首屏推荐）、`nav_v1_home_catalog`（首页目录）、`nav_v1_search_results`（搜索结果）、`nav_v1_cat_search`（搜索专题）、`nav_v1_guide_search`（教程）、`nav_v1_gh_readme`（README）。
+入口映射保存在 `data/site.json` 的 `channels`：`home_featured`（首屏推荐）、`home_catalog`（首页目录）、`search_results`（搜索结果）、`cat_search`（搜索专题）、`guide_search`（教程）、`gh_readme`（README）。
 
-启用前，在机器人项目确认：只把白名单完整值识别成渠道；其他 start 继续走现有口令逻辑；测试老口令、无参数、合法渠道与未知参数。完成后再把两个开关都改为 true。
+当前所有入口均使用站长提供的 `nav_0`，实际生成 `https://t.me/dk_searcha_bot?start=nav_0`。两个开关已开启。这会统计整个导航站来源，暂不区分页面；后台支持更多来源码后可逐项修改。来源码允许 1–64 个英文字母、数字、下划线和连字符，可按后台已有规范填写，不要求 `nav_v1_` 前缀。
+
+自有机器人的渠道值与提取口令共用 start 通道，后台应将来源值与口令正确分流。网站只负责生成链接，实际启动是否入账仍需在机器人后台验证。
+
+### 第三方机器人邀请链接
+
+不要把完整邀请链接写进 `url`。下方仅展示相关字段，`a_12345` 是示例，实际使用时替换为对方提供的 start 值：
+
+```json
+{
+  "username": "@soso",
+  "url": "https://t.me/soso",
+  "referralStart": "a_12345"
+}
+```
+
+如果邀请地址为 `https://t.me/soso?start=a_12345`，就填 `"referralStart": "a_12345"`。程序会在所有对应入口统一附加该参数，搜索时不会改写它；设置为空字符串或删除字段可关闭。当前 SOSO 已按站长提供的邀请参数配置。
+
+有邀请码的条目自动显示「邀请推广」和可能获益的说明，网页链接带 `rel=sponsored`。自动核验使用不带邀请码的预览页。第三方邀请不受自有机器人的 `trackingEnabled` 控制，也不会被替换成 `nav_0`。自有机器人不能使用这个字段，应在 channels 中配置；每个链接只生成一个 start。
 
 当前未接入访问分析，不记录目录查询词。上线后可以增加 Cloudflare Web Analytics；Google/Bing 站长工具用于观察搜索展示与点击。机器人启动、首次有效搜索和留存必须由机器人侧独立记录，网页点击不能代替新增用户。
 

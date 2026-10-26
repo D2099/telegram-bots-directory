@@ -18,7 +18,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 from html import escape
-from catalog import VALID_CATEGORIES, HIDE_AFTER, is_hidden, display_name, seed_errors, site_errors, load_site, telegram_url
+from catalog import VALID_CATEGORIES, HIDE_AFTER, is_hidden, display_name, seed_errors, site_errors, load_site, telegram_url, referral_start
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "bots.json"
@@ -156,12 +156,21 @@ def get_category_monthly(bot: dict) -> str:
         return f"约 {num_str}/月"
 
 
-def render_category_table_row(bot: dict) -> str:
+def bot_link(bot, site=None):
+    if not bot.get('url'):
+        return ''
+    if site is None:
+        site = load_site()
+    url = telegram_url(bot, site, 'gh_readme')
+    label = bot['username']
+    disclosure = '（邀请推广，站长可能获得邀请奖励）' if referral_start(bot) else ''
+    return f'[{label}]({url}){disclosure}'
+
+
+def render_category_table_row(bot: dict, site=None) -> str:
     """Render a single | row | for category markdown tables. Escapes | ."""
     disp = get_display_name(bot) + get_verified_suffix(bot)
-    uwo = bot.get("username", "").lstrip("@")
-    url = bot.get("url")
-    link = f"[@{uwo}]({url})" if uwo and url else ""
+    link = bot_link(bot, site)
     purpose = md_text((bot.get("notes") or "").strip())
     monthly = get_category_monthly(bot)
     # escape pipe chars inside cells (rare)
@@ -181,16 +190,14 @@ def get_last_verified_label(data: dict) -> str:
     return "未知"
 
 
-def render_list_item(bot: dict) -> str:
+def render_list_item(bot: dict, site=None) -> str:
     """Render one - **name** [@u](url) — notes + badge line."""
     if not bot.get("url"):
         # AI placeholder url=null : render prose line only (no link)
         notes = bot.get("notes", "").strip()
         return notes or ""
     disp = get_display_name(bot) + get_verified_suffix(bot)
-    uwo = bot.get("username", "").lstrip("@")
-    url = bot.get("url")
-    link = f"[@{uwo}]({url})" if uwo and url else ""
+    link = bot_link(bot, site)
     notes = md_text(bot.get("notes", "").strip())
     badge = get_active_badge(bot)
     if link:
@@ -201,7 +208,7 @@ def render_list_item(bot: dict) -> str:
     return f"- **{disp}** — {notes}{badge}"
 
 
-def render_featured_table(featured_bots: list[dict]) -> str:
+def render_featured_table(featured_bots: list[dict], site=None) -> str:
     if not featured_bots:
         return ""
     lines = []
@@ -209,9 +216,7 @@ def render_featured_table(featured_bots: list[dict]) -> str:
     lines.append("|------|------|------------|------|")
     for bot in featured_bots:
         disp = get_display_name(bot) + get_verified_suffix(bot)
-        uwo = bot.get("username", "").lstrip("@")
-        url = bot.get("url")
-        link = f"[@{uwo}]({url})" if uwo and url else ""
+        link = bot_link(bot, site)
         purpose = md_text((bot.get("notes") or "").strip())
         monthly = get_monthly_cell(bot)
         # Basic escape for | inside text (rare)
@@ -221,7 +226,7 @@ def render_featured_table(featured_bots: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def render_category(cat: str, bots_in_cat: list[dict]) -> str:
+def render_category(cat: str, bots_in_cat: list[dict], site=None) -> str:
     """Render a category block as markdown table(s).
     - Most categories: single 4-col table (名称 | 链接 | 核心功能 | 月活)
     - group: 4 subsection titles, each followed by its own small table
@@ -235,7 +240,7 @@ def render_category(cat: str, bots_in_cat: list[dict]) -> str:
     if cat == "ai":
         lines = []
         for b in bots_in_cat:
-            item = render_list_item(b)
+            item = render_list_item(b, site)
             if item:
                 lines.append(item)
         return "\n".join(lines)
@@ -263,7 +268,7 @@ def render_category(cat: str, bots_in_cat: list[dict]) -> str:
             lines.append("| 名称 | 链接 | 核心功能 | 月活 |")
             lines.append("|------|------|----------|------|")
             for b in items:
-                row = render_category_table_row(b)
+                row = render_category_table_row(b, site)
                 if row:
                     lines.append(row)
         # Any stray prose for group (should not happen) appended at end
@@ -271,7 +276,7 @@ def render_category(cat: str, bots_in_cat: list[dict]) -> str:
             if lines:
                 lines.append("")
             for b in prose_only:
-                item = render_list_item(b)
+                item = render_list_item(b, site)
                 if item:
                     lines.append(item)
         return "\n".join(lines)
@@ -282,13 +287,13 @@ def render_category(cat: str, bots_in_cat: list[dict]) -> str:
         lines.append("| 名称 | 链接 | 核心功能 | 月活 |")
         lines.append("|------|------|----------|------|")
         for b in table_bots:
-            row = render_category_table_row(b)
+            row = render_category_table_row(b, site)
             if row:
                 lines.append(row)
     # Fallback: if no table bots but prose (e.g. future ai-like), keep prose
     if prose_only and not table_bots:
         for b in prose_only:
-            item = render_list_item(b)
+            item = render_list_item(b, site)
             if item:
                 lines.append(item)
     return "\n".join(lines)
@@ -376,7 +381,7 @@ def main():
     readme = replace_marker_block(readme, "last-verified", last_block)
 
     # 2. featured table
-    feat_block = render_featured_table(featured)
+    feat_block = render_featured_table(featured, site)
     readme = replace_marker_block(readme, "bots-featured", feat_block)
 
     # 3. categories
@@ -394,7 +399,7 @@ def main():
     }
     for cat, marker in cat_markers.items():
         cat_bots = by_cat.get(cat, [])
-        block = render_category(cat, cat_bots)
+        block = render_category(cat, cat_bots, site)
         readme = replace_marker_block(readme, marker, block)
 
     # Write back

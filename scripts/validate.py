@@ -19,7 +19,8 @@ import json
 import re
 import sys
 from pathlib import Path
-from catalog import HIDE_AFTER, is_hidden, seed_errors, site_errors, load_site
+from urllib.parse import urlsplit
+from catalog import HIDE_AFTER, is_hidden, seed_errors, site_errors, load_site, telegram_url
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "bots.json"
@@ -51,6 +52,7 @@ def extract_marker_inners(readme: str) -> dict:
     inners = {}
     marker_names = [
         "last-verified",
+        "bots-primary",
         "bots-featured",
         "bots-category:search",
         "bots-category:group",
@@ -78,7 +80,7 @@ def find_marker_pairs(readme: str):
     """Return list of (marker, has_pair) and overall ok."""
     errors = []
     marker_names = [
-        "last-verified", "bots-featured",
+        "last-verified", "bots-primary", "bots-featured",
         "bots-category:search", "bots-category:group", "bots-category:download",
         "bots-category:ai", "bots-category:rss", "bots-category:tools",
         "bots-category:translate", "bots-category:checkin", "bots-category:channel",
@@ -97,12 +99,9 @@ def find_marker_pairs(readme: str):
 
 
 def collect_rendered_urls(inners: dict) -> set:
-    urls = set()
-    for inner in inners.values():
-        found = re.findall(r'https://t\.me/([A-Za-z0-9_]+)', inner)
-        for u in found:
-            urls.add(f"https://t.me/{u}")
-    return urls
+    """Retain the entire destination: losing/changing start must fail validation."""
+    return {url for inner in inners.values()
+            for url in re.findall(r'\]\((https://t\.me/[^\s)]+)\)', inner)}
 
 
 def check_readme(data, readme):
@@ -114,7 +113,8 @@ def check_readme(data, readme):
     errors.extend(pair_errs)
 
     inners = extract_marker_inners(readme)
-    rendered_urls = collect_rendered_urls(inners)
+    rendered_urls = {urlsplit(url)._replace(query='', fragment='').geturl()
+                     for url in collect_rendered_urls(inners)}
 
     # visible (non-hidden) bots must be present in rendered; hidden ones must not
     non_dead_urls = set()
@@ -153,21 +153,22 @@ def check_readme(data, readme):
     return True
 
 
-def check_links(data, readme):
+def check_links(data, readme, site=None):
     """--check links : marker-block urls must exactly correspond to json urls (consistency)"""
     errors = []
     inners = extract_marker_inners(readme)
     rendered_urls = collect_rendered_urls(inners)
 
-    url_to_bot = {}
-    for b in data.get("bots", []):
-        u = b.get("url")
-        if u:
-            url_to_bot[u] = b["id"]
+    if site is None:
+        site = load_site()
+    expected = {telegram_url(b, site, 'gh_readme')
+                for b in data.get('bots', []) if b.get('url') and not is_hidden(b)}
 
     for u in sorted(rendered_urls):
-        if u not in url_to_bot:
-            errors.append(f"rendered url has no matching bot in json: {u}")
+        if u not in expected:
+            errors.append(f"rendered destination differs from configured bot/start: {u}")
+    for u in sorted(expected - rendered_urls):
+        errors.append(f"configured bot/start destination missing from README: {u}")
 
     # Also ensure every json url that should render appears (covered by readme check too)
     # But for links we focus on "all rendered == known"
@@ -176,7 +177,7 @@ def check_links(data, readme):
         for e in errors:
             print(f"  - {e}")
         return False
-    print(f"LINKS CHECK PASSED: {len(rendered_urls)} t.me links in markers all match json bots")
+    print(f"LINKS CHECK PASSED: {len(rendered_urls)} destinations match configured bots and start payloads")
     return True
 
 
@@ -192,14 +193,13 @@ def check_dead(data, readme):
     for b in dead_bots:
         bid = b["id"]
         u = b.get("username", "").lstrip("@")
-        url = b.get("url", "")
+        url = telegram_url(b, load_site(), 'gh_readme') if b.get('url') else ''
         # Must appear and contain failure indicator near it
         # Look for the url or username + 已失效 / ❗
         if url and url in combined:
             # find surrounding context
-            idx = combined.find(url)
-            window = combined[max(0, idx-30): idx+120]
-            if "已失效" not in window and "❗" not in window:
+            lines = [line for line in combined.splitlines() if f']({url})' in line]
+            if not lines or any('已失效' not in line and '❗' not in line for line in lines):
                 errors.append(f"dead bot {bid} rendered but missing '已失效' / ❗ marker")
         else:
             # not even the link? still fail (though readme check may catch for non-dead, dead are optional in readme spec but we render them)
@@ -223,7 +223,7 @@ def check_notbot(data, readme):
                if (b.get("fetch") or {}).get("status") == "ok" and (b.get("fetch") or {}).get("not_bot")
                and not is_hidden(b)]
     for b in flagged:
-        url = b.get("url", "")
+        url = telegram_url(b, load_site(), 'gh_readme') if b.get('url') else ''
         line = next((ln for ln in combined.splitlines() if url and f"({url})" in ln), None)
         if line is None or "⚠️" not in line:
             errors.append(f"not_bot entry {b['id']} rendered without ⚠️ marker")

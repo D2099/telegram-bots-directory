@@ -61,7 +61,7 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             catalog.telegram_url(bot, self.site, 'home_featured')
         self.site['startCompatibilityConfirmed'] = True
-        self.assertTrue(catalog.telegram_url(bot, self.site, 'home_featured').endswith('?start=nav_v1_home_featured'))
+        self.assertTrue(catalog.telegram_url(bot, self.site, 'home_featured').endswith('?start=' + self.site['channels']['home_featured']))
 
     def test_production_needs_real_origin(self):
         self.site['publicUrl'] = ''
@@ -69,6 +69,7 @@ class CatalogTests(unittest.TestCase):
 
     def test_catalog_and_search_results_use_separate_owned_channels(self):
         self.site.update(trackingEnabled=True, startCompatibilityConfirmed=True)
+        self.site['channels'].update(home_catalog='nav_v1_home_catalog', search_results='nav_v1_search_results')
         bot = next(b for b in self.data['bots'] if b['id']==self.site['primaryBotId'])
         card = BeautifulSoup(build_site.bot_card(bot, self.site), 'html.parser')
         link = card.find('a')

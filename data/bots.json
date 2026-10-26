@@ -33,33 +33,34 @@
       ]
     },
     {
-      "id": "jiso",
-      "username": "@jiso",
-      "url": "https://t.me/jiso",
-      "category": "search",
-      "subsection": null,
+      "id": "grouphelpbot",
+      "username": "@GroupHelpBot",
+      "url": "https://t.me/GroupHelpBot",
+      "category": "group",
+      "subsection": "stats",
       "featured": true,
       "official": false,
-      "notes": "搜索群、频道、视频、音乐、电影、新闻，综合能力强",
+      "notes": "最全面的机器人，可帮助你轻松、安全地管理群组！",
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:14.732485+00:00",
-        "title": "极搜🔍中文搜索@JISO",
-        "description": "极搜JISO帮你找到有趣的群、频道、视频、音乐、电影、新闻。\n✅ 永久4位数用户名 @JiSo ，其它均为假冒。",
-        "extra_raw": "372 236 monthly users",
-        "monthly_users": 372236,
+        "fetched_at": "2026-10-19T08:38:17.200451+00:00",
+        "title": "GroupHelpBot",
+        "description": "Moderation, analytics, anti-spam, and content management for Telegram groups and channels. Since 2016",
+        "extra_raw": "2 363 150 monthly users",
+        "monthly_users": 2363150,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/MUYZkYgwC0S1gv6LgzS21EgYL8GqMAoH5BR_7bFq021yvrEQOiS2EHln9KYKM-_IHvon9VNxHLRzgJifCR-1yOV7u9NdiFL1fPqrByTLLv88N6Muka_T0C4_m1DCJ6ek9TqFNpD8otMqgpqUvuxlrzuRx30hdZks9FmSMW3W9FSwnC8uOIruKwhBm1voAqOhaPvcJqKfNmPpyaD3sxF7ELbI6BWl_eSdSgwO9xA8EnBLO5EgxYI0d-tvU6dsK3jMr2LA-QNlD7evYFwPQrMcAht4cGmKMNfG7QeZYWa5SOdPGuzAfeBw93e1Wx_aNgiL1t1CSScPK-8qtrjcRD49UQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/PtE8UXsJug2YNHaYonBYmyq_j3PQgdV-bV3WCSrbbzr-S4Nj9Z_A4HmWkWVsgKfT2qWTdygqtW30WNbrxPk5moLiU6OdlBEN8GTbMGXI_xroOEJcHxRb7jO3hWT46lh1VVO1ID4iPDJk0v63IFhf9IQFQvmYdMRQXQP5LX3yQB0flP_GF600Q_v7grBeuu34AjqSLiHAgGT0Q8SUAZy1CnkDrKhjapwEhyBdTpcnBb_f6-i_JPlLBgxBfgMuUzGKpT3rNQPpiZliH8AOrf-fEppTqnzE4pGNOjp5gL1SxJ0SWEpFMYc7TfFQ1-puEi8kwT1aJRPvGLN_p9iLB7E0JA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
       },
       "tags": [
-        "搜索",
-        "频道"
+        "群管",
+        "管理",
+        "统计"
       ]
     },
     {
@@ -76,7 +77,7 @@
         "http_code": 200,
         "fetched_at": "2026-10-19T08:38:17.200451+00:00",
         "title": "Combot",
-        "description": "Moderation, analytics, anti-spam, and content management for Telegram groups and channels. Since 2016",
+        "description": "\uD83E\uDD16 This is the most complete Bot to help you manage your groups easily and safely!\n➡\uFE0F Add me in your group as Admin!",
         "extra_raw": "808 428 monthly users",
         "monthly_users": 808428,
         "type": "bot",
@@ -157,9 +158,30 @@
       ]
     },
     {
+      "id": "dk_searcha_bot",
+      "name": "DK 资源搜索机器人",
+      "username": "@dk_searcha_bot",
+      "url": "https://t.me/dk_searcha_bot",
+      "category": "search",
+      "subsection": null,
+      "featured": false,
+      "official": false,
+      "notes": "通过关键词搜索 Telegram 群组、频道及相关资源，也支持按特定口令提取或搜索内容。",
+      "tags": [
+        "搜索",
+        "群组",
+        "频道",
+        "口令"
+      ],
+      "fetch": {
+        "status": "pending"
+      }
+    },
+    {
       "id": "soso",
       "username": "@soso",
       "url": "https://t.me/soso",
+      "referralStart": "a_5666684493",
       "category": "search",
       "subsection": null,
       "featured": false,
@@ -1165,249 +1187,6 @@
       ]
     },
     {
-      "id": "smss",
-      "username": "@smss",
-      "url": "https://t.me/smss",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "发送关键词即可搜索关联群组与频道资源，适合中文用户发现兴趣社区和内容聚合。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:46.555644+00:00",
-        "title": "🐴 神马搜索 🔍",
-        "description": "📢 官方频道： @o123456 （关注不迷路）\n\n👥 交流群组： @smbot0 （互动社区）\n\n🔍 全功能中文搜索机器人 ｜ ⚡️ 极速查询 · 资源一键直达 · 持续更新",
-        "extra_raw": "608 986 monthly users",
-        "monthly_users": 608986,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/Aan9lHmhsZV26Z1lh4kR6Smtb7O5xVQq-DX8zQUzDPeBRNcZ_TB0h3HhZsll31wyFlL5bt7U5krElpB9l2SXM5DRIWZG7KzPwNtPPzS1Xvd4d9ga4qVhHKW8hcxVE0-AckHMStJYEw4XO7qW3kCOy16nFsUMuokOGsZ75dvgaQ8AQV9Y34-tZ5bZ6SrTtu4TVQ_5sfe8EHzIp0r-sQBjqJTe_FkmSEMwX-QpUSygCy7cCiPjuoBMz51mJ0euoeHRH766IwNXTJZ8MYC2pDy10m34A7P6AUsdjgt5kaT_ynAqe344QNq0m1JHB33fUGvCPfmuYbmStfFuY6tK2aGmaQ.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组",
-        "频道"
-      ]
-    },
-    {
-      "id": "cjsy",
-      "username": "@CJSY",
-      "url": "https://t.me/CJSY",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "超级索引支持多维度搜索群组频道与媒体，适用于中文用户高效发现 Telegram 资源。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:49.028563+00:00",
-        "title": "🔍超级索引 @CJSY",
-        "description": "🔎 超级索引 @CJSY\n超强引擎，极速搜索，索见本源，引领全网！\n\n发送关键词，搜索频道、群组、Bot、视频、图片、资源等。🚀 搜你所需，发现更多；助力社群增长。\n\n官方频道 @SSYQ\n主机器人 @CJSY\n备机器人 @CJSYA",
-        "extra_raw": "877 580 monthly users",
-        "monthly_users": 877580,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/LktEW1a-7njYIaIeulZyWYDauNm3BCB_u1MUBZuBTMohgYFAR_nOmXvKIJq-rOmAbs6QmAn2fXcYleLKfy62d6oKqobmmbi5GaRrUhD5-2ndZ6k7g96KdgOIRU33kxYU_7qNBbbUekgtpOlOf6mxl4MTUQRNIemfP9BIAP0hyNORlpy8HuHygv3kGhAtu0FOglEdA9Dih8oBgnu0U5JcJkoo5je0wRmHHuLVFl0IymKVPe4FxJJugj9FEvN444l9dh7DEYxBzDeFfumoMFefJec6LpKmsgZzOO-gy2DtOREfX85AaD0o1Dvc1a-T80dRPIxxve7P2g06jf9iK4jsIg.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组",
-        "频道"
-      ]
-    },
-    {
-      "id": "soula",
-      "username": "@soula",
-      "url": "https://t.me/soula",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "搜啦机器人通过关键词检索群和频道内容，帮助用户快速找到感兴趣的中文社区。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:51.511692+00:00",
-        "title": "搜啦🔍资源搜索机器人 @soula",
-        "description": "搜啦 @SouLa 中文搜索，可以轻松搜索Telegram群组、频道，以及视频、音乐等各种资源。\n\n👉认准用户名👈\n机器人 @SouLa\n频道 @SouLaPinDao\n客服 @SouLaLeer",
-        "extra_raw": "24 236 monthly users",
-        "monthly_users": 24236,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/H45fFAHXYZA301E44VcfZ7rv0Hec-pul-zYLXY1QfQAP9YvX4fZyF7MCC92gmElTyQ0rf2FlPga4tq1tMJ5wypA_IQKvh09vmY5JPbdl3qRK8rrRwp-chFQak4t3YpRuAymTWkXKmzOh72C1XEacbp4FWmP7OQKzhzTJeO3vGRRwHWS1bE6bIDTvdEYJUIRcDesimTosAqqaG6AbQi8cJ1g-vRNzbxJajbI91ghZsiTMaHHw5BWKGdDpzYMRaB6x5cVNaHIiZ7Vj8ZkZ7CnvctzLwkGJRRX12tzN7mSCFBzYiUxmqNWPZ2foszZuRgXD_moOQpDOlCIhxAw1qEZiEw.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "频道"
-      ]
-    },
-    {
-      "id": "ikuaisobot",
-      "username": "@ikuaisobot",
-      "url": "https://t.me/ikuaisobot",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "快搜索引机器人专注中文群组发现，输入关键词即可定位相关 Telegram 资源入口。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:54.022111+00:00",
-        "title": "i快搜-🔍强大的搜索引擎",
-        "description": "帮你找到有趣的群、频道、视频、音乐、电影、新闻",
-        "extra_raw": null,
-        "monthly_users": null,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/SxAIKbO9z3yABoK7mxv9vDn-A8Ejei0OnP1vo8KfYQmmC2mNNT-IDMxYmHZar56jPoGWc5QyciTKGgz7Sqzg1IjNraAAr74XsLT-w9DQxsBylrQd6-dL7f5WKJytNjD_WZMALUoWZ5_ydrYs9NVInEOxei6AIYi-TCy4cWADs1sP_wub1_fDlohKRgWwTuwrpCqpDtWyFe_MUS1yQYmG9R9zSf894NBJ5-h3y8v1eg9FHF9FakHCJi03iWYcddOBBFMjw4gT48nPqYoAJODoWpVKv9MbuyLR0Wjd81fMmh_p09RX1haCpPpWUl9sPesME3cPZLUtZPkoqpupbj23bg.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组"
-      ]
-    },
-    {
-      "id": "aiso",
-      "username": "@aiso",
-      "url": "https://t.me/aiso",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "简易搜索入口，支持发送词语查找群组与公开内容，适合新手用户快速上手。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:56.491403+00:00",
-        "title": "aiso中文搜索🔍",
-        "description": "中文搜索\n必备机器人\n发送关键字\n查找群组、频道、影视、音乐或机器人。\n\n欢迎把 @aiso\n添加到您的群组。\n可赚USDT",
-        "extra_raw": "15 653 monthly users",
-        "monthly_users": 15653,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/trfoEqmzRcJ_aAOAlFVqs9MUAsPbY4vEDe7IvrdiaO19PwANxwrOcWJ8qeijBJ16MY43HRtJzvUwoBPNbICZih1Goi-1Imb0Tvjv7RzWAKAjHgUoUqiyA0im75g5_OzlZ1juQy-sAj0kZx7-juYqHVM5WVpC2nfc9YE-4KYHlIGzkspv5vpQ3i-yQ58GUIAFXifS733-kWzfSGf6kUj7Vas19PDZ9obMY6k9eG5NgePx6DPj7bBBawyJKNH58X0pinxAORMN9-G6tAKSReN0w6IzAHy1t20lb9k7MMH25UQRYbpObLi69Jhseh7FUCyyxcIOU7m9PjBBwRptSPamFg.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组"
-      ]
-    },
-    {
-      "id": "zh_secretary_bot",
-      "username": "@zh_secretary_bot",
-      "url": "https://t.me/zh_secretary_bot",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "中文秘书类搜索工具，协助索引和发现各类 Telegram 群组与频道资源。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:58.954701+00:00",
-        "title": "SE-索引秘书",
-        "description": "中文索引导航\n用户体验至上\n开源|非盈利\n\nSE-索引社群： @se_talks",
-        "extra_raw": null,
-        "monthly_users": null,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/jNZbVgDASM3bdytWlGqtyBx7k8LQpqAFomIgAxMCqMf4pvI2jIAuJKJHWiRRMqUZ4s_it2qK1BZWSnr7LFR3OuTVDRe1EchCDTuYivU74aWmtAeBR0DsEM8Ky9uvwolqMTbk9QaUVTonZ4vR_i36CJwv8tyauEtjKNPcZ8O0nnR7j_MpVTzH_-klhIEZHQYGlhk7XWfNjGYggDs1MpoYojPVrhvCXh8AppyAGoGSH8acDFvfa8BkDeE33aEqx4H-wRJ2SdmvqOrLVMDpEb07F68p6w6ON2huHOLreYJCvJiiSyovD_CSl7DEFoEHb7MxCcZFEBZInueJjms7eWpfrg.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组",
-        "频道"
-      ]
-    },
-    {
-      "id": "qunzudaquan_bot",
-      "username": "@qunzudaquan_bot",
-      "url": "https://t.me/qunzudaquan_bot",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "群组大全索引机器人，提供大量中文群组目录搜索，方便用户按需加入社群。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:01.421649+00:00",
-        "title": "群组大全_Bot",
-        "description": "本Bot目前已暂停收录，只维持现有链接，失效链接自动删除",
-        "extra_raw": null,
-        "monthly_users": null,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/lmVn4cuu3zub-IyczPAKOQV7uwE83qgF9jbFRNasVOI6QaV2vmY2TUs6aCgKevuid8Zy1-1SQjBwasdO5dTImmRYzgunhD_fCdvYTkIo45tpicI_Po7gllvaRIbvIrRSPuJ3_n3rEEwivWWUklG6kul2WjsPx43du-PXRy519cuGqr5wfCVNZLdcFz56nK28t0ErEaWCneeqp0TeZ6c9RUiR-twlLAdoiqfoB0lcn0ogWKc0hBKs3CuQlXj9GIeRhRbXfoe3j5wHqSAcCWN4OQ9HPgadIJX2nRwkzp-XngBskaVOFqLIXmG0NwlmOtW7QLFwXRdYKfdV8RZ5vsASFw.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组"
-      ]
-    },
-    {
-      "id": "zh_groups_bot",
-      "username": "@zh_groups_bot",
-      "url": "https://t.me/zh_groups_bot",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "中文群组搜索机器人，专注于推荐和发现各类主题的 Telegram 群聊资源。",
-      "fetch": {
-        "status": "ok",
-        "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:03.932076+00:00",
-        "title": "TGCN-群组频道狐🦊(不是猫)",
-        "description": "TGCN-群组索引计划 机器人\n\n更新频道： @zh_groups\n社区帮助：https://t.me/zh_CN/294",
-        "extra_raw": null,
-        "monthly_users": null,
-        "type": "bot",
-        "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/gR0x-C56mnfI9tp5VqVTiAlbjMfcCYzoX03bYMRamurIDNwkuKalzibRBbSOy1FZ-SzK-Nfjvavhz0WXOXiutLgbSOu_vL6fvbfFNu2cM2zYdBYZFkeRrFFR9eZRVTFtAbVc3bax4AzVvQwfv041CwX6MLCTqPhAEH_FwcOWfiNsoKWhrXC-v2JDspQ42uEhz_4Ov1dxTSgMAVqKmqktulQiWcxnPQvM0uSvTf3fYmqcWfV7Ev2r6QmZU4RRVvA2jbQxSKi3mijEubRMHrVpzGUhBnU7K2nuFzrHx79o0vgjOvusmrYU85tLK54c3sfzzpcgtunqmO4K1XHAMkzn9g.jpg",
-        "page_kind": "bot",
-        "not_bot": false,
-        "dead_streak": 0,
-        "error_msg": null
-      },
-      "tags": [
-        "搜索",
-        "群组"
-      ]
-    },
-    {
       "id": "feemasterbot",
       "username": "@feeMasterBot",
       "url": "https://t.me/feeMasterBot",
@@ -2199,26 +1978,6 @@
         "游戏",
         "娱乐"
       ]
-    },
-    {
-      "id": "dk_searcha_bot",
-      "name": "DK 搜索机器人",
-      "username": "@dk_searcha_bot",
-      "url": "https://t.me/dk_searcha_bot",
-      "category": "search",
-      "subsection": null,
-      "featured": false,
-      "official": false,
-      "notes": "通过关键词搜索 Telegram 群组、频道及相关资源，也支持按特定口令提取或搜索内容。",
-      "tags": [
-        "搜索",
-        "群组",
-        "频道",
-        "口令"
-      ],
-      "fetch": {
-        "status": "pending"
-      }
     }
   ]
 }

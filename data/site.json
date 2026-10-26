@@ -5,14 +5,14 @@
   "publicUrl": "",
   "repositoryUrl": "",
   "primaryBotId": "dk_searcha_bot",
-  "trackingEnabled": false,
-  "startCompatibilityConfirmed": false,
+  "trackingEnabled": true,
+  "startCompatibilityConfirmed": true,
   "channels": {
-    "home_featured": "nav_v1_home_featured",
-    "home_catalog": "nav_v1_home_catalog",
-    "search_results": "nav_v1_search_results",
-    "cat_search": "nav_v1_cat_search",
-    "guide_search": "nav_v1_guide_search",
-    "gh_readme": "nav_v1_gh_readme"
+    "home_featured": "nav_0",
+    "home_catalog": "nav_0",
+    "search_results": "nav_0",
+    "cat_search": "nav_0",
+    "guide_search": "nav_0",
+    "gh_readme": "nav_0"
   }
 }

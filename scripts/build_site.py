@@ -10,7 +10,7 @@ from html import escape
 from string import Template
 from urllib.parse import urljoin, urlsplit
 from xml.sax.saxutils import escape as xml_escape
-from catalog import ROOT, CATEGORIES, CATEGORY_MAP, display_name, is_hidden, load_site, seed_errors, site_errors, telegram_url
+from catalog import ROOT, CATEGORIES, CATEGORY_MAP, REFERRAL_DISCLOSURE, display_name, is_hidden, load_site, seed_errors, site_errors, telegram_url, referral_start
 
 OUT = ROOT / 'docs'
 ASSETS = ROOT / 'site/assets'
@@ -53,6 +53,11 @@ def bot_card(bot, site, channel='home_catalog'):
     name = display_name(bot)
     owned = bot['id'] == site['primaryBotId']
     badge = '<span class="card-badge">站长开发</span>' if owned else ('<span class="card-badge">编辑精选</span>' if bot.get('featured') else '')
+    referral = bool(referral_start(bot))
+    if referral:
+        badge += '<span class="card-badge badge-referral">邀请推广</span>'
+    disclosure = f'<p class="referral-note">{h(REFERRAL_DISCLOSURE)}</p>' if referral else ''
+    rel = 'noopener noreferrer sponsored' if referral else 'noopener noreferrer'
     fetch = bot.get('fetch') or {}
     if fetch.get('status') == 'ok' and fetch.get('is_verified'):
         badge += '<span class="card-badge">Telegram 认证</span>'
@@ -63,8 +68,8 @@ def bot_card(bot, site, channel='home_catalog'):
     users = fetch.get('monthly_users') if fetch.get('status') == 'ok' and not fetch.get('not_bot') else None
     activity = f'<strong>{number(users)}</strong> / 月' if users is not None else '月活未公开'
     return f'''<article class="bot-card{' card-owned' if owned else ''}" data-bot-id="{h(bot['id'])}">
-      <div class="card-heading"><span class="bot-avatar" aria-hidden="true">{h(name[:1].upper())}</span><div class="card-identity"><h3>{h(name)}{badge}</h3><span class="bot-username">{h(bot['username'])}</span></div><a href="{h(url)}" data-search-url="{h(search_url)}" target="_blank" rel="noopener noreferrer" aria-label="打开 {h(name)}（Telegram）">↗</a></div>
-      <p class="bot-description">{h(bot['notes'])}</p><div class="card-tags">{tags_html}</div><div class="card-bottom"><span>{activity}</span><span>{status_label(bot)}</span></div></article>'''
+      <div class="card-heading"><span class="bot-avatar" aria-hidden="true">{h(name[:1].upper())}</span><div class="card-identity"><h3>{h(name)}{badge}</h3><span class="bot-username">{h(bot['username'])}</span></div><a href="{h(url)}" data-search-url="{h(search_url)}" target="_blank" rel="{rel}" aria-label="打开 {h(name)}（Telegram）">↗</a></div>
+      <p class="bot-description">{h(bot['notes'])}</p>{disclosure}<div class="card-tags">{tags_html}</div><div class="card-bottom"><span>{activity}</span><span>{status_label(bot)}</span></div></article>'''
 
 
 def owner_card(primary, site, root, channel):
@@ -85,10 +90,16 @@ def content_file(name, primary, site, root, channel):
     return Template((ROOT / 'content' / name).read_text(encoding='utf-8')).substitute(root=root, primary_name=h(display_name(primary)), primary_username=h(primary['username']), primary_url=h(telegram_url(primary, site, channel)))
 
 
-def popular(bots):
+def popular(bots, site=None):
     top = sorted([b for b in bots if (b.get('fetch') or {}).get('status') == 'ok' and not (b.get('fetch') or {}).get('not_bot') and (b.get('fetch') or {}).get('monthly_users')], key=lambda b: -b['fetch']['monthly_users'])[:10]
-    items = ''.join(f'<li><a href="{h(telegram_url(b))}" target="_blank" rel="noopener noreferrer">{h(display_name(b))}</a><small>{number(b["fetch"]["monthly_users"])} / 月</small></li>' for b in top)
-    return f'<details class="popular"><summary>公开月活参考 · 展开查看</summary><p>仅在已收录且公开月活的条目中比较，数据并不完整，也不代表质量、安全性或本站推荐顺序。</p><ol>{items}</ol></details>' if top else ''
+    items = []
+    for bot in top:
+        referral = bool(referral_start(bot))
+        badge = '<span class="card-badge badge-referral">邀请推广</span>' if referral else ''
+        rel = 'noopener noreferrer sponsored' if referral else 'noopener noreferrer'
+        items.append(f'<li><a href="{h(telegram_url(bot, site, "home_catalog"))}" target="_blank" rel="{rel}">{h(display_name(bot))}{badge}</a><small>{number(bot["fetch"]["monthly_users"])} / 月</small></li>')
+    disclosure = f'<p>标注「邀请推广」的入口：{h(REFERRAL_DISCLOSURE)}</p>' if any(referral_start(b) for b in top) else ''
+    return f'<details class="popular"><summary>公开月活参考 · 展开查看</summary><p>仅在已收录且公开月活的条目中比较，数据并不完整，也不代表质量、安全性或本站推荐顺序。</p>{disclosure}<ol>{"".join(items)}</ol></details>' if top else ''
 
 
 def home_content(data, bots, primary, site):
@@ -101,7 +112,7 @@ def home_content(data, bots, primary, site):
     recent = (data.get('last_fetched_at') or '')[:10]
     return f'''<section class="hero"><div class="hero-copy"><div class="eyebrow">A LITTLE DIRECTORY. A LOT OF POSSIBILITY.</div><h1>好用的机器人，<br>从这里<em>找到。</em></h1><p>搜索、群管、下载、翻译与日常工具。<br>按真实使用场景整理，让每一次寻找更有方向。</p><div class="hero-facts"><span><strong>{len(bots)}</strong> 个收录机器人</span><span><strong>{len(cats)}</strong> 个用途分类</span><span>按需求，轻松发现</span></div></div>{owner_card(primary, site, './', 'home_featured')}</section>
     <section class="directory" id="directory" aria-labelledby="directory-title"><div class="section-heading"><div><h2 id="directory-title">发现你的下一件好工具</h2><p>先选一个场景，或者直接搜索。</p></div><a class="section-link" href="./category/search/">想找群组与频道？ ↗</a></div><div class="directory-toolbar"><form id="search-form" class="search-form" role="search"><label class="search-icon" for="bot-search"><span aria-hidden="true">⌕</span><span hidden>查找机器人</span></label><input id="bot-search" name="q" type="search" maxlength="120" placeholder="查找机器人：名称、@用户名或功能关键词" aria-label="查找机器人名称、用户名或功能" aria-describedby="search-help" autocomplete="off" disabled><button id="clear-search" class="clear-search" type="button" aria-label="清空搜索" hidden>×</button><button class="button" type="submit" disabled>搜索 <span aria-hidden="true">↗</span></button></form><p class="search-help" id="search-help">搜索的是机器人目录；要找 Telegram 群组、频道或资源，请打开具体的搜索机器人。</p><nav class="category-filters" aria-label="按用途筛选">{filters}</nav><noscript><p class="noscript-note">目录内容可直接浏览。交互搜索需要启用 JavaScript；分类链接仍可跳到对应列表。</p></noscript></div><div class="catalog-status"><p id="result-status" role="status" aria-live="polite">共 <strong>{len(bots)}</strong> 个机器人 · 按用途浏览</p><span class="status-note">{public_count} 个提供公开月活 · 最近自动批次 {h(recent)}</span><button class="clear-search" id="reset-filters" type="button" hidden aria-label="清空关键词和分类筛选">重置</button></div><div id="search-results" hidden><h2 class="results-title">搜索结果</h2><div class="bot-grid" id="results-grid"></div></div><div id="empty-state" class="empty-state" hidden><div class="empty-symbol" aria-hidden="true">⌕</div><h2>暂时没有找到合适的机器人</h2><p>试试更短的关键词、常见同义词，或取消分类限制。本站查找的是机器人，不是群组或资源内容。</p><div class="empty-actions"><button class="button" type="button" id="empty-reset">清空筛选，浏览全部</button><a class="button button-outline" href="./category/search/">了解 Telegram 搜索</a></div></div><div id="catalog-sections">{sections}</div></section>
-    <section class="help-section"><div><h2>找到入口之后，怎么开始？</h2><p>从点击 Start 到发送关键词，一份给第一次使用者的简单指南。</p></div><a href="./guide/search/">阅读搜索使用指南 <span aria-hidden="true">　→</span></a></section>{popular(bots)}'''
+    <section class="help-section"><div><h2>找到入口之后，怎么开始？</h2><p>从点击 Start 到发送关键词，一份给第一次使用者的简单指南。</p></div><a href="./guide/search/">阅读搜索使用指南 <span aria-hidden="true">　→</span></a></section>{popular(bots, site)}'''
 
 
 def page(site, route, title, description, content, scripts='', noindex=False, kind='CollectionPage'):
