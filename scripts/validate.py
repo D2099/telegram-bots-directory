@@ -19,20 +19,11 @@ import json
 import re
 import sys
 from pathlib import Path
-from collections import defaultdict
-
-VALID_CATEGORIES = {"search", "group", "download", "ai", "rss", "tools", "translate", "checkin", "channel", "game"}
-VALID_SUBSECTIONS = {"verify", "ads", "stats", "misc", None, "bilingual", "auto", "zh-en", "publish", "index", "forward", "manage"}
+from catalog import HIDE_AFTER, is_hidden, seed_errors, site_errors, load_site
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "bots.json"
 README_FILE = ROOT / "README.md"
-HIDE_AFTER = 3  # keep in sync with scripts/fetch_bots.py
-
-
-def is_hidden(bot) -> bool:
-    fetch = bot.get("fetch", {}) or {}
-    return fetch.get("status") == "dead" and int(fetch.get("dead_streak") or 0) >= HIDE_AFTER
 
 
 def load_bots():
@@ -47,67 +38,11 @@ def load_readme():
 
 def check_seed(data):
     """--check seed"""
-    errors = []
-    bots = data.get("bots", [])
-    schema_version = data.get("schema_version")
-
-    if schema_version != 1:
-        errors.append(f"schema_version must be 1, got {schema_version}")
-
-    ids = []
-    featured_count = 0
-    for i, bot in enumerate(bots):
-        for field in ("id", "username", "url", "category", "featured", "official", "notes", "fetch"):
-            if field not in bot:
-                errors.append(f"bot[{i}] missing required field '{field}'")
-
-        bid = bot.get("id")
-        if not isinstance(bid, str) or not bid or " " in bid:
-            errors.append(f"bot[{i}] id must be clean lowercase string without spaces, got {bid!r}")
-        ids.append(bid)
-
-        cat = bot.get("category")
-        if cat not in VALID_CATEGORIES:
-            errors.append(f"bot[{i}] ({bid}) invalid category '{cat}'")
-
-        sub = bot.get("subsection")
-        if sub not in VALID_SUBSECTIONS:
-            errors.append(f"bot[{i}] ({bid}) invalid subsection '{sub}'")
-
-        if not isinstance(bot.get("featured"), bool):
-            errors.append(f"bot[{i}] ({bid}) 'featured' must be boolean")
-        if bot.get("featured"):
-            featured_count += 1
-
-        if not isinstance(bot.get("official"), bool):
-            errors.append(f"bot[{i}] ({bid}) 'official' must be boolean")
-
-        fetch = bot.get("fetch")
-        if not isinstance(fetch, dict) or "status" not in fetch:
-            errors.append(f"bot[{i}] ({bid}) 'fetch' must be object with at least status")
-        else:
-            ds = fetch.get("dead_streak", 0)
-            if ds is not None and (not isinstance(ds, int) or ds < 0):
-                errors.append(f"bot[{i}] ({bid}) fetch.dead_streak must be a non-negative int, got {ds!r}")
-            if fetch.get("status") not in ("ok", "dead", "error", "pending"):
-                errors.append(f"bot[{i}] ({bid}) invalid fetch.status {fetch.get('status')!r}")
-
-    # unique ids
-    seen = {}
-    for bid in ids:
-        if bid in seen:
-            errors.append(f"duplicate id '{bid}'")
-        seen[bid] = True
-
-    if featured_count > 5:
-        errors.append(f"featured count {featured_count} > 5 (SPEC limit)")
-
+    errors = seed_errors(data)
     if errors:
-        print("SEED CHECK FAILED:")
-        for e in errors:
-            print(f"  - {e}")
+        print('SEED CHECK FAILED:\n  - ' + '\n  - '.join(errors))
         return False
-    print(f"SEED CHECK PASSED: {len(bots)} bots, {featured_count} featured, schema v{schema_version}")
+    print(f"SEED CHECK PASSED: {len(data['bots'])} bots")
     return True
 
 
@@ -325,6 +260,11 @@ def main():
 
     ok = True
 
+    preflight = seed_errors(data)
+    if preflight:
+        print('Invalid catalog:\n  - ' + '\n  - '.join(preflight))
+        sys.exit(1)
+
     checks_to_run = []
     if args.check is None:
         checks_to_run = ["seed", "readme", "links", "dead", "notbot"]
@@ -342,6 +282,11 @@ def main():
             ok = check_dead(data, readme) and ok
         elif chk == "notbot":
             ok = check_notbot(data, readme) and ok
+
+    config_errors = site_errors(load_site(), data)
+    if config_errors:
+        print('SITE CONFIG FAILED:\n  - ' + '\n  - '.join(config_errors))
+        ok = False
 
     if args.check is None:
         if ok:

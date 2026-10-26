@@ -1,0 +1,39 @@
+name: Validate static directory
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: pip install -r scripts/requirements.txt
+      - name: Offline Python regressions
+        run: python -m unittest discover -s tests -v
+      - name: Search regressions
+        run: node --test tests/search.test.cjs
+      - name: Generate README
+        run: python scripts/render_readme.py
+      - name: Generate static pages
+        run: python scripts/build_site.py
+      - name: Validate catalog and README
+        run: python scripts/validate.py
+      - name: Upload reviewable static site
+        uses: actions/upload-artifact@v6
+        with:
+          name: static-site
+          path: docs

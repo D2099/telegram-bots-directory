@@ -1,0 +1,12 @@
+[
+  {"id":"search","name":"搜索与发现","symbol":"⌕","title":"Telegram 搜索机器人","description":"查找群组、频道与相关资源，发现你感兴趣的内容。","tags":["搜索"]},
+  {"id":"group","name":"群组管理","symbol":"◇","title":"Telegram 群组管理机器人","description":"进群验证、防广告、消息管理与社群统计。","tags":["群管","管理" ]},
+  {"id":"download","name":"解析与下载","symbol":"↓","title":"Telegram 下载机器人","description":"查找适合目标平台的解析工具，使用前确认版权与下载限制。","tags":["下载","解析"]},
+  {"id":"ai","name":"AI 助手","symbol":"✳","title":"Telegram AI 机器人","description":"AI 对话与内容辅助；仅在有可靠条目时展示。","tags":["AI","人工智能"]},
+  {"id":"rss","name":"订阅与通知","symbol":"◔","title":"Telegram RSS 订阅机器人","description":"将 RSS 更新和内容订阅带入 Telegram。","tags":["RSS","订阅","通知"]},
+  {"id":"translate","name":"翻译","symbol":"文","title":"Telegram 翻译机器人","description":"文本互译与跨语言交流，注意私聊和群聊的适用区别。","tags":["翻译","多语言"]},
+  {"id":"checkin","name":"签到打卡","symbol":"✓","title":"Telegram 签到机器人","description":"社群打卡、签到与考勤记录。","tags":["签到","打卡"]},
+  {"id":"channel","name":"频道运营","symbol":"↗","title":"Telegram 频道运营机器人","description":"辅助频道发布、定时推送与消息转发。","tags":["频道","推送"]},
+  {"id":"game","name":"游戏娱乐","symbol":"✦","title":"Telegram 游戏机器人","description":"答题、小游戏与轻量互动娱乐。","tags":["游戏","娱乐"]},
+  {"id":"tools","name":"实用工具","symbol":"⊞","title":"Telegram 实用工具机器人","description":"临时邮箱、词典、天气、抽奖与机器人创建工具。","tags":["工具"]}
+]

@@ -27,7 +27,10 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具"
+      ]
     },
     {
       "id": "jiso",
@@ -53,7 +56,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "频道"
+      ]
     },
     {
       "id": "combot",
@@ -79,7 +86,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "统计"
+      ]
     },
     {
       "id": "rsswbot",
@@ -105,7 +117,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "RSS",
+        "订阅",
+        "通知"
+      ]
     },
     {
       "id": "freedlvideo_bot",
@@ -131,7 +148,13 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "下载",
+        "解析",
+        "YouTube",
+        "B站"
+      ]
     },
     {
       "id": "soso",
@@ -157,7 +180,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组",
+        "频道"
+      ]
     },
     {
       "id": "sotv",
@@ -183,7 +211,10 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索"
+      ]
     },
     {
       "id": "aliyunshare_bot",
@@ -209,7 +240,10 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索"
+      ]
     },
     {
       "id": "aliyunpanbot",
@@ -235,7 +269,10 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索"
+      ]
     },
     {
       "id": "youtube",
@@ -261,7 +298,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "YouTube"
+      ]
     },
     {
       "id": "p4captchabot",
@@ -287,7 +328,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "group_confirmation_bot",
@@ -313,7 +359,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "policr_bot",
@@ -339,7 +390,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "shieldy_bot",
@@ -365,7 +421,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "fengdoorbot",
@@ -391,7 +452,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "adnamekillerbot",
@@ -417,7 +483,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "防广告"
+      ]
     },
     {
       "id": "adzhongjiezhe_bot",
@@ -443,7 +514,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "防广告"
+      ]
     },
     {
       "id": "antihyperlinkbot",
@@ -469,7 +545,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "防广告"
+      ]
     },
     {
       "id": "protectronbot",
@@ -495,7 +576,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "防广告"
+      ]
     },
     {
       "id": "autorestrictbot",
@@ -521,7 +607,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "防广告"
+      ]
     },
     {
       "id": "freqrobot",
@@ -547,7 +638,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "防广告"
+      ]
     },
     {
       "id": "fengstatsbot",
@@ -573,7 +669,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "统计"
+      ]
     },
     {
       "id": "sangmata_bot",
@@ -599,7 +700,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "统计"
+      ]
     },
     {
       "id": "joinhider_bot",
@@ -625,7 +731,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "统计"
+      ]
     },
     {
       "id": "watchdoorbot",
@@ -651,7 +762,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "消息管理"
+      ]
     },
     {
       "id": "bilibiliparse_bot",
@@ -677,7 +793,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "下载",
+        "解析",
+        "B站"
+      ]
     },
     {
       "id": "ytbdownbot",
@@ -703,7 +824,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "下载",
+        "解析",
+        "YouTube"
+      ]
     },
     {
       "id": "utubest_bot",
@@ -729,7 +855,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "下载",
+        "解析",
+        "YouTube"
+      ]
     },
     {
       "id": "getmediabot",
@@ -755,7 +886,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "下载",
+        "解析"
+      ]
     },
     {
       "id": "gifdownloader_bot",
@@ -781,7 +916,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "下载",
+        "解析"
+      ]
     },
     {
       "id": "noderss_bot",
@@ -807,7 +946,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "RSS",
+        "订阅",
+        "通知"
+      ]
     },
     {
       "id": "rssflowbot",
@@ -833,7 +977,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "RSS",
+        "订阅",
+        "通知"
+      ]
     },
     {
       "id": "dropmailbot",
@@ -859,7 +1008,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "临时邮箱"
+      ]
     },
     {
       "id": "dicbot",
@@ -885,7 +1038,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "词典"
+      ]
     },
     {
       "id": "weatherbot",
@@ -911,7 +1068,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "天气"
+      ]
     },
     {
       "id": "apkdl_bot",
@@ -937,7 +1098,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "下载"
+      ]
     },
     {
       "id": "tglotterybot",
@@ -963,7 +1128,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "抽奖"
+      ]
     },
     {
       "id": "lotteryhelperbot",
@@ -989,7 +1158,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "抽奖"
+      ]
     },
     {
       "id": "smss",
@@ -1015,7 +1188,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组",
+        "频道"
+      ]
     },
     {
       "id": "cjsy",
@@ -1041,7 +1219,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组",
+        "频道"
+      ]
     },
     {
       "id": "soula",
@@ -1067,7 +1250,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "频道"
+      ]
     },
     {
       "id": "ikuaisobot",
@@ -1093,7 +1280,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组"
+      ]
     },
     {
       "id": "aiso",
@@ -1119,7 +1310,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组"
+      ]
     },
     {
       "id": "zh_secretary_bot",
@@ -1145,7 +1340,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组",
+        "频道"
+      ]
     },
     {
       "id": "qunzudaquan_bot",
@@ -1171,7 +1371,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组"
+      ]
     },
     {
       "id": "zh_groups_bot",
@@ -1197,7 +1401,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "搜索",
+        "群组"
+      ]
     },
     {
       "id": "feemasterbot",
@@ -1223,7 +1431,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "tgcnjoincaptchabot",
@@ -1249,7 +1462,13 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证",
+        "群组"
+      ]
     },
     {
       "id": "orgrobot",
@@ -1275,7 +1494,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "toorucaptchabot",
@@ -1301,7 +1525,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证"
+      ]
     },
     {
       "id": "littleguardianbot",
@@ -1327,7 +1556,13 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "进群验证",
+        "群组"
+      ]
     },
     {
       "id": "antiservicemessagebot",
@@ -1353,7 +1588,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "群管",
+        "管理",
+        "消息管理"
+      ]
     },
     {
       "id": "fengdrawbot",
@@ -1379,7 +1619,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "群组",
+        "抽奖"
+      ]
     },
     {
       "id": "cnlottery_bot",
@@ -1405,7 +1650,13 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "工具",
+        "群组",
+        "频道",
+        "抽奖"
+      ]
     },
     {
       "id": "translatebot",
@@ -1431,7 +1682,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "翻译",
+        "多语言"
+      ]
     },
     {
       "id": "ytranslatebot",
@@ -1457,7 +1712,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "翻译",
+        "多语言"
+      ]
     },
     {
       "id": "tgtranslatorbot",
@@ -1483,7 +1742,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "翻译",
+        "多语言",
+        "群组"
+      ]
     },
     {
       "id": "transchat_bot",
@@ -1509,7 +1773,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "翻译",
+        "多语言"
+      ]
     },
     {
       "id": "ttjfree_bot",
@@ -1535,7 +1803,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "签到",
+        "打卡"
+      ]
     },
     {
       "id": "qiandaobot",
@@ -1561,7 +1833,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "签到",
+        "打卡"
+      ]
     },
     {
       "id": "groupattendancebot",
@@ -1587,7 +1863,12 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "签到",
+        "打卡",
+        "群组"
+      ]
     },
     {
       "id": "kingdk_bot",
@@ -1613,7 +1894,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "签到",
+        "打卡"
+      ]
     },
     {
       "id": "postbot",
@@ -1639,7 +1924,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "频道",
+        "推送"
+      ]
     },
     {
       "id": "telepostbot",
@@ -1665,7 +1954,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "频道",
+        "推送"
+      ]
     },
     {
       "id": "chelpbot",
@@ -1691,7 +1984,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "频道",
+        "推送"
+      ]
     },
     {
       "id": "autoforwardroxybot",
@@ -1717,7 +2014,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "频道",
+        "推送"
+      ]
     },
     {
       "id": "quizbot",
@@ -1743,7 +2044,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "游戏",
+        "娱乐"
+      ]
     },
     {
       "id": "gamee",
@@ -1769,7 +2074,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "游戏",
+        "娱乐"
+      ]
     },
     {
       "id": "gamebot",
@@ -1795,7 +2104,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "游戏",
+        "娱乐"
+      ]
     },
     {
       "id": "inlinegamesbot",
@@ -1821,7 +2134,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "游戏",
+        "娱乐"
+      ]
     },
     {
       "id": "teletarotbot",
@@ -1847,7 +2164,11 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
-      }
+      },
+      "tags": [
+        "游戏",
+        "娱乐"
+      ]
     },
     {
       "id": "brightwoodbot",
@@ -1873,6 +2194,30 @@
         "not_bot": false,
         "dead_streak": 0,
         "error_msg": null
+      },
+      "tags": [
+        "游戏",
+        "娱乐"
+      ]
+    },
+    {
+      "id": "dk_searcha_bot",
+      "name": "DK 搜索机器人",
+      "username": "@dk_searcha_bot",
+      "url": "https://t.me/dk_searcha_bot",
+      "category": "search",
+      "subsection": null,
+      "featured": false,
+      "official": false,
+      "notes": "通过关键词搜索 Telegram 群组、频道及相关资源，也支持按特定口令提取或搜索内容。",
+      "tags": [
+        "搜索",
+        "群组",
+        "频道",
+        "口令"
+      ],
+      "fetch": {
+        "status": "pending"
       }
     }
   ]

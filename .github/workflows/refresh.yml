@@ -34,6 +34,13 @@ jobs:
       - name: Unit tests
         run: python -m unittest discover -s tests -v
 
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Search tests
+        run: node --test tests/search.test.cjs
+
       - name: Fetch bot data (full re-check of every entry)
         run: python scripts/fetch_bots.py --sleep 2
 
@@ -52,7 +59,7 @@ jobs:
           if ! git diff --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add -u
+            git add data/bots.json README.md docs
             git commit -m "bots-data: auto-refresh $(date +'%F')"
             git push
           else

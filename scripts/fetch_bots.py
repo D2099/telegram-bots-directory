@@ -40,6 +40,7 @@ from typing import Any, Dict, Optional, Tuple
 
 import requests
 from bs4 import BeautifulSoup
+from catalog import HIDE_AFTER, seed_errors
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "bots.json"
@@ -49,7 +50,6 @@ MIN_SLEEP = 1.0
 RETRY_BACKOFF = [2, 4, 8]
 RETRY_429 = 30
 DEAD_CONFIRM = 2   # consecutive dead observations before status becomes "dead"
-HIDE_AFTER = 3     # consecutive dead observations before hidden from README/site
 MAX_ERROR_RATIO = 0.5  # above this, the run is treated as failed (nothing written)
 
 # Headers to be polite and avoid simple blocks
@@ -218,7 +218,7 @@ def parse_preview(html: str, username: Optional[str] = None) -> Dict[str, Any]:
         "is_verified": is_verified,
         "photo_url": photo_url,
         "page_kind": page_kind,
-        "not_bot": page_kind != "bot",
+        "not_bot": page_kind in ("channel", "group", "user"),
         "status_hint": "ok",
     }
 
@@ -313,6 +313,11 @@ def merge_observation(old: Dict[str, Any], obs: Dict[str, Any]) -> Dict[str, Any
     merged = dict(old)
     kind = obs["obs"]
     prev_status = old.get("status")
+    checked_at = obs.get('checked_at') or obs.get('fetched_at')
+    if checked_at:
+        merged['checked_at'] = checked_at
+    if kind == 'ok' and checked_at:
+        merged['last_ok_at'] = checked_at
 
     if kind == "ok":
         merged["status"] = "ok"
@@ -370,6 +375,10 @@ def main():
     sleep_sec = max(args.sleep, MIN_SLEEP)
 
     data = load_data()
+    errors = seed_errors(data)
+    if errors:
+        print('Invalid catalog: ' + '; '.join(errors))
+        sys.exit(2)
     bots = data.get("bots", [])
 
     targets = []
@@ -399,6 +408,7 @@ def main():
         uname = bot["username"].lstrip("@")
         print(f"[{i+1}/{len(targets)}] fetching {bot['id']} ({uname}) ...")
         obs = fetch_one(uname, sleep_sec)
+        obs['checked_at'] = datetime.now(timezone.utc).isoformat()
         counts[obs["obs"]] += 1
 
         old_fetch = bot.get("fetch", {}) or {}

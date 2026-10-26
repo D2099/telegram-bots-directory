@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f6f8f7">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  $seo
+  <link rel="icon" href="${root}assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="${root}assets/style.css">
+  <script src="${root}assets/search.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="$root" aria-label="$site_name 首页"><span class="brand-mark" aria-hidden="true">b<span>·</span></span><span>$brand<small>Telegram 机器人导航</small></span></a>
+      <nav aria-label="主导航"><a href="${root}#directory" $nav_home>发现机器人</a><a href="${root}category/search/" $nav_search>搜索专题</a><a href="${root}guide/search/" $nav_guide>使用指南</a></nav>
+      <a class="header-about" href="${root}about/" $nav_about>关于本站 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main" class="shell">$content</main>
+  <footer class="site-footer"><div class="shell footer-inner"><div><a class="footer-brand" href="$root">$brand<span> / 为实际需求，找到好工具。</span></a><p>独立中文导航 · 推荐不等于排名 · 公开页面检查不代表功能可用</p></div><div class="footer-links"><a href="${root}about/">收录与维护</a><a href="${root}guide/search/">使用指南</a>$repository<a href="${root}LICENSE.txt">MIT 许可</a></div></div><div class="shell footer-bottom"><span>基于 <a href="https://github.com/codertesla/telegram-bots" target="_blank" rel="noopener noreferrer">codertesla/telegram-bots</a> 改造，保留原项目版权声明。</span><span>少一点寻找，多一点好用。</span></div></footer>
+  $scripts
+</body>
+</html>

@@ -80,6 +80,12 @@ class ParseTests(unittest.TestCase):
     def test_blocked_page_is_ambiguous(self):
         self.assertEqual(fb.parse_preview(BLOCKED_PAGE, "demo_bot")["status_hint"], "ambiguous")
 
+    def test_unknown_action_is_not_a_confirmed_non_bot(self):
+        page = BOT_PAGE.replace('Start Bot', 'Open Telegram')
+        parsed = fb.parse_preview(page, 'demo_bot')
+        self.assertEqual(parsed['page_kind'], 'unknown')
+        self.assertFalse(parsed['not_bot'])
+
 
 class MergeTests(unittest.TestCase):
     def setUp(self):
@@ -119,7 +125,16 @@ class MergeTests(unittest.TestCase):
     def test_unchanged_ok_keeps_fetched_at(self):
         m = fb.merge_observation(self.ok, obs_ok(fetched_at="2026-10-19T00:00:00+00:00"))
         self.assertEqual(m["fetched_at"], self.ok["fetched_at"])
-        self.assertEqual(m, self.ok)
+        self.assertEqual(m['checked_at'], '2026-10-19T00:00:00+00:00')
+        self.assertEqual(m['last_ok_at'], m['checked_at'])
+        self.assertEqual(m['title'], self.ok['title'])
+
+    def test_error_updates_attempt_time_without_claiming_success(self):
+        observation = {**ERR, 'checked_at': '2026-10-20T00:00:00+00:00'}
+        m = fb.merge_observation(self.ok, observation)
+        self.assertEqual(m['checked_at'], observation['checked_at'])
+        self.assertEqual(m['last_ok_at'], self.ok['last_ok_at'])
+        self.assertEqual(m['fetched_at'], self.ok['fetched_at'])
 
 
 if __name__ == "__main__":

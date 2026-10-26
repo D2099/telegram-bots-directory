@@ -6,7 +6,7 @@ Per SPEC §4 Task C (M4):
 - Reads data/bots.json (sole source of truth for bot list content)
 - Replaces ONLY content inside AUTO:* markers
 - Leaves all prose, headings, and non-marker text byte-for-byte unchanged
-- Supports last-verified, bots-featured, and 6 category markers (search/group/download/ai/rss/tools)
+- Supports batch, owned recommendation, featured, and all configured category markers
 - Group category renders subsection headers (verify/ads/stats/misc)
 - Dead bots are shown with failure marker; once fetch.dead_streak >= HIDE_AFTER
   (3 consecutive dead checks) they are hidden from README (kept in bots.json)
@@ -17,15 +17,13 @@ Per SPEC §4 Task C (M4):
 import json
 from collections import defaultdict
 from pathlib import Path
-from datetime import datetime
+from html import escape
+from catalog import VALID_CATEGORIES, HIDE_AFTER, is_hidden, display_name, seed_errors, site_errors, load_site, telegram_url
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "bots.json"
 README_FILE = ROOT / "README.md"
 
-VALID_CATEGORIES = {"search", "group", "download", "ai", "rss", "tools", "translate", "checkin", "channel", "game"}
-
-HIDE_AFTER = 3  # keep in sync with scripts/fetch_bots.py
 
 NOT_BOT_LABELS = {
     "channel": "⚠️已变为频道（非 Bot）",
@@ -34,10 +32,9 @@ NOT_BOT_LABELS = {
 }
 
 
-def is_hidden(bot: dict) -> bool:
-    """Dead for HIDE_AFTER consecutive checks -> hidden from README/site."""
-    fetch = bot.get("fetch", {}) or {}
-    return fetch.get("status") == "dead" and int(fetch.get("dead_streak") or 0) >= HIDE_AFTER
+def md_text(value):
+    text = escape(str(value), quote=False).replace('|', '｜').replace('\n', ' ')
+    return ''.join('\\' + char if char in '\\`*_[]' else char for char in text)
 
 
 def not_bot_label(bot: dict) -> str:
@@ -68,21 +65,14 @@ def format_num(n: int) -> str:
 
 
 def get_display_name(bot: dict) -> str:
-    fetch = bot.get("fetch", {}) or {}
-    title = fetch.get("title")
-    if title:
-        return str(title).strip()
-    # fallback
-    uname = bot.get("username", "") or bot.get("id", "")
-    return uname.lstrip("@").strip() or bot.get("id", "")
+    return md_text(display_name(bot))
 
 
 def get_verified_suffix(bot: dict) -> str:
     fetch = bot.get("fetch", {}) or {}
     is_v = bool(fetch.get("is_verified"))
-    official = bool(bot.get("official"))
-    if (is_v or official) and fetch.get("status") != "dead":
-        return " ✓"
+    if is_v and fetch.get("status") == "ok":
+        return "（Telegram 认证）"
     return ""
 
 
@@ -172,7 +162,7 @@ def render_category_table_row(bot: dict) -> str:
     uwo = bot.get("username", "").lstrip("@")
     url = bot.get("url")
     link = f"[@{uwo}]({url})" if uwo and url else ""
-    purpose = (bot.get("notes") or "").strip()
+    purpose = md_text((bot.get("notes") or "").strip())
     monthly = get_category_monthly(bot)
     # escape pipe chars inside cells (rare)
     disp = disp.replace("|", "｜")
@@ -201,7 +191,7 @@ def render_list_item(bot: dict) -> str:
     uwo = bot.get("username", "").lstrip("@")
     url = bot.get("url")
     link = f"[@{uwo}]({url})" if uwo and url else ""
-    notes = bot.get("notes", "").strip()
+    notes = md_text(bot.get("notes", "").strip())
     badge = get_active_badge(bot)
     if link:
         if badge:
@@ -222,7 +212,7 @@ def render_featured_table(featured_bots: list[dict]) -> str:
         uwo = bot.get("username", "").lstrip("@")
         url = bot.get("url")
         link = f"[@{uwo}]({url})" if uwo and url else ""
-        purpose = (bot.get("notes") or "").strip()
+        purpose = md_text((bot.get("notes") or "").strip())
         monthly = get_monthly_cell(bot)
         # Basic escape for | inside text (rare)
         disp = disp.replace("|", "｜")
@@ -348,6 +338,12 @@ def replace_marker_block(text: str, marker: str, replacement: str) -> str:
 
 def main():
     data = load_data()
+    site = load_site()
+    errors = seed_errors(data)
+    if not errors:
+        errors = site_errors(site, data)
+    if errors:
+        raise ValueError('\n'.join(errors))
     all_bots = data.get("bots", [])
     if not all_bots:
         print("No bots in data/bots.json")
@@ -356,24 +352,27 @@ def main():
     bots = [b for b in all_bots if not is_hidden(b)]
 
     # Group by category (preserve encounter order)
-    # Featured preserving json order (computed first so we can dedup from categories)
+    # Featured preserves editorial order and also remains in its actual category.
     featured = [b for b in bots if b.get("featured")]
-    featured_ids = {b.get("id") for b in featured}
 
     by_cat: dict[str, list[dict]] = defaultdict(list)
     for b in bots:
         cat = b.get("category")
         if cat in VALID_CATEGORIES:
-            # Skip bots already shown in featured table to avoid duplicate listing
-            if b.get("id") in featured_ids:
-                continue
             by_cat[cat].append(b)
 
     readme = README_FILE.read_text(encoding="utf-8")
 
+    primary = next(b for b in bots if b['id'] == site['primaryBotId'])
+    primary_text = f"**站长开发：{get_display_name(primary)}** [@{primary['username'].lstrip('@')}]({telegram_url(primary, site, 'gh_readme')})\n\n" + md_text(primary['notes']) + '\n\n这是明确标注的站长推荐，不代表独立排名。'
+    if site.get('publicUrl'):
+        primary_text += f"\n\n[打开导航站]({site['publicUrl']}) · [搜索使用指南]({site['publicUrl']}guide/search/)"
+    if '<!-- AUTO:bots-primary:start -->' in readme:
+        readme = replace_marker_block(readme, 'bots-primary', primary_text)
+
     # 1. last-verified
     last_label = get_last_verified_label(data)
-    last_block = f"> 最近核验：{last_label}"
+    last_block = f"> 最近自动检查批次：{last_label}（公开预览页检查，不代表功能验证）"
     readme = replace_marker_block(readme, "last-verified", last_block)
 
     # 2. featured table
