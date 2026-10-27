@@ -2,7 +2,7 @@
   "name": "Telegram 实用机器人导航",
   "brand": "BotAtlas",
   "description": "按使用场景发现实用的 Telegram 机器人：搜索群组与频道、群组管理、下载、翻译和日常工具。提供中文说明与使用指南。",
-  "publicUrl": "",
+  "publicUrl": "https://telegram-bots-directory.pages.dev/",
   "repositoryUrl": "",
   "primaryBotId": "dk_searcha_bot",
   "trackingEnabled": true,
