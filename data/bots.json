@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_fetched_at": "2026-10-19T08:41:10.606574+00:00",
-  "last_verified_label": "2026-10",
+  "last_fetched_at": "2026-11-02T10:55:18.440581+00:00",
+  "last_verified_label": "2026-11",
   "bots": [
     {
       "id": "botfather",
@@ -15,18 +15,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:12.220568+00:00",
+        "fetched_at": "2026-11-02T10:52:37.785835+00:00",
         "title": "BotFather",
         "description": "BotFather is the one bot to rule them all. Use it to create new bot accounts and manage your existing bots.",
-        "extra_raw": "7 552 883 monthly users",
-        "monthly_users": 7552883,
+        "extra_raw": "7 966 382 monthly users",
+        "monthly_users": 7966382,
         "type": "bot",
         "is_verified": true,
-        "photo_url": "https://cdn1.telesco.pe/file/kG2Yntz8VEi0FRVfJagUo6afC_CdzssMXJyGYc7CupksvwTL0oTyh806PvuIwglqd72_iOhiBvpoUTTCYAKuW1Fjh7Qk_fNfj8-9QwLicY9xgPM2u3STUA-qOpOZWAo1MBQDeJ7pWuRykfaYY9bFcmIBX1B-cBvhxXjElOWmDyi8KKcUYEIL6XmH82ymVReFNfVfFuY7Nxll2bB3dK4WDpvqSGxqzz-ABL8tr-T0I3EMLzepDW57313mn-fBwBCwJu7DgXWklwlZ-SSZz_Frvgoc_r2fEoIe5-8zGUr94jCuDz2wluP5zvRlsrtIUxw1qbi49f3I4J5QCRo5HIkPiQ.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/MubQLvKO-rMMFO2aKD67iHFUPTlM1i_qAHSmomNl0XSKYWOI60nABEJM2VF_oxqzT559mGQuO9VsO_ploBCb4AAjQocvxqMslJ2sBuwbEeUJ2DCe5ue_rj6zY1f6kZr3yGMFQ2IYjLVZYR--5dJ0Y3qzC-iMirL2eIHdOmDjZGzGNMyate7S4AkR5AasAv3LsKf1E8Lp6ZT5nJS2iC9r_44FBxhWKUQ9Pw_7KFvLTsxb7cLfynZu39uFVgeB-VThkDpUq78X8DxAjDL8XwTnSPwSB5Sa4whtEI9ZhbmnSmvbo_jeYO1dA2z0yhuHEEujzYsHH0_YrzgfG_7xuEzExQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:39.786945+00:00",
+        "last_ok_at": "2026-11-02T10:52:39.786945+00:00"
       },
       "tags": [
         "工具"
@@ -44,18 +46,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:17.200451+00:00",
-        "title": "GroupHelpBot",
-        "description": "Moderation, analytics, anti-spam, and content management for Telegram groups and channels. Since 2016",
-        "extra_raw": "2 363 150 monthly users",
-        "monthly_users": 2363150,
+        "fetched_at": "2026-11-02T10:52:40.256866+00:00",
+        "title": "Group Help",
+        "description": "🤖 This is the most complete Bot to help you manage your groups easily and safely!\n➡️ Add me in your group as Admin!",
+        "extra_raw": "2 388 840 monthly users",
+        "monthly_users": 2388840,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/PtE8UXsJug2YNHaYonBYmyq_j3PQgdV-bV3WCSrbbzr-S4Nj9Z_A4HmWkWVsgKfT2qWTdygqtW30WNbrxPk5moLiU6OdlBEN8GTbMGXI_xroOEJcHxRb7jO3hWT46lh1VVO1ID4iPDJk0v63IFhf9IQFQvmYdMRQXQP5LX3yQB0flP_GF600Q_v7grBeuu34AjqSLiHAgGT0Q8SUAZy1CnkDrKhjapwEhyBdTpcnBb_f6-i_JPlLBgxBfgMuUzGKpT3rNQPpiZliH8AOrf-fEppTqnzE4pGNOjp5gL1SxJ0SWEpFMYc7TfFQ1-puEi8kwT1aJRPvGLN_p9iLB7E0JA.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/e5EJx8NQx8be8qeNg95a9E3lJoegAI4lKlg6Kjzu7R5Ff9JI7qLrJZTNilP1OPvMhK3oJWbsWkg--EWIjm0kNY1i12Ub9PzoANbHaYV0qwpwRs6M2iFHjE2tu8IcSuzMCnSQU2a8pAHR8ZT_MuifKwDnFFeiPiz-5IdCbZcl1xL5x-axUGiRsqWFZlxjHi-ou5B9J-MPpi9aaY2WZOnmhqKMv11w9298XJRP3Ia1f3tqMArhZxVzbV2GjuAQEFk6v8qQZPHAQG-KxiKd1Zcz2VMPRxgnlJJ8gVjrcX1pUlNT5-xextG51GXshGSrw_mq8r2RqB2To_XhGEdpogHaSQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:42.257850+00:00",
+        "last_ok_at": "2026-11-02T10:52:42.257850+00:00"
       },
       "tags": [
         "群管",
@@ -75,18 +79,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:17.200451+00:00",
+        "fetched_at": "2026-11-02T10:52:42.719558+00:00",
         "title": "Combot",
-        "description": "\uD83E\uDD16 This is the most complete Bot to help you manage your groups easily and safely!\n➡\uFE0F Add me in your group as Admin!",
-        "extra_raw": "808 428 monthly users",
-        "monthly_users": 808428,
+        "description": "Moderation, analytics, anti-spam, and content management for Telegram groups and channels. Since 2016",
+        "extra_raw": "840 017 monthly users",
+        "monthly_users": 840017,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/D8OsvkYMVwo85SHLhOSi-DCczGE-vfb8cm8umjHRUTGd3LSstUTkL4rgf7L68Tagcwp_Om9Z8axrDvju04GDfTOCc6XK7iIMyM0sI8ncjNPZBytrbyK_w8yfm9XUXqUF8vJI9nW4bAYOYiI9kWpxoahnetBJlzDhU8t8dFFDep9bmnwZzVlKPNc9dZq53GHoOS2oPCu3OTG29q_EL8u6-re8UoUR1U2QU357GUseZQHTzEBHNjLbUwnFOUY5kGqoo6O75mNtS8x_YdrPhiPZ9rZJIq0a0W-bqazKZy6pnVvTjfMsnohZL4BKBMTF9z6svlJFFMF40k_FsRfSRz08PQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/EGsg9LQNPZAS0EGmKFo9sUxY0uAwoGet0YNkN0QJNuuNyOhNt6d4_c8w5vhxuArxnlGzB2WgC4LvV-YjAdw5X6iOZg1cVvtrUYdu7-DOspM1xrdLPw31JhqnWTgLXSLVoVIgz-m44_RtqFkxENIrnOzPv41ikBLv5l-8EY0AJWheGS63Rsur4gpa6yBx7Gi7ZdKOKhEgQnNvJBjfq0Pz3ufopyKiWTLHsPAMT8g0X-lB8blBJNBUCVlhhAjwCG9kNUi2ahpAX7qa7WZzF9M6BajdllATaF3rkDiuytQtDeJCe4kzBQm-6ZXDJ2xZvqsWpnbnudl9pMkKOyog4l1rTg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:44.720616+00:00",
+        "last_ok_at": "2026-11-02T10:52:44.720616+00:00"
       },
       "tags": [
         "群管",
@@ -106,18 +112,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:19.668470+00:00",
+        "fetched_at": "2026-11-02T10:52:45.203565+00:00",
         "title": "RSS屋",
         "description": "更多精彩\nhttps://t.me/aheatwave",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/NEprCoza82xP8D6beUzDPL4JwQiwDjEkKkA547EEaF5CEtzJ6rYcfcW-mHa5J_cofqQ8dmzf5clxsk9w8ChYa3RqIRJE_hKgAihQoGGb7OXXk54incXauuc5Os9rgS_0k-QLA6CW56PZY6ae48Wceh7xoPACIFJVzyzYf0sZI_K2swOWXCO4_fyrPw21hmbq2WtzH761jirkD7mHbSJXJfF_We_6Bij7zKe1y3oEV5ljcH6ITKAW-jHNYxmsZw8Xa7VfOoIBuX-FqthbC9Plm43GHKHdztldc9-BN7Q4CLl87sG3aoahoYiacGmoXEjFA2pJPLTxkfA-DrHPte72ZQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/ieFzm5MWuicNcY4GDy56OMgViaYnGvF3kokTanBTc8LxFsqrAWt03xsd4HP2RL0fO-SJeGbKL-DsDbeQbrJT6MJyuXm8zoJ-0vvtiWDfMbBXGc4uJafTvdaPHThZMSOY4nQsdpUBKNRo13gkC0s5sW4nprtq5bdZyxLVWzCYrj_pSOVUyEI4yaCvSrPfsPJoMJcwIzQ7zR9XBn5qxtsCUWcytxRtMMtb-495oToWv1HnKFT00bVdlQKYdk05vHI1AOOTZd4ge8zI8Tx0x-4hJXv8qpwUZ2FtPUQxBF7earbU8PDP4xm4qecnitxiu9LSzeLodif2UV6K7PzCkE0Ejw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:47.204594+00:00",
+        "last_ok_at": "2026-11-02T10:52:47.204594+00:00"
       },
       "tags": [
         "RSS",
@@ -137,18 +145,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:22.137079+00:00",
+        "fetched_at": "2026-11-02T10:52:47.693652+00:00",
         "title": "多平台解析下载机器人",
         "description": "支持Twitter / X、Instagram、YouTube、Facebook、Threads、Bilibili、抖音 / TikTok、微博、小红书、贴吧、微信公众号、快手、酷安、皮皮虾、最右、小黑盒",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/G6whjcpz2MAJRR1gRWvFNRLaSoSmfwdyBjRBR4bME8BnrZ5PjYUzUy9ish-HIwlsTj9LyxmmnNKTMUM-lZ5WA-3-kmSjL6nrHIUTbiDJP-er4htb4CCEzkpO0TYRIyU0Ub_K2phF8_CX43mA6-KXvgv1b59UBWF_l3MAnpXI8Ozgdq3g-qfrer17h71uMXb_XJnjcH8rpbMzzdM2lBcmNWy86_sql75fFQpB8NkzbfxhMNOSY461fdKpCxxeJc9R7sip0DY5HPCLLEKwxQPDF5qo10gCJ915afv2t4H3lLhZryrOgmAFk2RaTta1AUK6S6Fj9QYmdbIBafrNz3xcmg.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/lJ8MPTkZP6zxPa_OPY1fIOaTiuFwV12aFdAtUeSEiWS29tSqiFIWAk3pMMWJjujJWuXaBpoFO65Ozr-utsJD1WPHs1xgQO0A52rXFOLbYw99-wNDM-Xibu5Su3NPBGgrbjxxzHNIKRlTRg-4oGIvEkOrq7BvjaZEPvb9JLVf9yjeRgdhKXqP5vm8BmxLULMj6sUMwe3R-3iFbI669xX7sRDWF42xket6CREOYsKoZUEXWTCjEnsJx48ffm0Cqn_gXnObIrzyOAA6HRiOcNP-BFBVozaFwRGf2eA_f3CCIITpQaIkgR8ohLxGns4j3VLZNUJS3BGkQeOqwaPfp4SRaw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:49.694661+00:00",
+        "last_ok_at": "2026-11-02T10:52:49.694661+00:00"
       },
       "tags": [
         "下载",
@@ -174,7 +184,22 @@
         "口令"
       ],
       "fetch": {
-        "status": "pending"
+        "status": "ok",
+        "http_code": 200,
+        "fetched_at": "2026-11-02T10:52:50.167521+00:00",
+        "title": "DK资源搜索",
+        "description": null,
+        "extra_raw": null,
+        "monthly_users": null,
+        "type": "bot",
+        "is_verified": false,
+        "photo_url": "https://cdn1.telesco.pe/file/NKnahO-ASBSCL8rPd8nmZJa8czirfK-Fw2poVJUDHW0jXAdwmDUq1Zo4rdW4TgecXxZmH2X6s3yoBasKLhQiRQGBoE9-U8UpGGFDHc4QQU6kUE4_YKvdFLP56FWXFoGQYsXdl4p30jRF1AeHhS0X5MbST0Uoens76DO5cysBPEQBYPIC-l9kmHpzSQqVsdWPVbwvJGQvxrPmlHW4O-jmxW5kwb61Z8LRAfBzBdRW9Pzx3af3xfpryMxwfyKBp3M_4bwEfAtpYeECVC3bjJXlNZU7fzPgDMVhWEeeMpoNb1ugf-rVl6AvI2t_qgAipfb4JwHQTcTm0ILM0Kd14SRiIg.jpg",
+        "page_kind": "bot",
+        "not_bot": false,
+        "dead_streak": 0,
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:52.168622+00:00",
+        "last_ok_at": "2026-11-02T10:52:52.168622+00:00"
       }
     },
     {
@@ -190,18 +215,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:24.649257+00:00",
+        "fetched_at": "2026-11-02T10:52:52.632115+00:00",
         "title": "SOSO搜搜",
         "description": "Telegram 中文搜索与群主增长平台。搜索群组、频道和内容，管理群聊与频道，并通过 AI 提升安全、运营与增长效率。",
-        "extra_raw": "980 250 monthly users",
-        "monthly_users": 980250,
+        "extra_raw": "1 166 173 monthly users",
+        "monthly_users": 1166173,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/ZKrcRA3nnJoQrGMCWl9sZxNYWDnk6eHhlozncP4dF-bVx4kCkunTh8fF5eGWXxegnXCfrMLiSNvkTuQSzrJZfhBc5UyWn7C82ucHExVqvqiQbPQukTXWaVbKStvHdwscv-7nA0rTXugEyjLZ_XqjqCQBpOHbWEEHuqKRVX2v97Bo0RWUsVY4bpxQEYYvlotv4p0e2M6kwIgd7verxU5-1WNBOFeltJuORcmzyauycwnlp5KDTdc-fBmIbQIPuYDs0MRPNrytqrcyOKBgktjbUuFrZGSGxZbqU4rb0kxHndH_f2pJloJ9tDWRkPaWDREEG6JmZVIHkrqJLNcBHAxaYQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/KqQkf8Z3TvOeC7bnTo8A0uIZxj8-0Va5XMvinQ3gQxnu0yaX8Pej5WlUpVOqQ9pa6Fhkx9o24xnXcVU-YYD7jxO9kAOXcyVIfUl_Ck_KiutxFUyeMCou0gsyXHVMfzEl6dygmDXpvCyrAp_9bHxSZUp7x-X82A6j8qAMQoDJJ23MpPVQuUaHVGpGCY0DXCnFeqen0X75luhpwJlXw-Qu-oY3J2z8NhQXyVlkUKoSZxQBRHz0qGDmcXJDKFSV1SkekIb8IMPFWdlAM6W07IQnzFGgiWqC92IRqeSr9YS-uaEoQhwu3O9a1cDfKQbt3YAAomMmH45ljvmnRhoMNDH1vw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:54.633216+00:00",
+        "last_ok_at": "2026-11-02T10:52:54.633216+00:00"
       },
       "tags": [
         "搜索",
@@ -221,18 +248,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:27.110143+00:00",
+        "fetched_at": "2026-11-02T10:52:55.116268+00:00",
         "title": "一起搜电影",
         "description": "TG必备影视搜索神器，找到您喜欢的电影、电视剧！欢迎将 @SOTV 添加到您的群组。",
-        "extra_raw": "63 288 monthly users",
-        "monthly_users": 63288,
+        "extra_raw": "62 538 monthly users",
+        "monthly_users": 62538,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/CF6Sv4WtZF8WXjBNkoI4KpPsxCCGE8CxlbReOEu2FJxvdkELxzrBGhr-zXqlK4D7zYWUDKFAugfmiDTUl2J1CQw02S0Unb7SgbTujTt1qqnn5YuMaj_cnaiipKuEQ03M65FWx67Dm0T19GJg1NC7KhkZIJ7zIFqYbpo6qS0y4fVSS_nPhPbm0PXscqgmKDhkRXg4glgoeEtZCoA7Sc02XTG2dT_vEnvrlpynmrT3B1Ush9l7QVWnfFfC6pnX9gP9EL9RJR5oDxkBHlAVmybitJATIzLeGM3sVRo4mzlyIcvS45EQmp_hDvk8US1pXAt-IwRqA9NNU9S8WOI_Rf5xSg.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/R7FkPB6TOUsl_shVQ8VVxIjnLruSlCoHlameDtliuOdQAlBZa_kFDeFf6i0Dz7Wqfqv-NSUA3yIjBNNDoLCaSoTFPNhnR1juWOLvKvhmN9gG5u3_g067hVrNIm5dyL0xNfjHEnQmHvfiHGIpnMekfihpbrk9V03QVImD4TdWzSlYoS6bN8C8X4BF42-TKpb1RP0mZXxfgvflsdW3ZM9Odo6KKs0xo6GlJL5LXBOBZXrkJEnUP2wfHsFp9yiF6rgXIUGoh9a1xHlbEy8OBA5S7tHzGuoyVylxpYvT9XuQb_eRQRtJtlWdnmajN6r7GV0ibnTCVpwy8zPbLZ9jM4DwYA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:57.117327+00:00",
+        "last_ok_at": "2026-11-02T10:52:57.117327+00:00"
       },
       "tags": [
         "搜索"
@@ -250,18 +279,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:29.585246+00:00",
+        "fetched_at": "2026-11-02T10:52:57.620110+00:00",
         "title": "阿里云盘搜索机器人🤖️",
         "description": "关于我\n\n我是阿里云盘资源搜索机器人 汇聚全网最全资源\n\n如何使用我\n\n1、可以添加本机器人到任何群组 然后在群组里发送#+资源名称即可 例如 #人民的名义\n2、可以私聊机器人 直接发送资源名称即可\n3、更多精彩好玩的东西 正在开发中",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/ctTaqZRFT7hlCjldz3VDRiqlUF5G9pK-b6TjqvLmxHIGJUQk3TAYcZbrHNY7pYMywXd2lvOO3etL1stb7fFoNyYUcIGQdncMkwUSUHXhA0chmdBymglrSQCTzb2MGOzy9fcjkgVwnUf5RdvWCuaIJBY_TBUT-cP43TQwlh7jGhkHb9zpArEEiA83jg6YspLrElBnlHM_X7yVWgXYq7gGb_HKzVipAg6FR_yHc5sTf37i8KOwzqHjGeSJu5OuOZghzGNObvxY-NW81rPyZfnZ-2SpDCXmU1IAdw0Nxl7I98XUyhRN9uiUXHQbbapU_n3LNlISIdO1bKeF9wyPHBAgNQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/QMZ4Am0MjugHdTv3Yju5jOGkYX_CjE_tUNwxSRC7_1sPXnls4AqhSOsD7iMRWDQXSdERBqUYncRjxg7WFA97VXT7wmuXFtminGHJhEAQ7PU2DPOm8H4mmep_H7ohNpiDRpEzNZTbLgnEjUbw-1cak1ajI9KZMCcw9iZAgEiMLt_d_oUl20tc5nYNC7Xk_jmqCh1G3SWAYqjSk_JMW8EGX_vnGjgCSP2-5fm25wnqWRZ88wuV19sHHODc3aGDZUKMFUW0gBxfTq2I2pNonR4UIoQXT9LH5srMpgx1Z5h4mgyrS2qhdKCzNoPRpxkVtPBFDbAWC8IWO0_rCyDpcDSY9Q.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:52:59.621176+00:00",
+        "last_ok_at": "2026-11-02T10:52:59.621176+00:00"
       },
       "tags": [
         "搜索"
@@ -279,18 +310,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:32.066544+00:00",
+        "fetched_at": "2026-11-02T10:53:00.094166+00:00",
         "title": "阿里云盘资源 Bot",
         "description": "集投稿、搜索、收藏、关注、分享和导出于一身，做 Telegram 上更全能的阿里云盘资源机器人 ~\n请关注更新消息和使用帮助频道: @YunPanHelp\n频道: @NewAliPan\nSince 2021 with ❤️",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/ZJSehdlkqAgbBq2SktFWaSSPGzascLgCK3M64GwmFo2ny-PBIW1fV2wDzFHLgfkAVIsYjUxdVMGAGAmARsOgM0E92DI9WMs2EzYQNsQb7KqqIFNbRburKSIv81hEkckKMG-nAd7LUrRqIkcFlGjoXh9JpkbHWDs8xXr6qhZ7xGdg-k0h2utbTH4Ract8ejQSb2Do8c-ACby7rXPvsUBVfat9BaiA0fJ-rtIuSKi1QO9dQie6K9iykMr5865f4-VG2T9u2F6mnKbjXKMk1PLUjnnLNJW5T2oR2c4d8eX5uBKs3d7FvO2O0s3WgBMz4-NVkW24kSSQFx93wer60-W0yQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/rzLZ0iaWAaysh-_N6tp9KAcCZY8bwDCJUcoxlOCyF0Ydhmz-f2B11DSAu5JDaIBGvy7DZymtsz_oN1hJxShLR4HsNBaczRWd3MZRVpA_whw7_JaDnvk2xq5OWdzSLriGtNCFSpvlUUJ_LQt-zPBq_DfDddLtMk4JmtIQcc0T_C-4fQiQ3oTTQqNZwNRU8QorKevquD19duhN2Njx5FWZFQRILpcyj-qIgc2ezoaebRmLzhdBREWyKYs9NxalbF5GJTtu5BWQRcHLpsOfsPvaHa5gZxONJ6cZ0VPit8Yx3c9_RdKkbU4g6qseEi9nJZo3os5pZpIWuoF6nOIIBcRj6Q.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:02.095370+00:00",
+        "last_ok_at": "2026-11-02T10:53:02.095370+00:00"
       },
       "tags": [
         "搜索"
@@ -308,18 +341,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:34.746865+00:00",
+        "fetched_at": "2026-11-02T10:53:02.717400+00:00",
         "title": "Video Search for YouTube",
         "description": "This bot can help you find and share YouTube videos.\n\nBy using this Bot you agree with YouTube Terms of Service.",
-        "extra_raw": "224 721 monthly users",
-        "monthly_users": 224721,
+        "extra_raw": "227 089 monthly users",
+        "monthly_users": 227089,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/S19ltFJRI3_fY_2zVaCycGMAEaxSECGN7xS1mdABfRhrwQCRqt9shMt6qpHI9rtqeXxYe15zOygRIsVKmY98DZNMX8X3dXvTKeBbyxm-6NC_f1yZrAZGF20kuQ-xC0d0mEmp66rKo4W8fGHT_aSigpNou5-TjOdPvKd5LV6O8GfDQTZYhG7_AitjyPohSqriJo7Y_oOKgXqadEmg7gSwf0_4kpXZIAA8qSPKfHS8HyLr5hDOgBiFCQ2ecZcwcCXN7BJKlFwXwyMa3NNhAVhbG_HKcgcmGtZthsWnvrjOYkPK4lmVW0mA3FBANGWxFa0ya9JOlneD2lD5xpgKyG4u7Q.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/tCJyU6dYwNcuDyGWME1Z8jqIjF1rRw7j7MBDCrIghonxajjRFVuxx-hUIeKkvwdyKT27LzLSzWirN4okjfH0MrNMhlB-MDeShHqZpeVgejRkl9VYDb8WICbtV_CpRRNxQ0u6YWYAfM_tsAMzDNWkPJAvRPK4fiT4KhMH0L_56T3551kQ8BrcMmHs7w19UW__1Cuu1_v0pGMNAgwqFArQh5C2dV7EP68joV9NbxWIfuSlDRxaLvQCteJypLRhJsrvi2krjjPMsBsT2TZrp8nDd5GLo9Beb3SIBwr6JLk48rUKdN5yWZdhpkyk6TDODz4rvv12I-HPZA5-wrTb4oHIiw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:04.718573+00:00",
+        "last_ok_at": "2026-11-02T10:53:04.718573+00:00"
       },
       "tags": [
         "搜索",
@@ -338,18 +373,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:37.207995+00:00",
+        "fetched_at": "2026-11-02T10:53:05.205581+00:00",
         "title": "入群验证机器人",
         "description": "Source: https://github.com/fossifer/Telegram-CAPTCHA-bot",
-        "extra_raw": "11 497 monthly users",
-        "monthly_users": 11497,
+        "extra_raw": "11 747 monthly users",
+        "monthly_users": 11747,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/nBte6tk_NzwzvIqDIb-BNrp6wBB27Fzxi0XynuoTfuCWWBnBQ8j_h536iRMhIAT16JHk5xxc1IvGxj0rXOQ0EEkCPyAgBSuGv6LJRUs80dGis_aIWR63-Dd3XtNNZ82-M2nrK9oQGjrcGB4OGb6107yis_MdxNTXpYs4gLCh8EQ2cU47emku4MBBzehcCVABkjtQpW1UjiI8lxgHWPV76zpGOC3BfTEciMOXFunIRyJDEaCcsKSf9necMlnMxZmfda_PNW3_TKsTYxMfcCQOE-a-wDnqPxXlwaMSrgoASMiJTYnlB1op-yS5-botzosdcueIPSkQmtDuwDvtBPtSnA.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/kIVm1FuFRBEQgEL-PUvEpv3Fc_DAoTtiqbgMehJmQ1MiAjFipXtZmndxQPil18Lz-xpA7phxRrd8-oDoWAPk5c7xZNOi7safcEBhl2rCuh1FQ2v5Nu2O6IjPZ1_-XFizOA4MqZndpN6IbIy6D0KxOFr1Rq3GPXKSrC7vtz6cNXlG-f96HAKG1Qojn6LhswwO15B4WKIHD2KCheQisZG-eKyCU94W2QWyvtr0YglohotLrulWypPCsG0Ht9rjSR5fiZnr6-4MI4a3p4M3ozs6zUUAsrAW9PBMdJIYI6HGfNo3CzNq3MfdlQ09tqYKzMKWIh-Y4XsjrkOhJ5XXWfJadg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:07.206556+00:00",
+        "last_ok_at": "2026-11-02T10:53:07.206556+00:00"
       },
       "tags": [
         "群管",
@@ -380,7 +417,9 @@
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:09.694054+00:00",
+        "last_ok_at": "2026-11-02T10:53:09.694054+00:00"
       },
       "tags": [
         "群管",
@@ -400,18 +439,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:42.140339+00:00",
+        "fetched_at": "2026-11-02T10:53:10.154466+00:00",
         "title": "Policr",
         "description": "请使用 @policr_mini_bot 详细原因请关注更新频道。\n\n❤️. 官网: policr.telestd.me\n❤️. 源码: git.io/fjRu4\n更新日志: @policr_changelog",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/OfAzn-wAweKSRkblt-gkVO8RAiVQ4tygQdsha_q-jtwp1k9WiVS-gUWgzx2MwiPcHjNKSjC8PmulFP7L9QPB8gQ_S9bklUw-ayWedPJrLAn26RSBWDge4BdL3lBzAPBgmrkBhHjsEBzruHfrgVVp1RZx6-QzgN55nOhIUF0mKPe7abeD7G_SZslZOwTiwi5dDoP8W_nv3TvvtuwQbnHi27zaBSeKcI-X9dETP4sMiPFcg-2LiNd-7EMMuzYN1UtoCOTEg6QG4AjgVx7tKvDSvwPs1ogiFdrbaw5LE6FicGqfIRydIC6h_sfxJf0CRTj1EpLTgVTKO9Qb6b0CNtXdyA.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/h7RdUy-soBHmlWb8TaD0UvoOzJuKHurBs2_n4IKAA-AQmpj-9u-9eENXtmh7HCZt2lSBI4In8MgYNnT2X_17p9PclxH0oKKKSXLcrUFMeY0obEQvvx9S778ZX-Ij7LBn_iwiHT4Jod-ll2T89aR-Kje4xJwlV9j6A69AFinRYxI_XGBXAWRfQMMQiMCioJ09XE46-0YDKNzjslzaX8d4N22FPMI1FMQuWgam5R9lkqFZo0rFhU5AVzUfzhF8mx8E9mxrcGTj2k1tHBbpuIClabj4JMVp6xZE24O7hLDgO42KBJA3dnib1fzBjoK2wNEkuZ2VMpyQq45Umeq7hYzlfA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:12.155496+00:00",
+        "last_ok_at": "2026-11-02T10:53:12.155496+00:00"
       },
       "tags": [
         "群管",
@@ -431,18 +472,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:44.667323+00:00",
+        "fetched_at": "2026-11-02T10:53:12.644959+00:00",
         "title": "Shieldy",
         "description": "Shieldy fights Telegram spam. By using, you agree to Terms of Use bit.ly/4tpqkp4 &amp; Privacy Policy bit.ly/46t9zQ2",
-        "extra_raw": "199 161 monthly users",
-        "monthly_users": 199161,
+        "extra_raw": "201 046 monthly users",
+        "monthly_users": 201046,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/Hca9B8pLuNLJPbkxA3iCFfEJgH3QCl5EB3QyT3i4UFu8kASM59CQhwoDhx7xt0ttQmkzlip00qD3X8AuzDSCH-pWAdWits65KgAPL9pZZ4hxw22gIcsUCzDG9r3VgS3sNY8tdQmDPvmWB5aMeE_b3zOk2f22uHI87Q5G9F3Ob2G9cDwiNa_MifDCtP61bhs7JN0rf65QHgAMiIEdafdCqoPjkP8aJQzL0ZqQoXIATl5bsT-P_GiQhKytEndvIRGtVGUdXEe6nDvu7YvSiZVwZ7v-5U_eXxj8bNitmRs_DJwV7sIdtqrhw-1yk0QxSs6L3lNbTXrKKAagFrqLd6Vn3A.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/owIDtYOzYx-4ZvMdaZqqnXLh8U7Sg4U6fpVwFAKhWdfNnUn1-YGigRY7kM2iQX1i3AW_wPVZF9iVSitrkxYV6xp2xNgjjFJGSK3D2Zsi4gEhazCNZ0Revo71pNcCXBmrQfY7gZ2v1_YVspU4JWJIcpwem-CKsGn0HyYz_w1zKO5nX9zsDCJOB-odSKpHIoQwT81JCgZYOIkOf3AAaeHoCtXq4BqK7WwTP40z6hnLZ1uf418z4neAFDHsKWJ73KzjmneQm1bGDb1HfGqy_-IbZ6onK8_kDQq-1LF6weERoDiUI2WDQ7OeMWAX2gz_wJeJXoALYjucGQgNSwWJgEu_3g.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:14.646107+00:00",
+        "last_ok_at": "2026-11-02T10:53:14.646107+00:00"
       },
       "tags": [
         "群管",
@@ -462,18 +505,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:47.129123+00:00",
+        "fetched_at": "2026-11-02T10:53:15.135150+00:00",
         "title": "大掌门",
         "description": "欢迎消息，消息自毁，进群验证 - 峰哥出品\n本机器人的代码开源\n欢迎小伙伴们提交 pull request\nhttps://github.com/fengnz/fengdoorbot",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/mZujp2TNEj7u56zujvB7t6faNrEywuMWopGOmqMQQueozGKHO66gKkT86R9WWMdl4U5SB9Am4ICyt-T1O53h7ZAha5Z9OOEz7tovL_5lzKE59x3d-ziMf0m0--wBknj_LNYUrUcQeyHT7sjT36A0tWyICc8_uTu-GuXegwe2sWnTiLXIvMu0zul2n1AwoNOB-EYOiHudgVro30WU5G613qqglUNoV6CY54GR-dSAJqz-cQQQ5z_mUM20Pq4JxuwLEe-KFXqSNkufkVxFQO2GVpP4OHVXU1Zvf-DWLQ0wGUHqQm-StNKAq8Z-nD8urImTfPa6inVxlzf-naTwA-ag6A.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/YrZJYKWXU4g_xYk3iD-AZ5KhmV6VTmY-xxny9xDMwgMfJigoiGIJKEtud8ms6wEKL65qrEBFcJUobjl5QK2qx9m4aq6yIrK1-kSBlPe9ldj5uiJAM7tINhmTaDahcCr96cFCkf3m2rJFP9fpK8G-bWFwKo30rE9cGIoW5KPtdHirQGuNSCjwSHvJ4OLeLJvpOjzFNBxi_ruQagmDK3KToAgvTguA4Hu5WSYd45fVZ_-kgLZNX2fvIq2ri11z1-mIx6NEHEjHDfDS2Sc6AUMdQe6vsOggsGpSVCxT7172RQ3hVNDFMAwpM14syiPRF0Iaye1sRc_IWlZsTn-4Iygrng.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:17.136192+00:00",
+        "last_ok_at": "2026-11-02T10:53:17.136192+00:00"
       },
       "tags": [
         "群管",
@@ -504,7 +549,9 @@
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:19.624647+00:00",
+        "last_ok_at": "2026-11-02T10:53:19.624647+00:00"
       },
       "tags": [
         "群管",
@@ -524,18 +571,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:52.059567+00:00",
+        "fetched_at": "2026-11-02T10:53:20.089760+00:00",
         "title": "广告终结者_Bot",
         "description": "广告终结者交流群：t.me/caoguanggao",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/Orby1A3he6iTSv_o6jC2qls-UZGen5lGpsZPENRzq-0AnPVlrr13u7JPKpQAM7N06jKJYsZMEorfehlRs78AKqcmjozbPNHnL0lfLf7w2Svjn1eM2yQzXagYWEFzq804gcqtPfzbV2MVV3H6LBwnYGLRSWncQ7SCp8VX6bNPwK0aRhbm6kr5AxXnOcn83tgaNjEJASqOXGNOMlrFq5PNMPI4LYBG3eBMQIi5TzkALopFNcbr_AgVu2bbssmb2_iUi4FzR6bPTAYhbbN8MuTmh8VhhDzV1LzXW1eSfyDY3JKZKhM8RsqYWPPVp-MZKN9oLsoRIgY3IEi9c0vYdoVz5g.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/Fme1_dQpDahiMpQv33Dk5l7F7mKwIHafjmDFhbu2wq8nlWC_1VxOn4MhLl70HdrMBzsslT7gYNWHzXJ64Aah08QNPTSnG2PF2KKgZ9p_hg8m5rBto1zPwzvVYWQewKM6BxawtEtg3Hg80ika7rI0cj_wDYPQqg7MiwjH2KbWvxJIVFa7ByEg0vLk9NtDEB5BkhWSWvZOhzTzz6eYr-B3zcr6hss6SwXdD5QB7n8gqqy5i4f5WDGE7XcIhezbne_BizymlA4PU3HDxfT1mhvEowQMqBYcsTlLu4wh7qcjAftl-I82WO_91HyEdIDDszBqpDSU7W-LYdgpsOmThT2MoQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:22.090741+00:00",
+        "last_ok_at": "2026-11-02T10:53:22.090741+00:00"
       },
       "tags": [
         "群管",
@@ -555,18 +604,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:54.569356+00:00",
+        "fetched_at": "2026-11-02T10:53:22.556488+00:00",
         "title": "AntiHyperlinkBot",
         "description": "Removes messages which contain hyperlinks (URLs, Text Links).\nMore ad-free bots @GroupOwnerBots.",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/dCdzwsOwRl92ERHAC8gtIgnK90Oi5us3o6QeNkYQJ5D8UQ1ewBxc8iNQ1TbOM95WprUAZL2Z7FEZsQNIPJaNCpjYeGWakKGF3QJRugXMexyi3g2ztSiqrVkjGIqXvNvoPq9UEY4QyQ6VvX2WLmqQ-qA5IN97OEhvJLZ53ybzzCxWNcO-Kk7nu6lR-x45QKc80SSq48u9OeRwmH4gm_BnDQm6jSk32pgacvpXBaiY6b8KePpmDFKxic1IE2QgROsyOLUn5P6fyYjxV-1QKj5_1TJSXKFLjAAySrPTUe-kc9waK_0y5iW6OpXdzdrrx7uPIFv5GJtAe3-m3Vlr0jREEw.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/bZWtmieTaCsrXGtsFf33uln6Zx8UIAw1yEtW6bcYipAqh56Ecq07Npgt21gZT-9vENNC_4mR4P1JWTUvhZ5ACfFeTomlViYqK4LIhwAz-mO98IPfeTKPJJmpoAIj4X2ZPId5eZWoGwSV7jNW-K1xKGaAppqoEkipO0gNGaml-_2rQUlGHuHt-LSxGI1YtPaFQnskWJDE-00oG0ufc10EuKTgyY-5feFpbexITV_4vEC2mXyyE0Ve63iwBSY-85a0I-RULsZT4ZpZt8dOprkjX1klpiE9Fv9pRCFLxO6EgEjUk7kdX3XdxgvEtHw9nLvDgp_1sx0Ptx4afi6Db1KUpQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:24.557516+00:00",
+        "last_ok_at": "2026-11-02T10:53:24.557516+00:00"
       },
       "tags": [
         "群管",
@@ -586,18 +637,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:57.028274+00:00",
+        "fetched_at": "2026-11-02T10:53:25.044270+00:00",
         "title": "Protectron",
         "description": "AI-powered security, anti-spam and analytics. Join thousands of groups with millions of members protectronbot.com",
-        "extra_raw": "103 552 monthly users",
-        "monthly_users": 103552,
+        "extra_raw": "97 423 monthly users",
+        "monthly_users": 97423,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/RUlgeeR10QQ7agWgsDGyHX0SQ-UEoiQekwS6KvB4NlrKK1EHwMjYig0EEQENuzLzYPQz1SkXUXWlshfPpXaW6tAEvBPN4cuZf8pcziBh651QrIOp0L7vnkkssft9pKjN1QJdWYgtKpAMvvbECzCdnCKZO7uo2Ksc-NszKCR_uWDnwE0tZ0QpDOx7exQ2CnCfhFAiNQct9F5bW8Q8gxLCykHfiSFh0fWC6PFjlJRcj8vm1WP1VIbXnds0XJx94AtY24opbCFRhVibbsnSHvtlld6g6pWwvCR96X8IWsqIO7ltWmKegHi8exvSISf0Gfk5ZcbfOKqhFu1OkU3GBBe2HA.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/oEKSIQZ9_mWElgoa0-s4t8P5-bD5Qanrh1F7TAYXqWOAW7fs1XgEqgsuHYyjIMBbBCRVQZA_qAZIutsEbGFNpv2iMbl7NUWaE27-g7yis2BlFH9-kgBGNUJLJB1AA5x1esW66ecLle0SBw1bKvjSFHuxYqogcRNDDApg8PploI9DnLgwnH25WIg9C6oa7K10X4VKyEufmYn1KiAJUddHCyraW2VhMTXceVzjACpasqfLNU00Nx20yvexfG6n04UJBCDg_pVvLX5CWxLEqD1hJq2jUEMVW5jST-ivBeLwYDae8x1v5o-D8b5ciFHGxVNJ_-F3FOONPRM-nPTyaJiuew.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:27.045384+00:00",
+        "last_ok_at": "2026-11-02T10:53:27.045384+00:00"
       },
       "tags": [
         "群管",
@@ -617,18 +670,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:38:59.491592+00:00",
+        "fetched_at": "2026-11-02T10:53:27.532009+00:00",
         "title": "Auto Restrict Bot [beta]",
         "description": "Auto restrict new members in group",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/GO2FxX3bzqR2kXjlk5PLYZmte_3A_YECdTdAYlYuCQsdcTnu6H5IsX3KgZ5N2jwL3j7fXYrkb1LCWh0i32FaijH7EZBBxHR0BdoRcGA10Ai1PYTiUIqMf_ONkX6ryR96KwRLqm82ejnfGEnq7RTQQqeUHZKqIdJLt71GN334h537H2SDj8lM4Ho98_KK2zx6TGFyumYy5dlO-am3GS452u7E0Yyb2OLrUy36hdz6DvyJfDTxaJtZxaV9kA57czmwRdFSi3nRQUIoV7LVQmTni0geoQEYNojp5bq-flJWTtj5W-VARx58EcWdl-BEJ57CItTDfrGJdDC8j7U9qTSlRg.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/H7800a0AP6FZDHRF6ZG0aa-jXo_LGzRkzTKeYVr9Uia0I46QTfl7EPIKvRvQgT_iuJX6cf3FRSKeV9H0UULEUTQk5IqVq2gsbxXhvWzvUmh86RJ9gQNiJ8FeMTt9e0u2gWxSL1J_YIMA1sNnq0Vlox5XxNXoso1wsTR3_6J3KA5ysJWfUNB3X5Arf-PnBLBC__nk6NE72kTMJWf-zhrpBcK7eoisBmYJLvFnYtfqrUPL0A73282Oa9JoYmWRyuwzi3m-8RVYXbG3_ERXx9FHhd125Cjl8MM58YRno2iTsegtMAJuDxP2e46dGIG_SJuyKqF6X9kUxsmUsLxbAZz2xA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:29.533028+00:00",
+        "last_ok_at": "2026-11-02T10:53:29.533028+00:00"
       },
       "tags": [
         "群管",
@@ -648,18 +703,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:01.959091+00:00",
+        "fetched_at": "2026-11-02T10:53:29.992906+00:00",
         "title": "FreqRobot",
         "description": "Bot to manage chat groups.",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/KOVg8VAAfY1BAojKX8gqyc9LzNfuRG_Q-H27-sAeNigX8vec6Xyt3wpk8MC6FNqoBtwrkfwIZiJMOWCNQ9m0RLh_L26pG_PqTlXlV4pVbcli55eaSAtwM-dfadLmeSnSMG9qNygXaEaD5EyKjX5lQopJC4LFvLZuqmDoRia66ZcyvmfwLNowj1Kj5tkO6p90c77JoAFq-HhC9I1cVtLRiYhJdhInSQCENKbGhvQPMwlHn0y9txv3CDNoZ4MZvtKB_pTDXauN1fXDn2I92dOJQiqYjcSGONatFDFDh5CVyTZolzS15p6JjIO2XLmOIrUAe-6La_AS_ZPMqqkqtBcmNg.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/LKz-6nwwKnsLINhzc2dwC-DLJroJiM4poJp3ohNACmYk5CQAXgKa8R-2x9u6AhuBSpMCNvJLSKUja-Q_0N0CUz-MHN08pMrZ3bn6vmPVXEsuCP0VxTJ5aqIQPALgfThyzu0TPKyBvyVJn4InndZG-MD55cBrp3ina1hZM7_oWS9ZOLGViaBqNdUk319y5TfCoeIgWHiqRI0FSnfjlUUEIGGyCaqfOH4X7ZrUr7XJ3C6PdDxny4JXQLx0oLlRU1Lj4ej-aGI2F83n9Z21GQr41O3DxtnPx5MJm_EJnlFfFLaM-yPFf_P0IExW4ZLySpjaRwKib7IEXH5UtzC5fjxJZw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:31.994003+00:00",
+        "last_ok_at": "2026-11-02T10:53:31.994003+00:00"
       },
       "tags": [
         "群管",
@@ -679,18 +736,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:04.469430+00:00",
+        "fetched_at": "2026-11-02T10:53:32.456444+00:00",
         "title": "统计秘书",
         "description": "本秘书做群中各种统计， 发言次数等",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/KeD_NrAflvPbch7pKZrcMMsPhoB_jkpqZTsbodYjCb7QYcutgZYZpSKtYppMInc35BUN4jHB3IwJNhAheTqkh0XkaSoUmwZa43JLU2yOR65eWqfkoPNjjxarg3HZD3Fij9nnJrIB4VT7a8_xL21eLOh6bvwW1bQhUHtDZuD3XI2Oul4Yl6c7x3jhQi9_hMb50iBAf-F9Pp_TTpCiWiyGAO9_2lG4U7uYrP5wfQFj-iQ_Z9lUjMCt21PlT2qJJRtHuAAD5ZvuhrwKKeOIkVg1SiAban0i6Z0jtQRVMlF9PYbD1V7aRJ14lCbj0UuUnKcpkwCgaKZjmj4SqpdG0FUd-A.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/ol_c9FEFKaI4PtLnxW5v56kuyc7XJ2_Cm1BqWqmsmPbtpn7oUDbiq_KUUAT7u10B5HBjLjCIQPp6LfdxGmSJgXKGsVqWTAMiVbb3WBwMau2lzXew7O0Q1Lv3XJDB_n9XPx-EWzFNHjRB04RKhAoEsW8bxgtZ6hKbbKdg_h4duo8PU2VPxtIwm-TRJgkBMajPlQwI3_0cu4-BVv_jqyZ_oPhiGM_YTWiO0lT6T68vEFKIcuHPQrD6jZirCp9jd9F4ijBWXvbsts9-5FJQdX2UWGTlGTN-GBn8gWNSotdQEbdAGJ2NCW1aqEHjhW2rYoluoJJ7InCci5pY85ZOWd_ysA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:34.457541+00:00",
+        "last_ok_at": "2026-11-02T10:53:34.457541+00:00"
       },
       "tags": [
         "群管",
@@ -710,18 +769,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:06.926712+00:00",
+        "fetched_at": "2026-11-02T10:53:34.943772+00:00",
         "title": "SangMata",
         "description": "Bot that can track name and username changes and notify it in your group. Add me now to start tracking.",
-        "extra_raw": "147 856 monthly users",
-        "monthly_users": 147856,
+        "extra_raw": "144 862 monthly users",
+        "monthly_users": 144862,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/KkRN2P1Vsn4h0k39YdWzHEIdIVtOPwEezihx6w_9JTTQ-xiBB80PSYS-IJ2N4Q_KvAzYhyi-GK8RAltREDjpAv8o-fbVYN8J3oyV9BngYX-he3wt8MGUTQ7FparjvQYHCYWqKNGwVMf_rNt4_oZzentVDkmr4lTn5TjOijjkqAPfDBHzxwIMTehKqpN-19VtTjGl5H7fTeO_RuwN6LlhI_GbPP1UPpI6IzqWYR5z1RY1wZ7H22A-DejS0qSQLS4ft4Cv19fnvh5irvh_18epXE68XB3w7y7BtpKwdd-lL4Sd8iu8o2VuMI0n2NyrgXSh0Z9KpbRi9lC0ajHtRzdZqg.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/bLtBGUWZ5UHqDZYBH3a4PzFeGwjag0lYdgAORcRiPPoDt3OiBcpMRg2PesKZkUPpU135q2tsQ9Mtu_yB4WEU_96KINomMMluqMLfYAacfu_P2VYtJGNmynUtkDBsDPJvKcrvKTuXrCBJv_qSorJQyF_SNlgjGiV0bhsKfLTlmSg4xBXP30tY4f6hiJp2Q4FKm_xgFH2cTdwpCkrf3SKgAcar1cGp7h83jbKyDz2W_dzhnWRSqEVwKjx8yq6kuzA8RoYG0Y7ZiBmNca6oGaD8TrMBwVthHeTY-_boWvTksBfF2FFZ6-ynsFi5ccUgbkFn25MQF49elhOcTrxfEIiuSg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:36.944807+00:00",
+        "last_ok_at": "2026-11-02T10:53:36.944807+00:00"
       },
       "tags": [
         "群管",
@@ -741,18 +802,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:09.389775+00:00",
+        "fetched_at": "2026-11-02T10:53:37.434476+00:00",
         "title": "joinhider_bot",
         "description": "Bot to remove system messages like when a user joined or left chat group.",
-        "extra_raw": "10 377 monthly users",
-        "monthly_users": 10377,
+        "extra_raw": "10 997 monthly users",
+        "monthly_users": 10997,
         "type": "bot",
         "is_verified": false,
         "photo_url": null,
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:39.435569+00:00",
+        "last_ok_at": "2026-11-02T10:53:39.435569+00:00"
       },
       "tags": [
         "群管",
@@ -772,18 +835,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:11.861317+00:00",
+        "fetched_at": "2026-11-02T10:53:39.894012+00:00",
         "title": "Watch Door [beta]",
         "description": "This bot can help you manage your group.\nHave problem about bot? pm @smailzhu",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/jYUdOA8BmKy0_FdD27tDi4hTbgIq0QUzzRr0TUYiFwhBYBVffy2mDbimJbpWEafLlNyWdj1x3Q95OQCX5Kr9tORRFRElZpAWdqHWOJwa2oOcqA8cbZ9zOH5HyD1kbuLhF1dhHPt8k0akjjYLnqGRIopNMlFpgINM9wANx04mtAFvDaz1IP3mJROc7steEJcTcMuqd1xJiRF0U2FG-Zw6meqrNU1BpfuWaadoZ2QDdNSfqraVKwVcazpGcjhbeO2LgbcCPhLJFZPNd74mKisZF5ALF7tP6E_SIMxIbeYnFaN3UDox9zhYLAEzIqDGDvXTAeDGVjXv8fmwNkcRhUhKbQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/IydcrSVjcDUGXY6PONRxeFc-HA9NhYbmGwtAVdP_-Gp2uE5Zp8_FqILUdugyGFZcs1NT_Ln6zoOKAaRbpoSuJDLVMZFHBjGvLakCuWBmtwZ1IgUf89keN2I1NpPPdoDP0NObO00i2WrAOpF4lQvaLhXWwtQIaD3U7kdUHYuDPv57K7_JTPjDlmO3yHAd-D9UKR4iABmmx7cS564HysPTn6GhZF0ZluhbNXYgHquZr8v8m833cPh-GN6FRI3bHp6-SPBK_8V_V5amKdN_CmgNuentg9CLLpuUU3USaYF4iwXM_en6rs_D3iJt4CTEwuyI0gepqx28gKqg_azs7KJeRA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:41.895122+00:00",
+        "last_ok_at": "2026-11-02T10:53:41.895122+00:00"
       },
       "tags": [
         "群管",
@@ -803,18 +868,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:14.375842+00:00",
+        "fetched_at": "2026-11-02T10:53:42.356897+00:00",
         "title": "AI在线解析视频 (DC5)",
         "description": "目前已支持哔哩哔哩解析、 抖音解析、 小红书解析、 Twitter(推特)解析、 Instagram解析、 Youtube(油管)解析、 Tiktok解析、 快手解析、 皮皮虾解析、虎扑解析、 微博解析",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/EOBWlnpHJJcod4J831ASLJvsymXoCeK__Xujd7d_V4q-1EW2P9l5KsgWljj8adY8bDIMw5Fq3t73BgGefkFVPW8IaTkGlNy7vyEflhzlYLYGgh0pxzRqmbTMF3YekWjoSTBZd2gBZJ06gaPe1kWlZbzH_cgub_29dxlp9yYIrDTPAp26s8w2qynozfws3CxkmiA9TRHQfZw9EGKlisOXpw5mT3LhVcHHyqqWQhaiVd7u9Dhqbjbr330jOZamNDqngc1Fpg3HNBwCd1xrcEGp5yM2z1jwavQFrTIaocAROrRY0y5OeU789oo846FwH4TtpNcAf5CCjRnRGZDSFACLoQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/RNPWD7bJeaAQlfW7CGqLEn0rLsRUxYa9JdgDj57EmYEkAXR6RwyRsqbGPFL3OuzSCX67fTMxKeYMnCAngio8gyQ2prJRsWxd8MU04EA6q7AtZ-eDKxVz_syfPtbvwNJUHlpgdECg71QASy5DuDE1Hnxogz47D5nBW9LRd8mzr06P91gXlus958tFyV2NLD_2kuZzFYupCJ0T_ZMszpR-lG3FexuHO4H0svsdayJVJv_W3nCOYyUCyMy6YROnDooarcUSXAqSHXbnHUnhJcjZVn-r_AZzFdnijDYXO9-HsGljyLUXmr22NQ736a4xX8Ywu2rUK5REJMAYbx2A6ktnag.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:44.357868+00:00",
+        "last_ok_at": "2026-11-02T10:53:44.357868+00:00"
       },
       "tags": [
         "下载",
@@ -834,18 +901,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:16.836057+00:00",
+        "fetched_at": "2026-11-02T10:53:44.846684+00:00",
         "title": "🇺🇦YoutubeDL - YouTube Download Bot",
         "description": "Download videos from YouTube and TT\nChief: @alexmboss",
-        "extra_raw": "47 790 monthly users",
-        "monthly_users": 47790,
+        "extra_raw": "46 058 monthly users",
+        "monthly_users": 46058,
         "type": "bot",
         "is_verified": false,
         "photo_url": null,
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:46.847658+00:00",
+        "last_ok_at": "2026-11-02T10:53:46.847658+00:00"
       },
       "tags": [
         "下载",
@@ -865,18 +934,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:19.304591+00:00",
+        "fetched_at": "2026-11-02T10:53:47.332698+00:00",
         "title": "utubebot",
         "description": "Download and Save Video /shorts /music From Youtube\nربات دانلود آهنگ و فیلم از یوتیوب\n\nربات پرسرعت: @utubestbot",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/M3IWP6WTr_t0DBlWkL4QzZSc_Qv_eh6chbkN5LSn94Q1k-lsiTBrrnduLgakBFe5dyAGwJzyUkb5OLJejDNenMC-kr54EYC1qn89HiMPVHWRRbhBnwRs5Yb_Cc09LkAla_9CIvPack4MpSv5sVKs_InLccxfOgqgmTDCCXyj1xFgj-erVrihbqSGuoK072VWCFVrNwNblC9Drk4gZeqxFJF00QiPSYaVXbcO_5PbW-VT5FJF0VB8KDk5QfxXiXOOjsEZPhMP9mT0lAVfBwIat0svjaBahxK2msq16Eri8orO5T8AkT76xVtX2n2jz6xyU-DxiV1OlPb0o0Ss4ue2kQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/drMAD9MUj9UWAcSRb0zgEuraLGQrvXhsvNCQII9zpSgi1wDXZcRQmNV-m7H8kTNmwkJxzPO7N1RK7ddLti6fRiqZzk8iHhsGwLsKy5ooLw4IkH7rXXN2U9c2ifzjKVpqGkJ9zle9qa8IivzFvXpxRArdzG_BY43pQ2xgSeljFc_5L3tcu_4vt6Ut0OOkpAnBLIk5e6QjHBOVuoupiePuXh_GaL8CENItxxVrEK2t8mtFfcU-kb0RncuyXkR-QVtgUlTmuJ3ODQB3R1mO8Yf4-kuAyZ0e_srah2MWPsZUClksgP07mC_8HhhuFbRtHE4_Zm4OwMe1JXJ7hUZ_n0KoyA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:49.333816+00:00",
+        "last_ok_at": "2026-11-02T10:53:49.333816+00:00"
       },
       "tags": [
         "下载",
@@ -907,7 +978,9 @@
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:51.792886+00:00",
+        "last_ok_at": "2026-11-02T10:53:51.792886+00:00"
       },
       "tags": [
         "下载",
@@ -926,18 +999,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:24.283272+00:00",
+        "fetched_at": "2026-11-02T10:53:52.258803+00:00",
         "title": "TG Downloader",
         "description": "This bot is going to be shutdown.\nRepo: bit.ly/37NlOWm",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/LRbEXnufo09rJsPRbDuBBEDeP6PaV9FhKc7vXVhWM9pZuuPx5ZIAh3jZ7uSbUWnZeaO8OPxtbGeZhsdoMkUngCfGASZZS-9yrHLk5gIKj-f7CCbhiq5ogenExSMqhb17A94Nm-TVtmpSmCMRGQjdxxrhDZ2dRnKYlRJof-Fg8_gd5Tw6nSyEvFwuR2vcmNzVidcW-K9CmAmUINb2jiy-yz45_9wLr0EEz2IPoW-d-PWqrPq5JfLMfU6bt0COXPT3zLdNVDp5E8icBJLbjJ4ALp_gCoVINnLUuclQqxF1xwLOWk0Y9nzIy2QHSdNGwjRSRH8884svjND6Nv4gFVnWMg.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/CgzU1fI3FaPPJdsK8Xf-FB6EN4kQG14XnRy3GqsbGMLV6m0dPONTFidRtx7Fswr_ss1JthpkdVY1Hd5NA-YrjKcv7K1G8Kf7rfSq3xOTMwyCN6C3lwaPkbjFa78hMS604oKuw4VnhSJv1g48We8ULvtmu7IFWHS2rGCIfFPZl1hiCg_ifK7-LR9LStw-04jqci2qjBLbvC1XmS-zwQZXz9KIPopIAEMCJPk_oEIPLquZd-lHV24iNX09bgGw_D-TdrjX8JnG-QVlfIyG5Yl6cyzrfuI4lJJ3RnPkweKV4QoB4dSQAPjNJ5GubM0VZ8hgQf5JXj-LPm0_jvUsUp78Rg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:54.259926+00:00",
+        "last_ok_at": "2026-11-02T10:53:54.259926+00:00"
       },
       "tags": [
         "下载",
@@ -956,18 +1031,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:26.742572+00:00",
+        "fetched_at": "2026-11-02T10:53:54.728989+00:00",
         "title": "NodeRSSBot",
         "description": "A RSSBot in Node.js https://github.com/fengkx/NodeRSSBot. Feel free to post issue or pull request. @NodeRSSBotStatus",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/Ba4tdy14XHmfuywg5D7Y5-ejvhaksNPZgt2C1WQ2YDHHaakYKIaYcOtNIl7jkTxqlA_RD6KhGNKdrTRERY1z52Aev_7RQLGQbgxSxwzsqR1tgsnOTQy0cigd9IQlk2Z5Q7mCFo3oIuEt3PGkYomOK0TKKksQ-S819HIBw9Ieb_rQK_Zro9t9Pe2j6PawQ4o17LRd7Oyad53HgTx9f_-4jj5R-i2Hm7qBitn86hwECflY_ccRflRUsTQxusNQQVunyVa5FyLR_3PHSRGgS6F7j68nsrVtg1mlA5ha8vfPhhRtg9gGPhKA93WaSbXg7L680sYu6j-QM4QOlIQ5XQLuIg.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/Rx_C7RiaGo9tlmcWwSZptmqYJnh8ndEUm_ITMgHcU20ZnL_Vk9Yt9xTOrCAXOKhWndYVex4m6pMZ1NkCE-geyGgCf5I6uWRizjUghhfYeAsJh_RVe41FQJq5KJ4n6wmTEQHw-esL1tdf4spUqZJ5zt8LO61uIiDfBWoCe6Ekl2vXa2nqNg-MoqPC6NwBWKLqi6VC9qGdXBwEgRkooeUXbS1OmovweMOOGcxCnZUKggdGV9ubY4iKg1Lt9D0YfgDhBlKcNf5C9fRNhzb3KRo_5S0f4vcI9dhCyy_EX-u2mr7a_gSCNlz6mdc9--NryhK4uJEDXDkA5htq-c8aps5Qgg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:56.730067+00:00",
+        "last_ok_at": "2026-11-02T10:53:56.730067+00:00"
       },
       "tags": [
         "RSS",
@@ -987,18 +1064,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:29.206133+00:00",
+        "fetched_at": "2026-11-02T10:53:57.218083+00:00",
         "title": "flowerss",
         "description": "flowerss是一个支持应用内阅读的RSS机器人，源码地址：\nhttps://github.com/indes/flowerss-bot",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/MTrFnEoZn7plE3WAjccOCS5Td_A6ccTyyxBqAiecOSkBeu3IlaPbGW0Cs47wYRj4DU0i7FBemeYugULz-lhEznFBvC585gRa6iugg2eNUmWXXOo0uH9VLGqN3_TKUmW6GoEDh7wlsp2zoWtISYrLNL-XtmpWVO2XuS8M8-4mCCh3VNpzD5s7cGJ_WAdN-FqMRsQfg2oNSf2ThCecKqhksnrBmzOWuD9UORTOQfqJp3oIwVB1l6PsVGtanvXyBvO-ImHT80nc-AF1EsE34Pf1GeLFW_QNl7xlLr7RkwE-rrZE2oSgsyyKfVVqv6Y0hXM1vsyBtxKQ4cvUWphRHvcSIw.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/vK8AVZbbq6WC6GGR4wkQpx0V_-ZcpbX4qEB8UGl1UNIqG-TrazKppselzsf8OYiJ4bBeB8-j1-lc5uW6IYb_pIRdkN5YporjrSDU6OdKvAP_oDTFFpEeNL_2ZCFdrtxYUIApFSwa3hIvzI2D_qmx4jA7Xf9Fn63_i3m0Z_Xln5SMy-uRvv4uluKpTkW4AGPkTpRAjAEItX8u_ikGtuiYJKrRTAdb0EDAssw4xRqg8uDYHk0tMlScW1FAXvbEtv_Ms_1I3Ye3khwbRScp9zOVgk81stzfx1y_7tErEI-o3gKn70tywL2t-i6y3YJkEWfBbCnPiKzITGRk4f7gzi7IgA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:53:59.219182+00:00",
+        "last_ok_at": "2026-11-02T10:53:59.219182+00:00"
       },
       "tags": [
         "RSS",
@@ -1018,18 +1097,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:31.673779+00:00",
+        "fetched_at": "2026-11-02T10:53:59.682142+00:00",
         "title": "DropMail.me",
         "description": "https://dropmail.me/ in Telegram",
-        "extra_raw": "33 567 monthly users",
-        "monthly_users": 33567,
+        "extra_raw": "32 246 monthly users",
+        "monthly_users": 32246,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/eEFJki6YZH16zunq8JWMofXhlkWhw809MTuFYxWiKx785WSm9feX6z-kc3XbbnS75fzcob5_KLy7efZc0i6wkcvHr2m6PIY2awBUUZSA9A664ggu_e0aFTS-_i_jYR_XmfHtEKc8Rwbtm1pwEfbt9k69ecNhllvRKQD1mlUt8SQxvupyLeFb3g-13qBy9eAaXhmCeKtIZsPBs0gbg6_QRiT12IB-IDm-J7xloXvSSTpEesnW-gIED9qq9FrxD7Q8dMtUBvzWPDyixZrh7goJogWbeX_qlRwx_em4cgNBUd8F8mOXan4qL7Hc3vZBR2uv5ATELYmpcawKvAkEdv1yzg.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/QtgdwYtBt0J96V1kFe0PgxNiEJwyj5ehrjrbJiL7bDy3OHwVBJ41iDIQgMy-tTaYZvt8Oz1EFoa6J2erEbCbFNSRl1P4QokKkMZoPMniO12XZ6BkhqQIZF1TeoayX37U2merVjgeC8EDZ7SFp-KWEAgtXZcN45qu8kjNAGSEL4_apAncgGwAlVuDmwqU7tBIkUpBhJCA81OkoWGAj4STu1KzKiHYLIXDH4t0VW34xBXrMRxpOaR6nK3vCKcbsOIwj8cXUy6DVaBaZIATQ_FOYwAiARNYek3jNErGP75e8j2YPLOC0aGRg_nnDqIxmrxreN00py4QC_kUGmW6ghK50g.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:01.683275+00:00",
+        "last_ok_at": "2026-11-02T10:54:01.683275+00:00"
       },
       "tags": [
         "工具",
@@ -1048,18 +1129,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:34.184807+00:00",
+        "fetched_at": "2026-11-02T10:54:02.153598+00:00",
         "title": "dicbot",
         "description": null,
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/gT0SG-3gekqY6Qp2cMOpYtY_UGOgmovYljnY4aZro19Uy2ApFUrxwPQLjvBh1ww0bguIMuXf0GaUmEOsDffiuEEF5be81Do0qrTbUTmsv7JV-XUfK8YDMApCSYmHVF04EgjXtqT8_qx8AVUeK5MTgiGX8oj12Nqere3BsV5zBNdyCtmuf0CT4GI63AbFZzQRqUL_JpQPOaZ2Sy_Lgew6eu2jC-paTFa4CpwYQrfV1JeNzilHM7DbawsnDKf0Rr3nDqmbvsJ_mt1ulJuWna2K_ATXGo2NtxsImJ4C32rEtynmmQ4GOSZJBHgJCT8Gqv9vZxCZnTurUtj4SBMB9b3JMQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/udA2tHFdH5Vv-2ahedeoJAcTV2LTYlXBI1g-OMCIP1409xQKZFO04Lb72WBxW1P8Yq4wYZALxfm0qlE7oZ-tgALDshA-cHyG0rGQ7-4ILfbMpoo2rTEmib1WXlmhKcKqV1EOe1LJTaKC-0_d85IpqI1mq4HtfOF3eU_v6xFo23l_FYKYx1aZxL7j1R6dxTwIqhLj-nsoycazqis2sklzws-qtbBoly_spoJ44Nv5vwKhfoUElpjv1yasDgU8xNXkdUXTnNlUgTuuXohbGDqVla6fJpg1xfibB76P9vTmvG_apicDRw7NmnjRAv_VAx_g7Sp2yIpAPt0Xd6wj7wCWVw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:04.154529+00:00",
+        "last_ok_at": "2026-11-02T10:54:04.154529+00:00"
       },
       "tags": [
         "工具",
@@ -1078,18 +1161,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:36.644320+00:00",
+        "fetched_at": "2026-11-02T10:54:04.625499+00:00",
         "title": "Weather bot",
         "description": null,
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/MwcAZFW4pp_uNw5zO0SInRNgoHYludr25DLuhz9nLCwiuIidfdtgk0At2eAXz0bkqwokUJBv0N89Jwh6fsXshzwtpJJByASa5l74ldj_zY4db1Lyr6AZP1sdnirlRlapMaJoqmAOFDTw1Mf9qheU-ISb92WSO6iWx7xRkJQZ6U1HEbYLO2owJpzoZm45MuWhsljaHQRt861ZzxKgWm6rFIYbwcSiqtS5r0nuiHl6nkPbWGcaYXkVYRW2tOsMaLEsBxgdM_514FvlWjzvmC2lNA8trRCvQ2WvJYeQqpzZwb-xpZbypN0DlsY4cJO5PXhfomcObEuIPPcVEp5WroHskg.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/aqhPIO5WhuwxiUVtqE28QT2R5Ua1ulr4W_gLYKMBH5AYaOLjm2-llo0w1twU0Et4eZlXhPuh5mnPhTKPqpEq4WQq_TxCG1mx1m_TWIb-jx6i89lNRA6WUHMWbupJZHSPl6g4mo3e0Vv8sIRNBscxkhl6Se1pPbqAM4kTVMeyGDJAvkj-I1dohMMTHdx5MxLguKctvgrOlBELQiS3DpB4KQi8HKl4mDZOuzFNjK-rplpbHOWD1Ta9qNvlI-_7BBfG5A5E8XAqTlzkVv40bCMNDybSGlcMlWQEXmebIdhl8mpaxZgZVY9CS0zTWIRLD6OBIm6G-MouXF3On6GzU-M7Wg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:06.626529+00:00",
+        "last_ok_at": "2026-11-02T10:54:06.626529+00:00"
       },
       "tags": [
         "工具",
@@ -1108,18 +1193,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:39.107675+00:00",
+        "fetched_at": "2026-11-02T10:54:07.117460+00:00",
         "title": "APK Downloader",
         "description": "Download latest version of any free android apps and games. Also check our site https://apkdl.in https://apkdl.net",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/vcyZ0iH0aFxnVt8cVE_yVA1KtpcmEgDnLcLo3KyiRZ6LarWqgiH6vTDe3U66NNdTRU1ffbcdiuxJ08Em0wgi3vt_TDWpPClkqqRoFd8W7T_y86eR4LJqiyzaGtrrJmWZK9eZ0sIWnCDWRv12DhW8o9sSvTvr-u1DKQgWICtUf6N6q8BfYo2u7EwZG2bsoi-0PVaL9W10yGKCqZZWcJC0KlmyPqwNqgsi8PxmQfXITbbRe7rNWqKuDbXsk1MCN7lTyCW5cj-eZSVW_4M-uaE-8MmHHSKrf0HoRU6nAxmk6I7oXboE-nAeceOxoC98e3rl5KSh4mEK1YoFnk5RccHweA.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/dPtdvUI_asTNEkXakGIi9q6w8xQ05c1HMQUMhct9zvlX-Np95-73XZoPCQmWEkXAY5t8lbcs9Y4S0OUAi-QjuNJtsD3N8oMZ22AV67Jgz15_-1IRG5wGLiCxge323n582_9487cpdp6zQ8pwTnCcJ5izdIzdHdn5EPshpLSpI-8TPHQEwrHMiJvKL5rEV6YGTDMpiBweAYjlS5vJyck8GKnEZMCAUiejBnut18Vs7Kdiuamh96LlJ2kjRV1VcBcqkWRwAh8l8ha31COk2cJt37GfEutlqgF3TQ5CKTN8VEni_zzFNw3ubRSgv1hRzLKf_wbVf-OeACl8oZ70dmfB3Q.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:09.118461+00:00",
+        "last_ok_at": "2026-11-02T10:54:09.118461+00:00"
       },
       "tags": [
         "工具",
@@ -1138,18 +1225,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:41.574604+00:00",
+        "fetched_at": "2026-11-02T10:54:09.583314+00:00",
         "title": "Lottery Bot V2",
         "description": "Telegram 中文公平抽奖机器人",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/jbtANMA9exfCIjR5ei5jCA8QPgd2uGbSxzDwAC8uU8RwEOcu6dZoJJ2BYGaknJZ0IF2Lf8NWP94SZDgNLb1zRLxOBmfhUeY9oryFuVi8byEYI5ywRXVy0fBTiHpdp3_LA9iRS5Gc7zhJ3ZDm7mu3mzl_LoIucIgGfF8eJOeom-1S7CwwzCVHM8Z-TwCYT2YgOuXUxbCNnDxMAhzBT5XQ3g1TvTnYeOg1oTyMpsBhzn6XmgcppK4owJrDdJP_6eYp9wm0MziVDW_znm0jAzWQmlBXlL_UjRn9bR9_j7zmXqgOu533LN-Mv35AE1sDlc-qHWzeZ0S4YZSmmLUJh744CQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/lH_Jp-de1dHmf5VgxJDjGqGKdr570GfPx0kJCYsOiGVUC8Iolfau_Le9CLnrvlWJi69ioUySef0F0w5WWaP5qnZFk1CGgs78hbkOe1mMJ12ypwCCDjv80vxg5GGbm0Uni_mZ86vRWhKYnvTTBNTht3Dr7rxzuXdggBX5s0hOTyoevKBodC16XKOyEG4NVfOSQB4Wo39EsmOMP_bPgxa6o1-MTYxoW27NraxV0WXXrEjt4v6wp7NayX8qsjBvLgG1aSOTr8J97ali6pkf6iqGW156KABKADuqGduFAarfaAlicRh3s6QIfl35c6OZ-_JLKpsyUZZf4VzjaWljNWdCVA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:11.584367+00:00",
+        "last_ok_at": "2026-11-02T10:54:11.584367+00:00"
       },
       "tags": [
         "工具",
@@ -1168,18 +1257,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:39:44.085024+00:00",
+        "fetched_at": "2026-11-02T10:54:12.047749+00:00",
         "title": "抽奖助手",
         "description": "TG Bot 之父专用抽奖机器人",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/OZiBCKZi1avakjg7j3QyrGqzj8NdA7imVvt4hzQ8fUZlW5skrk08XCq2A-kEpEq5NsC0WZHXxmoYFKe47-JvcHvHjjQYJILSgcbcMjmJXcz_roMGzuOq3DTJdeSv-UCqWG-lDpY4qwD7jqqp5sx63RtjdNiBY0CXWXAF1hjOyn-KhGYjdFptm7KjsD8ZR2qDxIZJhrAZxQY9MUtQibkxUzTR5_oaa8uTFqwzE69M0RyXCU38XQl9syR0VykcmIpIsNI-ZjMCzu1Hs4nJxtQqO7Chq3D7sG1wXsWG6wGxjRrusd5PVG8-nYzW6GaTHibuW_tQDuRa46Isz-mztl2qSw.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/j00P3aJoxxDzyYi2ZB-bIv4pulBkjWf8QvDP1pKZy_HMLpRg9Ox9iZVjSMwJY579a71NMIiRrR3pdWV95b3VpZLKcQoXHl_i2simwYTCwFIlaB2fRtKa1tnqEsVaXY_ojXcICuI28EwcVcl5qlaTFpEvUXJBJuw8uDrtPhJ7mRvREVL6HrJbWLjKBXhRuVr3jdMcq4tnKdMBPLjj7fgLxHj6KjPOibQWrWbPP9_s2Boa6sM1e7SAhASb57vlmkyAaLTdBGVN7nuh5ta_Ok4ZiO3NYWnc8vfbbKDcHrFf6NVFW8Kfrt-K9-cIIaeTp25T8IdUK1-uRL_PaqK3kV_Xeg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:14.048960+00:00",
+        "last_ok_at": "2026-11-02T10:54:14.048960+00:00"
       },
       "tags": [
         "工具",
@@ -1198,18 +1289,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:06.404423+00:00",
+        "fetched_at": "2026-11-02T10:54:14.532003+00:00",
         "title": "Pay Bot",
         "description": "群拦截付费进群机器人，如果遇到支付后无法进群，请直接提供支付hash给开发者 @uwantme12 ，其他合作也可以找开发者。支持中英文群，有英文配套翻译。付费机器人更新请关注频道 @payMasterOfficial",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/kxISCY4tNv0uin6PXymOseB3YOM8uPGg0Ik6bngxQFma5pljrmrd-3rMFzTwn_7P3My2ul41osT_xLI-3OLcMtvUnOwBYvpofKmMThL9fh1AevkvKTWxIKvvkU5bx9OpozT8Utukq3PZdn8dqdosSYyPOVu901T3Dk5VgZwydo883wnyL3errVNiLneVd73cy3MuubfYaquko8G3L0y38RfU2XCXfAte0t1e4nxQ7Q0A4ry6e4xupmYApoiWtM-xqVkkl3s-uY602Y0Z5cyymzowXJRRiVXDE5xwNg3zrN4qLpQSwcAekysjW_MW8vKlmd27RZNUWo_vXAT3KRnYXw.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/OAhFQAIGmXvtWX4yDCpeVimynVHj2L07GM7xO9_WFsao31UY0UaNa6Atg0f7d0s8h6Nk9_r0zG6dpzeuooUBJNcZfAUJEWTiTiviInLhmSOD6ghcVlOEpcklCW81FvrqxRiZTv_OgTiGehtZyG0T8-k6CXUwo5X0VupK_44JaI1wMeqbq6-t5d0Hyyj7cQw6MV1c-ELvqgfEnqTD_Z1OePnE64uXTTT4n7ig1wlmgJsOHEqQGwp0qLGK0uYQ4g5FbYYAKU5HBEBvl6YU9c_Nhq92eFFJJhS8RrtlZAp8-Wf1iwLl-Rv9wXvrI0F_OZPMpjafU6W2qUatrK3hkF8tYA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:16.533205+00:00",
+        "last_ok_at": "2026-11-02T10:54:16.533205+00:00"
       },
       "tags": [
         "群管",
@@ -1240,7 +1333,9 @@
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:19.022306+00:00",
+        "last_ok_at": "2026-11-02T10:54:19.022306+00:00"
       },
       "tags": [
         "群管",
@@ -1261,18 +1356,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:11.368959+00:00",
+        "fetched_at": "2026-11-02T10:54:19.484881+00:00",
         "title": "OrgRobot",
         "description": "Bot to challenge a user with questions when a user joins chat group.",
-        "extra_raw": "31 245 monthly users",
-        "monthly_users": 31245,
+        "extra_raw": "34 400 monthly users",
+        "monthly_users": 34400,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/Ksen6z1ewqdbLqsNUBoR3G4V1N-tdUuW-FNCsUI0XRcpmfNkAOGyhV19cveLon6VE4LXwdWypq-dLbdy9GWvq88-GvhMFv94Xg3eI6b7L11VkKGL2lXNlr_MKtjey82XN3sb6TlpR6F5Ps405Z3VNijr7vmF1f0yNbeoPljSo-1ePPLpeSz0WM9pbfV7bQIdrG0AuTkL96syNjvUTnTZKcm8Y-cZ3rt5kiiavQ_-tzXNIMSqp9NpfmZIW6AoV7yoGb-N_E9EZTN8xH9SRb5TOOqsM_b8IRxFITJY6gz5fe6-eO9cHFFQzpCnNDaqN1ejv6VNY4hwwjxMoZcsL7f8gg.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/h-dOWXkkYjVmhA0nxOCMAr32e-mujcQF2pmZiWPqopvBFvtXS1a7J0UVlVNlWA2oQceqZ9YeoJQ_HG92RYVY5v4wILs5IOnGH7zGPu-x5h7bOQ07eeVhLYtYbzrF4HJQzDFP6vgRLa1Vhcj9DcVz9JK017BOWGwmWyaJqg3HvVXXF6YcUYD109izQeCON4jfIFF5JVraByjL-7eRrUsWPlovmfZ7uvAVKs2C7K8oKif-ylt5P6IbxXMy2WrxS2Q7rvN6Kvadf4q4gkegRrEraF1cDOj1qPWUcQcNNK7w92ZNuZXM4XbCpzaxwCapDWV83CbtJNmve_Q-XoIV0bUCNw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:21.485920+00:00",
+        "last_ok_at": "2026-11-02T10:54:21.485920+00:00"
       },
       "tags": [
         "群管",
@@ -1292,18 +1389,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:13.880266+00:00",
+        "fetched_at": "2026-11-02T10:54:21.950303+00:00",
         "title": "天童AL-1S🤖 Powered by @TooruchanNews",
         "description": "一个用于加群验证的机器人 项目捐助: https://afdian.net/@tooruchan https://github.com/Tooruchan/Telegram-CAPTCHA-Bot-pyrogram",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/j2AzdTcSnqXXkk_q_KeOjDfNyhSYpmTwa4AcjON4JJ_O1UJZopfFN68faTUVKRRRzeZ1Cgon5g7A60gQZepPqqJlsra0susbPcYcI7owdMG2W1CdrKRlNPclq1_SMFqv3n-6vA6ajLVvJ8wOa_gDbbMAc5qkTVs9kvaCwT6NmQbx2d7ZdUxXvqBVVqgxDoZHnJmCM6NENZFnSyFe7nrfVvG-e9L_lZMIq6dGiwKPs2zGfDjmf3HWJTR2McBpcuWsAtqgFS_IBrjGH2bUoAwR9MYXHISNGMucrMuECvc-jPVde6DtyWjB4_t6V_EKlebkGya7LADV_RUF9WTD7iMhKQ.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/Rs-VAPXIw1Rato6jRgOWKcDHEan1bjOlMxp_PinNUl7rdK3sT67fd8JRWYm0uKo3a8cXaM3q31rdr_VS5ugHk2eNjMMet_ga2LZqrLYN9POzqqzMuNaPtleMyeX16AgODizq35Abi-Dr0GOohg62apRSxFa1HOaqEK4jg6p1ICer-xJKFWVY2KJfS27Vf3uKb_adB-7wAmagj7SwwQ9ME_ArBBfZVHduCXoRLrJJXr0zJxYfiK7oBtMAHUW273-m_zld9Vq1THGW1jaokPZaG0Af41EGoFJ-7LZBdPyZhjbwIoQENuhxsB43KDQFQPw_UFj_8rLHoB9FOKUmo9ZxgA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:23.951420+00:00",
+        "last_ok_at": "2026-11-02T10:54:23.951420+00:00"
       },
       "tags": [
         "群管",
@@ -1323,18 +1422,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:16.340609+00:00",
+        "fetched_at": "2026-11-02T10:54:24.429082+00:00",
         "title": "LittleGuardian",
         "description": "Manage this bot on https://telegram-bot.app",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/E--z2oUCv71KOU4aZF1FqsDupH7P6Jt8P7qv14mSl4UhQhO3GVe7Nvt2c6HcnwrVsmYr24NnE1_iDp4UWFk3-rlXpsi_D98Dby_4iV38ZPkzVM_bJvpB1dolpLFv9-LeWk1vbldJQTS-pvWj1QBRuiARbPqsi25cKSTTRpjuGlfJicJHxffC2keGYhB9n_NiuM5o-IAPa14zNo248J1r7DrzvtOEIrwck8p40B5Xgow9x-1irMvCd1qQ5cz98n6XilmGuo8n_NLAILBPlafXnYuGwjgia4YSrJzXT_vg303SiOgZFNl__9R5JMDFsiWPu8vhF5gbB4Yyxdgq4An8sA.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/JUdjUZe2nubmEE1pKvzsQIdUngiilDRiGlLtNca-gJKwSGKazP4LAw80lJpvoNBCworAXpVC1QM9okK1UXIAzzdOikpcfri0E8tzIY4zfgxKSeoRupRSK7lZtupN_5wnNqgkDW3e3mW4nEdnig1AHWw_P725DBpghoLB8nvCszW_1vaf_8lOac-qY7uNy3hKVbwXpQ2lRRjtWmBk8OlGyHvD18kreKAiwyxKsz90DLuKlG0KFLge4pOXAFktJeK9v5aCiGxaVArXLHQemlNCKNf0cVKM6flYHkU8VYeQlASZmPF-VDHD_eLoBmSMI144scHrEa1pu5MPgM5_ESjpzw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:26.430201+00:00",
+        "last_ok_at": "2026-11-02T10:54:26.430201+00:00"
       },
       "tags": [
         "群管",
@@ -1355,18 +1456,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:18.823719+00:00",
+        "fetched_at": "2026-11-02T10:54:26.920126+00:00",
         "title": "AntiServiceMessageBot",
         "description": "Removes join, add and leave messages (Service Messages).\nMore ad-free bots @GroupOwnerBots.",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/Zbi1ahSTh8km-5HJi0hRAj3NsDaUXB4_HsxKyf0b-K48h-aSjQxrT_isVBkUviqVuA-uop_UTk69pmLusPbGySEvjN-o3GbNFTmcyv95Ey5CuT-k0qH97ahd-HGkmAiJMJKGZ-ZoYuLgc8NFhBnysf1MhhlFr13kzvKQKtIa64F9gDk2CqP2jP3Ci9w2u_Om3LcVs5HVUqYC-fZyhCAOfVbC0HLjGm1-BkS9H4q-q72mQrznQ5It8Qqff3MuCTgWnKb--HqwxQ5BeKq1duyJHvbRJNxd_xebbK2jIAc4kf0Kc_NZRVjH0o3E65AaGGtqM2GSOpuLBCRhg4L0DjhlAw.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/v_3UPNL1IKHxqIl3c5QYRPX82XHBdX_hgSP7Pt2emTE5-xugxSfek1c-aAs2stnGGl6DUcteefLzMXKYCKr5q0LwzgI58iNfzmJ56zXXeuGymwEHKci7y_o5V4AQN2s2ENXCtKwRn6_v1IvzSBFcSafURv4TvJERH6q0h1BfkupODo_pkgjajJUdKqTvQn78JcvBDo8UHa0DPZeOcYQxwHxuGI2D5nB50FYN0r2FbsRqLMpP3JeBL9n8tdYemRcljmEAeBz7ac-uPXZmZprbTIrYwIsJ_apGuEqxZft5L6cbpEoGP1LwfHtqro20cP_zyuEHfZaO65vGA_lbjCbn5g.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:28.921209+00:00",
+        "last_ok_at": "2026-11-02T10:54:28.921209+00:00"
       },
       "tags": [
         "群管",
@@ -1386,18 +1489,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:21.336331+00:00",
+        "fetched_at": "2026-11-02T10:54:29.384883+00:00",
         "title": "抽奖秘书",
         "description": "本机器人由峰哥开发，关注抽奖活动公布频道 https://t.me/FengDraw 一有抽奖就通知您。 意见交流请加群 https://t.me/fengsharegroup\n购买会员请移步 @fengfaqbot",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/rjO1Cg7aOBTmt_-oYrRLkqx89lrqjcgEe4p2kZfV3yTurJcadg-MvE7AhG0OaksDPrP7nNmIutZzQiN_b03caCl0i6n65rLbmKOEfk1CVh6UMYbSASgKN6207xA8xWwCEBL9MySKtL_fubECmebwp_j4GjS25f3wC8vyJHNtfloov17v-12PI9QlRYCc53rVgvq_I5CwLfh_WI22kj1Ut5270A9CcLnesWkpffJeSZwMIgXNiioeSGVyw9QytCMg2BIeU-4x8qRnQFa84ouUMUO2721QTK8P4J2ReJsgA_Y1j4OsVyJaSuJQQLeGA42j_aKcLX3x5NyQHVrE2Dv4sw.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/tQJxPki2x3_yKR6i3UxjT9sXE3yPnoyE4yu0dKzAb-1MsrArKY6Y8jyhhNs3Vd55A41gTzS77SloKdYhZqwZxKx80BHLyq-vdVeavkeYop9vLZbU9_1hf3mPWHS5UZgp56zvoQJCWvNH-IO_HuQpkBw1hIla9mN1ixqHih9_t9z7j7r4keqnEuElLiMjFSQahR1FsCrNugWBSE3O3N--r880HoWnt4exh-QSTbCzbTPKjP0JWMel5eX_xq4mGOqTFSX6EiTc4ELqrYjZqsK8a-WkV1VEvstBDKuidqg4v6X6Bdaiq2WvhhBlvz4WGlVmHw_lsqhM7_MIB9nLjYvhgQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:31.385957+00:00",
+        "last_ok_at": "2026-11-02T10:54:31.385957+00:00"
       },
       "tags": [
         "工具",
@@ -1417,18 +1522,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:23.847802+00:00",
+        "fetched_at": "2026-11-02T10:54:31.851390+00:00",
         "title": "Telegram 抽奖助手",
         "description": "方便好用、公平公正的 Telegram 群组抽奖工具。\n抽奖活动导航 @Lottery_home\n抽奖活动索引 @cnLottery_123\n抽奖活动群组 @cnLottery_chat",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn1.telesco.pe/file/VO-Y_J_EqeCnRl92TZmXBP_eL8-5UQJukjVD3cZmtyVDFnWvR-rQfE_CT0gV9iouTHhJLhpfbn0YqitWhujOYjvDldGwWMqidwtJUWnktOBTh8l-PWbfCiyuduf-VISEJfW-BPhavN3p26ZA6hsSAC2jd688nXH3KMm6wXhrIK9lPBMnn6bCkcUbfd-w5cWyIFqs9BIIKgD1cChb_DbQPbgBH0dKL7FOCq1-hGBtsQYZTJ1B_y5sffdxWbdtRpvK1yGUFMjCFIUmnK0xcUR512xWezshNQS-vklXK4koRpRQ1xByHmlMw9LJBCWGkXlDRpCFyDXlXCqi5PllpUtsEg.jpg",
+        "photo_url": "https://cdn1.telesco.pe/file/oLq3nJ9TjDgcyar1kVDPoKH5kNbhjvYK0drs-Jl0tKV7_VWUVM4VJ97otp-Wi1zTpc1OkxgTHUks496gExJ3x266RY6ibjbRANKdGvatJp_sxSUg3akcwUk1VxHrBD473ghKpE-QgXJLz53ue03U-MNDDKhTwigQmJH9DJN8S184VBoB6aVZajU3nnykfRpAXQatWRZQPzw3k0eY0DaIXVkCsIFN7putJNUCLMN8ut_zC8a6Z0MIEf4A2QPO_SmvuDtvoGEXrs-G38hZG1gzKvfVObOMsPTIKLWSdbRFLgsRefRA7d7Q736PVgsJM1SaKVPG1W71GkjB6vDaswyoBQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:33.852559+00:00",
+        "last_ok_at": "2026-11-02T10:54:33.852559+00:00"
       },
       "tags": [
         "工具",
@@ -1449,18 +1556,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:26.308629+00:00",
+        "fetched_at": "2026-11-02T10:54:34.324172+00:00",
         "title": "Google Translate",
         "description": "I'm Language Translator Bot.",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/qvlN0z6OzUjLT_zh-HL1w9ssP0dJSGnY__fXMjiLU_aEg3nI9BsOAWyzF92AqD95xlW4JMAJ3r9hmiN8QJiy0nCsNU973aC7vZDbvpD2ri3Qzp9tAatcMlLXVby-H3Y-FIw9HxAcgvMRnJfUlJrx8MnZbXx5v64HxbfNKbdMWiqrgNEfDPlKmpC3FCY4EJKsigNWff0im_ZR8aWbWUAKfzo6N5CGOtUw7_2U7DbQzniexlAiMiaSkHVS3zQaZgGapgK8TE_XU6s90NNPCOcdtQZCPt0DikSgo6KvaDhtxBMmOm6Gqym2_WM-9bb4XDfb-gm791RVC-rUrw3Wa4dwLw.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/SDGk3enYl09DNnLzbIB4OP8OIhRsC_q5zo_8zpzhdTnmO5rNOz1q899jfi22Np-9vOvt699UlZjnfyRVc8UxiLr5Ujh2t78Ey55cwPpWNOkUMWl5nmWkyR8wjYiXZkor723hW2UQcrf55pkfzW0ogv5GOlhrJQanMSSxmIwYqr4huO-D4Zml_JGrliEVQejVBo4yL_1cs-RLpU-2_sfdlxtbxh1N3S0iuRMLhkIgWlpOG1h3Xc2gDZ4y76ep5rdaY53vjBxBI5dkmOrGDQRg7pr0MQ4cGB6H32LG--U9JOooFyKKjmbI1WIrZV4GkIfjn0YmZhRRDTXSCqqCN4dN6g.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:36.325294+00:00",
+        "last_ok_at": "2026-11-02T10:54:36.325294+00:00"
       },
       "tags": [
         "翻译",
@@ -1479,18 +1588,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:28.788634+00:00",
+        "fetched_at": "2026-11-02T10:54:36.837203+00:00",
         "title": "Yandex Translate",
         "description": "I can translate your messeges to any language. You can talk to new people from all around the world!",
-        "extra_raw": "39 745 monthly users",
-        "monthly_users": 39745,
+        "extra_raw": "42 136 monthly users",
+        "monthly_users": 42136,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/T3rRYzmK_Su2Y7NlDNQFObLJDBGUfZRk5zWH7y9t2fIR0MZ6c-ZzCZ0nm5L_2H1DYgiYoPNwxLF0qtREiKKZ60WxexW6AMJbrBw96YIpgHGjvlFtDSBi4jPK4sIl7aNvJte6S5XGzuL8BbD4VJ8ONyiLWV_AIe4uDSuboZLy07XPYWITEDASumCABM0TWdg1auyBATCwsLz3OvuJD2bw8qYwtl7K9Opmh84KUuuKTYydskZQvbGXpBjQDdH8qS3EU8-op247v2RuT4X8Vl_PXFiY1rldBfvoPkl5NyT_bYSYa-dIGB6C5ks2ZbaCZBA556ZyJts7RX8Os477KRDxJA.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/mZJwxMiVe2Uj8b33nhgRwyR_VjTnsaKACVUHiDMrDSpmJPixrvOuz60i314EwwCxSj3FCCwkJ_0dgiJE98gSLE8DjQtljayDvSmHif9vRXqEEoMqHTmfl5FsKOhspWwRopyYSk1_iOpougtNiIPuO_MFxHL2Tn-TZExCs80bDeGUZnOrrntaBHi9FjGctcMJSqszeDSRAbLm_DuFllLTWzgIhyD84lVvqMHv570mDhgMVtzc9jJ7gfwBs-K2UGfOt4i7BOIfyNichggTmL8Usfkjyd_lrONDEqsdB73A3o7cJ1swV7tE1fBa4uxgm220j3Q98E0peY5HaH4HT8RMZw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:38.838272+00:00",
+        "last_ok_at": "2026-11-02T10:54:38.838272+00:00"
       },
       "tags": [
         "翻译",
@@ -1509,18 +1620,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:31.274426+00:00",
+        "fetched_at": "2026-11-02T10:54:39.304578+00:00",
         "title": "Translator",
         "description": "@tgtrns | Translates messages in group chats. Support: @Dubzer 🦈",
-        "extra_raw": "29 609 monthly users",
-        "monthly_users": 29609,
+        "extra_raw": "27 305 monthly users",
+        "monthly_users": 27305,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/YwCGpNmbLgGGQFLbMBlHQaLEJWt1ryESjiSQWp-VxUAUiuyxDoQgy-g7pWU48evUm5ZFeBrMff81o1GpkQxDiQzY9c0vjMJLE-ICLY1vzNdV86SzaDs83xXCZ27sNvuLwFRkygAzNx6nlFvnVBZIf0Ercw2aTIDKG1rAUFHtSpiHBGrvBDQK_iohZaP46VXTodz7UPi65R2GcxzmllOVlGiZr7KjSTuRaG8Cn2x2MTVgDBEHPbw-ka_wtHzQlinzgUA0YeR_y6EBFvCo2k45o5ofsLJFZikEDILP82dmU4xYoJy-3Z_hQv1s2VgyzCtcUU2mX825rOxr1OL8MYGTow.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/JdK65IvrlHiQxBoECNLl3JHK2InnluzRkTETmBq8gR-dGLYTlo4fns6LdLzTzVwC8VXTyB8pApTNBbIns5JCoSApBjCPK8jdBjW2aXXlre_KWMLM10kli0-KZk-dETW5Vlg_4yTVY6cnwB-eledSPDjKqaX5g2Dz2gekdNjCElkm9KYijpgxir4Fq1uCjcZo735D3y6YDzn2zDAnTK189LAiGVCirSGXlon_msKBZttpK-fyjaf1kb8KGrmODBeZJYF3vG1nudN8LH7yFXc9C7A0f1GKjcC0NKKl_AjjaGTtSo3WrbZY2RjhW7Gz6NBKDy5bPNuvZj09w7fvvvphlw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:41.305645+00:00",
+        "last_ok_at": "2026-11-02T10:54:41.305645+00:00"
       },
       "tags": [
         "翻译",
@@ -1540,18 +1653,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:33.792294+00:00",
+        "fetched_at": "2026-11-02T10:54:41.769537+00:00",
         "title": "TransChat - AI Translate",
         "description": "Group chat bot based on AI that translates dozens of languages!\nTelegram中最好的翻译机器人！\n💁 @momomo620 📢 @bitbear_channel",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/oN2kSU4wLDlCQPfwR5Ev9bGlGx0B8ZGyKUW4vjJkSfxId2TJ2ctpid893ErPauLNctP8geUoWDdV1H1aUqW9Ir1ze0S84LVPoVmATy6DUZKZfjxhbAqyYf-5GbjO6VhPDGAvhWOw-K09oPP7GT8p0LE8Wi0RCQyVLHTK86oAm-yGU0RZ88gcibf6U67ji5E3oddaPIVVWI-x2OZXg2oeusZUA2mjQCrxXDpsEoaXemW6pC8w6DXs6RtVa7wb3wAcvhvk7YXRan38T5sVV4H756O3bAT-ZpNh4n44jUr8osNX-lca2RAXGSOsDdqc1eAI2qXSd7Qkzreb2Oteu6TXCw.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/LxGgOR1JIxNV7J2vE1r8dIV9GglRkwZnff5xr6TFay8DYAk6M_G1EgAssJJPtjWeeBOl--Z16aLQ_WkbNj6-P4VnxJcEnVcyz9_9cajid9KgyRjOkXV___Nwmwq8nTjLVp6q0NzICQeiJe8SHNtW6kR0z_1HHXHd5CQ5HZsQtFHdKpkeWwZ9K-7cNPIIq4zXxJnwgOUy6XvkHZuYuIQB7fYkofqVwLm8un6nSqQHw2Ufhs9T8-needwlxDq79HezK2bAgPNodgO-Crjasj3brf-NIHnp5A_J03mjlSYafXcEoUyoT_m5NVKWU3DlpYOqMAiPbLDWDcLWKEBl-OAWFA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:43.770557+00:00",
+        "last_ok_at": "2026-11-02T10:54:43.770557+00:00"
       },
       "tags": [
         "翻译",
@@ -1570,18 +1685,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:36.263004+00:00",
+        "fetched_at": "2026-11-02T10:54:44.253856+00:00",
         "title": "打卡机器人 免费版",
         "description": "本机器人为打卡机器人免费共享版，供体验使用。功能：打卡、考勤、签到、报到、报备。\n\n私聊机器人可获得详细帮助说明。\n\n如需定制独享版，以解锁更多功能，并获取更高可靠性和稳定性，则请联系： ttjdaka.com",
-        "extra_raw": "21 999 monthly users",
-        "monthly_users": 21999,
+        "extra_raw": "21 732 monthly users",
+        "monthly_users": 21732,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/JAWIoCaLpkfyjqt55xjf8lW52H-bi_9LxMHC3c7VFQS5OjFoGgdIrDpk9x9UDE2CgPEYxLrRC6B-Q7lJT77xePqP30B2gERcBpcgXL7Ece5jN1XA3bBvC6tojxDdSK9HFA2mGATKYyF9WpLIcYVndyK-MuhcZY4BfpAhWx34kCnNdMKhFsaoXEgjYVO8Qtyjr-_siUHLC-22Rj-vAX_OLIMVroobTlDGyaesqPSQfA4QBu6hTBmHgR8k0e8w57uDy36pv16FqFXMWDRNr3olkS8VGBajJhVAdGEl17sUOVE64mQJ2uR51SeT7B8q6lx8kqQ3URDlrHd3DoqMZipemA.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/WfoFbG_yiqBIsW2Zi4ZT7tx3EL-wY84a0clEYqOwfsFS8zrX8jeRL3fR08ZzFF8vY48J78PZchEcmmRDagZfdGfpebfgQrdrrfSLAMxqniqtRC0CLKB2bKz8jaBGzXT_QsYopp91VI1YFyL3lppl5KPGBZ__b0mrWWow2EpHGZgMghgVKKbCjYyd17CMrPtMnAihaX6FBcj19TKlGbmujidExZ-AUWsJ3G1HVLmkC-Wmr5p1a4w5eDzKMrVqygqoIQ23xa1tV5_BTTd6Odkn_OXO1timItpWgAJAXhR04Wg6602zYE4zA0_SQxbm-ySXXUdrWuXzoOoxeVPnFJthVw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:46.254978+00:00",
+        "last_ok_at": "2026-11-02T10:54:46.254978+00:00"
       },
       "tags": [
         "签到",
@@ -1611,7 +1728,9 @@
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:48.744061+00:00",
+        "last_ok_at": "2026-11-02T10:54:48.744061+00:00"
       },
       "tags": [
         "签到",
@@ -1630,18 +1749,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:41.240456+00:00",
+        "fetched_at": "2026-11-02T10:54:49.210003+00:00",
         "title": "Group Attendance Bot",
         "description": "Attendance checker bot from @KeralagramChannel.\n\nSubscribe to @GroupAttendanceUpdates for updates",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/SHeYHFgUkQMxdLk94KXIBYMk7aKZ2k3ilEoe0SQDrpMsHdoDXMNuGaFbpEkPwCW_vuH0hR6n1nQuGbodPtLStkHsuaPUbJT2a4aAl1idx0HB7bEaS7vapaVgs-y9fujcEuA7qo1kUQbFUqKv5hwr9orO0K1nInOM46XVl24W0Bm-PyZCbDitz_ISCstvbILsx02Uf5kepxLD_4uV2Nzc3N9H9-29qe-VqPgpXif5r-nMx78_9lSwq5KOgow5IYpYd27DfRaEbN2MUMAzGZMUTA4mhr_ifKkEWtIX5iaX3AIDzkDNSk9t-LDw5yxBy-ghvwJE3QRapmBzJTs6K_IHxg.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/tCDx5PdvSSNtt-kf7UrpxXeZhgFRop34kmXio5IlyBfKt9OQINobh_mdba9K8izlDXk55pXfS3yV2WakgYPw5paiuZw58IL3ouL0KFkilPHxQAw-uAL01UdRc0B0GQZNfk8YcEkP43iiSGEzXiOdzdQ393382C1YnmBRExaLMEwvd6-BgZ9sMjRlh35nESmXEuQTOPdMra2O2ho9wCBdIscSB2w-EQRjMAIk1IbzYq4-BLeEN6vIX-jL0KJCO04mBNkPegO0XgiDiwTBj0WovY5oCCJOZzf_6doQe3axHPLyaxyDHosDmERGOPAG7yHpPVuQ4jar8aqDm64wdVlU6A.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:51.211109+00:00",
+        "last_ok_at": "2026-11-02T10:54:51.211109+00:00"
       },
       "tags": [
         "签到",
@@ -1672,7 +1793,9 @@
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:53.674148+00:00",
+        "last_ok_at": "2026-11-02T10:54:53.674148+00:00"
       },
       "tags": [
         "签到",
@@ -1691,18 +1814,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:46.213990+00:00",
+        "fetched_at": "2026-11-02T10:54:54.160272+00:00",
         "title": "Post Bot",
         "description": "⚡️ Ultimate post builder. Templates, inline buttons, premium emojis, one-click sending to any chat!\n@dostoyno by g.media",
-        "extra_raw": "2 949 982 monthly users",
-        "monthly_users": 2949982,
+        "extra_raw": "2 491 173 monthly users",
+        "monthly_users": 2491173,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/B_BDQ4FTMkkDqiOiUH90rMQ1ycDdxsXrEn4cOuSPd_wGOHZydXCvcYnWS6y6AT4a7-6kt488MuIDph0ZxIdo-_hpmyTGzyqfoaEVFEJieVGb201RtjwnpKcEt7tFI2qUWgMIFgGl2PyIH0QGEi0rVeHHsMczQlw9Gvalrs_R3fQdb4ozQ1H8FErgE9gpP-8kyOZnpwgECaSyf1e7wY4xvJxf36zOz0xe7IQmYviIdlkR02rVgV4zgIsCnq3MmEoKDmymFixqxBYYjYlgMDC5mRJiteDy1WRpZrF9IAyY2R_VRf8acvsMRpXZBargCpzqbPfYUu0e1ice-q-Gd4QtAw.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/qH7zXy4mDkQ7C1ai1w8ex__2ggUdudiYxi8M13WSG5wxtewKVH3lPvaiFGsoN0fMgZe_Ks4UTUMr0PyXuDF1lIXOP78ZTcOvpVb4nb6ZveiDbwN5gsLo8A3gK65Vvrwa6a6wrkvpUERGAE77HWAPoL_GhhZdkaFAK6fiFYAbWfKlupAbY5MQyt9T7H2V1o8-fi_FMqyMPYm8AXDrYJwc2pMcVRALESWzbiPk5YBr4gqzRVXL96TYmYxvQOjh4_J1aoQRBJFKJpFkNsMy7Qbn2B97oRO-_K_fXLbR8-nFsQ0e2vF7xIE6GqRLmiLMeM2ThgoGPH4Za5kv_UzHd5tNbQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:56.161619+00:00",
+        "last_ok_at": "2026-11-02T10:54:56.161619+00:00"
       },
       "tags": [
         "频道",
@@ -1721,18 +1846,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:48.705556+00:00",
+        "fetched_at": "2026-11-02T10:54:56.649558+00:00",
         "title": "TelepostBot",
         "description": "Панель управления: app.telepost.me/login\n\nОфициальный блог - @telepost_blog\n\nТехподдержка @TelepostSupport",
-        "extra_raw": "601 221 monthly users",
-        "monthly_users": 601221,
+        "extra_raw": "534 031 monthly users",
+        "monthly_users": 534031,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/l-gnPfRoX0Kf0N317WOpJ2zMdSGeg22lMdoHyQ7AkEPAXj7feUNjsud2UBEHW3yJ7CvvXa_9ANV37ef_eOpoVOumsBn7xNHChyzawiBgNvLoZ0W2DBm5JM1gnfqhNrO0vWmCMOO79PtPyKWi3xz01qGz0qmE6fGP-iVqbxcKA_Ze4rlEUqnTXUBvSbBqCRhX3gZ9wvxTPJb48RkB6dk0dxcHFZ3qsmiM1XNBM7gRYoxXPEzDvtXcsCGnZ7IN9rvNtwmw85Cgq5e5Ajggr_QfrfH2DBLfqQuCESfmJvJ9HtnHsnM0Q3tf4o_OuhH5hKdbO_UPB_OLo4grRSFoWh2GvQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/Gmvi-aFIxV2r2FsEbw-Z8amoplaxh1q3O6f2LbK-ZeRYhUAUvBypIyHD1pCbm5ahTBAazWX3eN_EG3UDBH-hhg4g-CqSPTr8VpohafUdF1KxiTQzSpnrH0seB2aEm0HxTuseWKqr9fyXql55tpsptMNF4GKUqcjiFDNUnGSWozHmOHKc7DCcdCieq9Q1OJXlcM4d4Ks9a-f4f-m2g1wSQV4e9PTTBPA9edZ3eXCIFm0Lj6ujdhDYYaxFDUQHmY-khpbjca8q0CGvU6X3WuD2GeGxPl6mA952AjATS6BHSbXU6aZPkR0BfcrcP9M2x0XBH_ZP3OCZST_TpynqMYj7IA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:54:58.650595+00:00",
+        "last_ok_at": "2026-11-02T10:54:58.650595+00:00"
       },
       "tags": [
         "频道",
@@ -1751,18 +1878,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:51.189253+00:00",
+        "fetched_at": "2026-11-02T10:54:59.121282+00:00",
         "title": "Channel Help",
         "description": "Most complete channel bot: post with buttons and PREMIUM EMOJI, welcome message, recurring posts, join filters and more!",
-        "extra_raw": "2 595 630 monthly users",
-        "monthly_users": 2595630,
+        "extra_raw": "2 564 381 monthly users",
+        "monthly_users": 2564381,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/uXramHaIY0JRTem4-kFiZqnQYGJFUqd_UxwaSzP2YY76EQE_UqKRq-WWJEX5I1xqMb8lJe8Md2vQ_SLGqTR26ZX-9Gn3yBlhu5s20pMlmqD-X0EHFEj6GP1q-EElqFBh6fJn270FxFn9fWY7nvoysKBuRjZpk9qtUyDz47s_OEKo9DOKUPWspVHxziKwMGTLoUSfW1JuyETg08dOOXisge7cN7kjNFeXf4zxzN77w-pDIFbFE1xzXedXnxMe2X_oQPXSGocX0mzwv2E5GXHZXVSuIdTyqr49WX0xUHK4r7oJt7SBNTQ6HlVdyraZlIU-u48w78zQkEhmTtQKYr3ChQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/oDNU03sDnysGvH2qyxvDIzFVfUToZVjQvUDTVC3d39RJA51HYuxC0prGd4vHSZ_yWwbiQQ7_xft-P_R95nrzfX8RIhPpXbaWX7-A2zVYLodr3Ka_qNcYIuw0WJusp0xMQDKK31GoDU2BMi62FyoUwTz6AwQh8Lqwri2ioOHBTViTqOM7VE8BKkseKVWeaOMaIEsRpoM9GbQy0ZjlKI0QBmdFxkx7kwerphNYmQYd-nheiNuvSFlCH-tC_y9g9WiPXs7MN2q8Nn8GdnE24C7KXESABpGWhzsTbxpmzFbsXWhsUS-6eT_eaJAENBxOeSYWUmYegyJS0qWPszEIf7NrRA.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:01.122219+00:00",
+        "last_ok_at": "2026-11-02T10:55:01.122219+00:00"
       },
       "tags": [
         "频道",
@@ -1781,18 +1910,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:53.702054+00:00",
+        "fetched_at": "2026-11-02T10:55:01.584414+00:00",
         "title": "Auto Forward Bot ⚡️",
         "description": null,
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/blI0GZDh4ULivDe3MrMF-fukLpGG0jYCQNeqEwkrHpGXrfnFSzHxaVOJVZwYvdCp9gTsCYc4GFdR9WynzYlRfXy0MnG86xdF8gfLdagk6STVhNJVHG2R0JZQS0XMOUOg_Ecp_lalJZr3D7HSVlv2JSV2RTdkRgc_ixZ8fNu6RSb6n0rfe262Da5esVmanGyyPWP-wSkzJKXXjmSysUQyqpK-aR1zGBnwvVKjhOGNfOr-56HZj1Ha1V5U5h5ETKxu_54FPW02ygT1reVoBV1b_vB3Y5J-4yl3U5EhBoa61nikdzloe-uc-AittJqxjO_FHE9IHg04vtcYWmFwVA5EBw.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/ngg60lDwz0mSOv42hX7MhCrfdsi942GipgOwtfrlAwqUMBu863Qu1Hzm1K05b1NhuUqpP4sF7FrwhIlW5o6dUYEiNgcuyTGw6amsCBloRg_a7duDHcFaGtJXDvFlebOOlOcAxkhtuhSSA46DwBoHOoK1U8CsdC0TJAO-a3p2ECFRMqcux4pDB3v4iOa9iU1_xxaMDSS9vBwpqQbaQCHh_QrXPDZOxMlFvQmZvfLFYL8TqtCfNwzYZ8-ZCg9j31xXLxJoyXUDQC3uXaDQko1FZkI9uRnbPFb5Cb7g8FC_kfUONJIX36eo6i7B1y7_8pCCmkTvFIJVuzrLMY_9xCTGhQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:03.585454+00:00",
+        "last_ok_at": "2026-11-02T10:55:03.585454+00:00"
       },
       "tags": [
         "频道",
@@ -1811,18 +1942,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:56.161038+00:00",
+        "fetched_at": "2026-11-02T10:55:04.056345+00:00",
         "title": "Quiz Bot",
         "description": "Create a quiz with several multiple choice questions and test your friends.",
-        "extra_raw": "1 562 802 monthly users",
-        "monthly_users": 1562802,
+        "extra_raw": "1 619 805 monthly users",
+        "monthly_users": 1619805,
         "type": "bot",
         "is_verified": true,
-        "photo_url": "https://cdn4.telesco.pe/file/Lnrt1NLXEzf_JAR4wkqwOtZjT6kX1gU7RB7f5SeNeco5xsfA-7EwHMkyTxxK5LM6MgqWrD7JywLtKKdo-e8Sdm6QVKRKk-axwf6ZG_wmiVlqCRiLiiAn0vGXDUgHBvryZpda462YuqwO_kNXtWpaXJrZ2MEI0gkU0yiQdxGaDtN8OzNA9OC5Lbf0N1tXV5Jw5gdKB0m0_sOs3pt3pFGajDV6207i7BlxaJAyguXm1FO9iqd_HY-RvNXpdNLEfuJ0eftJlFZ6-51Zppke2S_JXYvGGshqqfqnxyu0l4Wqy2fEL6T4DLdEYlwwfrooNoiyOBX6Tm4Gjy7VfWfZHg0AiQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/iyys0lY3WVZowH4HHhscoHq86IA5xPcDKulkb_2dTxcGkF35zOtMdBkkcWnxC4EjEgUEUlHapHWqQY4uSDwMzrhfRSzgRuS71KaC1OaI887ONXwCiJFy-yI-qtd5LCYVw1nVq9s84VO7My09Cw9AWrdy-2I-coW6p1blaB_jjR7VRMZMIHlGi7Ie6IHwODY-uyBdj8qkhAq7Rx9zupMSN6Fap9H4KZoRo-8tGuLSs7VyGo0kqETp7YPqtREdsJA3txPIcRUy-XgF3y3jan8IYu8Lgsb5d72fhP0vF9Uh7akC7HuPjr9EsUMY6BFbAb9MP2_nH_vAF_4AVYbeaq46OQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:06.057416+00:00",
+        "last_ok_at": "2026-11-02T10:55:06.057416+00:00"
       },
       "tags": [
         "游戏",
@@ -1841,18 +1974,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:40:58.652345+00:00",
+        "fetched_at": "2026-11-02T10:55:06.545741+00:00",
         "title": "Gamee",
         "description": "🎮 The biggest gaming platform on Telegram! 🔥\nJoin the community 👉 @gameechannel\nPerks, giveaways, airdrops &amp; more 🎁 🎉💵",
-        "extra_raw": "287 761 monthly users",
-        "monthly_users": 287761,
+        "extra_raw": "282 382 monthly users",
+        "monthly_users": 282382,
         "type": "bot",
         "is_verified": true,
-        "photo_url": "https://cdn4.telesco.pe/file/YbJ8T7pRN24psh0pNp03KrnUBKiqYBvbH4K1xoT2-nmmAUShgnI5CeGzlKpg4xHV8uUsthRjQNg-1DRObsp-Rca4dpl8Y-phaQI64DsWXXK60Q3vlksnTv2BBMSXDeqQx5crNf92xjTJnjKllhDnpywqme-uAhmw46U4VwjkbWfQcF53OgHY4W5bseQ892MtRXt9pX6hGpuYOdaXHxQn5nEXo5I_8_bkM8KdObTuRQkUyClDXwd7uDr8Jefjln7vc4MtOquHjtHRVqIlCYtqkjjqPf11g_Du4p1dR5oq58dJJYqoeLfDx5R_9EjutP05xWpqX6t7pC-aA0TVeyqvfQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/grMm7QJ4DNVKR8Db_8jRr1TIyATgXHb_KH6XLG_S-5lrdDcj2kZ8QVlTcSm5y3S0gLh8qRYsFeqPOT6WMwsTPDR10znlGvLpzdsOA3gUVKNpBjZHmk6-Ljfy5Q3jw8OQUtEGCcpMYjIiUhyUA1O2W2ROJyrnYIsF3CisYPbkPg_M1jw1aF1-tOIUEgFiW3sr_DaQUnT1LKWio-kfUYix2aojEgh3cjMEl16e8-wlFePW48PRe6-D3UlUdGBwmKYDLcdDfnojKHs9WK17mvtK10j9YgcTk_mLE44Aydo_W-uAUO2DDHKHOaE0H44ny8p3EHu527Zk5HMaYSdN5wqNUw.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:08.546727+00:00",
+        "last_ok_at": "2026-11-02T10:55:08.546727+00:00"
       },
       "tags": [
         "游戏",
@@ -1871,18 +2006,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:41:01.138829+00:00",
+        "fetched_at": "2026-11-02T10:55:09.011647+00:00",
         "title": "GameBot",
         "description": "I'm a demo bot for the Telegram Gaming Platform. I can get you a few fun sample games to play.",
-        "extra_raw": "174 530 monthly users",
-        "monthly_users": 174530,
+        "extra_raw": "167 655 monthly users",
+        "monthly_users": 167655,
         "type": "bot",
         "is_verified": true,
-        "photo_url": "https://cdn4.telesco.pe/file/TyNImXuceSeSbfhE0ftaAa1WvZp4er4kGsUSEaED7boFdzUKLvW1gpKC8oW3EEHfCc9aOXDSY69kYdio6D1fhYdM6oNt7ilp1xMLPf9B-HcRsBz3pR_EE1gmZQXc6OG5zSxpx2ub1uldRZBuHrHzv3ADQxEjqlOfbYf6DvVrCC87CfFJt3UcL0_gTF6mg3jq7S5paquBYdm0URyfmTbxlYIEXunzoSLOJvU_0tiXfzBY0KD8rYznXml6NxP0G3EimPXfPmEXKcxj-v5T2SUSwNVlyr-t7fB1pDkRJQONG-mv5mWReIUUjuKRTqL4e-912aAShURZ1m-k6Czon49HWQ.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/ogSnhdbWGulOeDFHWXcYXWw1JE3YvX-oAwwbs3AIF_aBVVkchcaXPXg74aNoIyO7sVAv8ZzgZAUp4iffV0SOAgk72NgrH9oeGRd5jorbUy4HUkxB59_OYzgOuTjm-nrSu3vr1HNzwZwuKZvP3FA0PNo3ZPwG4csi_KBniiQDJR0PRqwxapwrTD8FXXxX_AWcvWIsyemf8IjzYGf86nA-et1r5OHmFdFPDF5a7DkieHssp9oEAolw6sVGgNEZcujpSq1eoO8YFbGMmB4C-50g0PhJp7wRULYgzyoRJjBzW3DezdmS5e1j9-fpFsSHzMi6Bjbgva0amdkOwRHfZ6Ipkg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:11.012557+00:00",
+        "last_ok_at": "2026-11-02T10:55:11.012557+00:00"
       },
       "tags": [
         "游戏",
@@ -1901,18 +2038,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:41:03.650340+00:00",
+        "fetched_at": "2026-11-02T10:55:11.477479+00:00",
         "title": "Inline Games 🎲",
         "description": "I'm just a simple bot that uses inline keyboards to provide some entertainment.",
-        "extra_raw": "12 425 monthly users",
-        "monthly_users": 12425,
+        "extra_raw": null,
+        "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/KKm-Yjjpami_jpbdG_O4tmnYOa_tGdhqVRVvK3IBc9b-3BG5oyeFKsZ5-OKUQ_p6bi64yFDvYNV_JQ3aJFph1aU0RuV4-EqDq-UyztDBQ8ioHHpsx5b7l_eN1UB3gwuSf9JpRzh8oDIDA16Hh7r-jzic3PkjERHAez4Q4-49Bxd0YZ3RxbOJso0fIiHup3PciQDuO9w8M9TM79r4gc1F8Ora_VvPjjK1yACuCnR2WTQ4LiEdnls5csXhvZ68M1PhkBgmtaE2y3DN2B8UabYSh3pTOn5vhP5DZkVct_mQ5--wOyLWx_oZNA748b6to2pgWzk95fEtF0XBVWwQOBIH4g.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/rv8aUCbCanpNbtHg0-KAPp0HQNMin6Q3gTcpqlJR5Y5uBAS4z0MtfSCbANXFp7HcYhuR2Wt22hmYmyrL27VRiXZfCsjjDkQFACSvT9Th87C6aWJLsGJPta0c9IwKe8jq0qPvuSuQHDYZnxsJeXGJW9EhyQVlyo-yIK5W8w_-FS0D8FaAxUHFSoSgBuolptUbAU7oSmM9Fua44AK-aZRDCDCfIMzalq-U1oHFSWNIquTURJJPnRnooP85Vbw9Gd3YiU9DgU2pm5cn4qC_yudaFr4CBX6aw0teLNtGj-bGNhZLl01KlqUxBZQvDYp74iHEMCxvDVyI1t5hyd8u6rKUyQ.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:13.478516+00:00",
+        "last_ok_at": "2026-11-02T10:55:13.478516+00:00"
       },
       "tags": [
         "游戏",
@@ -1931,18 +2070,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:41:06.110094+00:00",
+        "fetched_at": "2026-11-02T10:55:13.949625+00:00",
         "title": "TeleTarot",
         "description": "Chatbot provides tarot readings, comprehends queries, enables card selection",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn5.telesco.pe/file/NG_yWtDQQVQ4aMmWzfWSlg2Ezt9MP7p-PlcnAERdLLxIeLKIKqODHRQdvG7-zSCffTONs7kqJPbWNaEEKsn6913hca5q2GB4o0QnzIulNWFPdm8he-jyvKjjUABWqLKb1OxJnFaPQ8zJ88ziKltYpYFKqDjOzrjxLplRm5IoZpF-OxNsWNVn0huqclgXlqLjUNHphbabwpSm3dmgPt5zRT4TLtpbyffm7xLEPSRu1qxC6HZaGUGe2Un6tV3ObutLmr7DCRqD5l-CehMWR9U2NjzNKqdoHX_xaeBU_pv3Etljn11-JNcDubLuwq4agPE1ghut5P-I_4CpOKEVM0iisA.jpg",
+        "photo_url": "https://cdn5.telesco.pe/file/sbyBfqolX6Kihvhs68azQwrPHWeh29YGtyfsNw8p-c25DtLga-Gz8P-cKNmO5cLf9uJWdobJZ0g2jD0t_wTqDKj7igEYU-EeXOrhgN0HBOTboBerNPLvefW395r2ajcjG2bg5jN8p1nwcI34yJerg4xx59cjN1LBu-gkReXvFZam_Lh2a1q9BTKHeCXHkkpxq5g2-HcRWS47rkHA4fiKivk3qmVz096bo4xpqk-r6m8PlxTcWiDNGRc2he4fXz4-LFUlb4r8NoalEuVjlsTR8K5k72i9hZy4287lJQwiLiBdJZYfOcapqtyI_8LJLOwdB4FKmpiUJAtX011obSDoNg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:15.950556+00:00",
+        "last_ok_at": "2026-11-02T10:55:15.950556+00:00"
       },
       "tags": [
         "游戏",
@@ -1961,18 +2102,20 @@
       "fetch": {
         "status": "ok",
         "http_code": 200,
-        "fetched_at": "2026-10-19T08:41:08.605558+00:00",
+        "fetched_at": "2026-11-02T10:55:16.439515+00:00",
         "title": "Brightwood Stories 🐰",
         "description": "Play interactive stories and create your own!\n\nSupport: @BrightwoodStories",
         "extra_raw": null,
         "monthly_users": null,
         "type": "bot",
         "is_verified": false,
-        "photo_url": "https://cdn4.telesco.pe/file/HP4LTinNhuOXCn6EEulPEc_klsZDn2FnIpdA4xP_67B6rEgz5RsCrpb6Xf-7DD86_NQv1gLmSaGAcO3DGUPPxNRldfJuVki2am6twFux_33EO4fsECcV9EwyhaB2-gCBHSnuHlO4CEhVpPQ2l9YbtG4H8eEQhQ-1yM3lR6-HWZ3_u45Q2423W9Rmoe7ECGzPri1WklB-imwuupAuFfOfGb4dCfVY4qd9x8uvy--z5w7HcruixL-FygH3KNMmoMdi4HnBsVSEUfxCE-jFtsEFaoMhG4Q6mJX5TN_VwwdGiKHYvbP358BhC2tsgg4TngKrMAeVczTEm-qXFNxfRQrx4w.jpg",
+        "photo_url": "https://cdn4.telesco.pe/file/YAdPvGqP1NgvdERB9RHDSrduiHeGxKVgtrQnp3XdPyu9OU7lCz3S5ntduPEMcp0DbpbnDwmtPKGd5uEUEpzBeHzCPz1peRIYCTID5mneehdr7lEpQykXFRc2DAarkBkC7hhetg2Qchb8T_vWOFzH438fMiVL08ZDCGB3ul5CutNRUS9ihygWYQ5z2iygnu_yYI9FaDnmijPK_TFysvw_nSEFOsytMIpObJku0pCf-MjJ-0kz6LpPCOpEtOvyQTPKYYBmCMO1_UFpR8DOPT4Pxtszx9yZeDJBoXnbv6ktqIexU8k3aWcEusxhrhsj2pqvW9Nzlk0XtJdlNghEmFOIjg.jpg",
         "page_kind": "bot",
         "not_bot": false,
         "dead_streak": 0,
-        "error_msg": null
+        "error_msg": null,
+        "checked_at": "2026-11-02T10:55:18.440519+00:00",
+        "last_ok_at": "2026-11-02T10:55:18.440519+00:00"
       },
       "tags": [
         "游戏",
